@@ -1,0 +1,897 @@
+ČT1: 2
+ČT2: 3
+Nova: 1
+Prima: 4
+Prima Cool: 220
+Barrandov: 215
+Nova Cinema: 132
+AMC: 82
+AnimalPlanet: 28
+Auto Motor Sport: 704
+AXN: 55
+AXN Digi TV: 216
+AXN Black: 125
+AXN HD: 883
+AXN White: 126
+Barrandov Krimi: 1020
+Cinemax: 66
+Cinemax 2: 80
+CBS Reality: 32
+Crime and Investigation: 832
+ČT :D: 805
+ČT art: 804
+ČT24: 65
+ČT4 Sport: 73
+Discovery: 15
+Discovery Science: 92
+DTX: 1129
+Eurosport 1: 9
+Eurosport 2: 59
+Erox HD: 591
+Nova Action: 677
+Film+: 68
+Filmbox: 72
+Filmbox Premium: 592
+Filmbox Family: 576
+Filmbox Extra HD: 182
+Filmbox Stars: 76
+Film Europe: 570
+Food Network HD: 1039
+Golf Channel: 127
+HBO: 6
+HBO2: 54
+HBO3: 115
+History Channel: 202
+CS Horror: 713
+Jihočeská televize: 850
+Jim Jam: 137
+Kino Barrandov: 1018
+CS Mystery: 717
+Leo: 200
+Minimax: 57
+Mňam TV: 1012
+MTV: 234
+National Geographic: 74
+National Geographic HD: 232
+National Geographic Wild: 106
+Nickelodeon: 254
+Nova Sport 1: 205
+Nova Sport 2: 1038
+Noe: 114
+O2 Info 1: 1025
+O2 Sport: 1040
+Óčko: 53
+Óčko Expres: 831
+Óčko Star: 736
+OIK TV: 251
+Paprika: 62
+Paramount Network: 1123
+Prima MAX: 1122
+Prima Krimi: 1196
+Prima LOVE: 496
+POLAR: 589
+Rebel: 879
+PRAHA TV: 889
+regionalnitelevize.cz: 681
+Retro Music: 248
+RTM: 252
+RT Ústecko: 1024
+Slovácko: 544
+Nova Fun: 707
+Spektrum: 7
+Spektrum Home: 77
+Sport1: 75
+Sport2: 221
+Sport 5: 197
+Šlágr Muzika: 684
+Nova Gold: 712
+The Fishing and Hunting: 207
+TIK: 194
+TLC: 549
+Travel Channel: 104
+RELAX: 716
+regiony+: 878
+V1: 706
+Viasat Explorer: 69
+Viasat History: 70
+Viasat Nature: 249
+ZAK: 848
+Disney Channel: 228
+Extasy: 1138
+JOJ Cinema: 1023
+O2TV Fotbal: 1140
+Investigation Discovery: 223
+FashionTV: 83
+JOJ Family: 1141
+Mňau TV: 1148
+CS Film: 1149
+O2TV Tenis: 1161
+UP NETWORK: 1169
+The Fishing and Hunting (v UPC): 1171
+CS History: 1187
+TV Brno 1: 1190
+Seznam.cz TV: 1192
+Prima ZOOM: 708
+Prima +1: 1197
+Šlágr 2: 1198
+Travelxp HD: 1199
+Power TV: 1206
+RTM plus Liberecko: 1208
+Epic Drama: 1209
+Hobby TV: 1213
+Park TV: 1228
+Adventure TV: 1234
+Top Kids: 1236
+Leo TV Gold: 1241
+Óčko Black: 1242
+TV Natura: 1244
+Lala TV: 1245
+Nickelodeon (affiliate): 1271
+Cartoon Network: 168
+Lounge TV: 1272
+Nicktoons: 1314
+Love Nature: 1320
+ČT3: 1333
+CNN Prima News: 1338
+ABC TV: 1337
+Film Europe +: 1341
+JOJ Cinema +1: 1343
+Nick Jr.: 572
+Šlágr Premium: 1367
+HunterTV: 1441
+Canal+ Domo: 1449
+Prima Star: 1513
+Šlágr: 1519
+Nova Sport 3: 1520
+Nova Sport 4: 1521
+Premier Sport 2: 1522
+Nova Lady: 15290
+Prima Show: 15292
+O2TV Sport5: 15297
+O2TV Sport6: 15298
+Arena Sport 1: 687
+Arena Sport 2: 800
+duck.tv: 150
+ducktv: 222
+CETV: 524
+Premier Sport 1: 985
+Doma: 225
+JOJ: 33
+JOJ Plus: 206
+TV9 KTV: 1013
+Liptov: 142
+Lux: 191
+Markíza: 8
+Markíza International: 1124
+Rádio Vlna: 1127
+Jojko: 999
+SENZI: 833
+STV1: 10
+STV2: 11
+TA3: 42
+Ťuki: 1021
+TV8: 241
+TV Bratislava: 735
+TV DAJTO: 683
+WAU: 718
+Spartak TV: 1143
+LifeTV: 1146
+Prima Plus: 1162
+Severka: 1164
+Vega: 1165
+TV Považie: 1173
+TV RAJ: 1174
+JOJ +1: 1185
+Městská televize Trnava: 1193
+TV7: 1194
+KOŠICE:DNES: 1211
+Mestská televízia Ružomberok: 1239
+TV Levoča: 1240
+Orange Sport HD: 1305
+Orange Sport 2 HD: 1306
+Orange Sport 3 HD: 1307
+Orange Sport 4 HD: 1308
+Folklorika: 1309
+Senior: 1310
+Nova International: 1125
+ducktv plus: 1323
+Markíza +1: 1335
+Nova +1: 1455
+JOJ Šport: 15291
+TV Ružinov: 1253
+Zemplín: 1315
+Trojka: 1324
+Romana: 1326
+HaHa TV: 1363
+Televízia Východ: 1364
+Rik TV: 1408
+B in Balance (sk): 1472
+Chuck TV: 1502
+RTVS Šport: 1512
+ArcadiaTV: 1514
+Cartoon Network (pl): 842
+Eska TV: 691
+Kino Polska: 692
+ONTV: 843
+Polsat: 34
+Polsat 2: 124
+Polonia: 14
+Polsat Café: 693
+Polsat News: 694
+Polsat Play: 695
+Polsat Romans: 869
+Polsat Film: 696
+Polsat Sport: 697
+Polsat Sport Extra: 698
+Polsat Sport News: 565
+Puls 2: 688
+Tele5: 700
+TVN: 50
+TVN7: 48
+TVP1: 12
+TVP2: 13
+TVP Info: 196
+TVP Sport: 98
+TVP Kultura: 99
+TVP Historia: 100
+TV4: 546
+TV6: 566
+TV Puls: 547
+TVP Seriale: 629
+TVP3 Warszawa: 630
+TVP HD: 631
+TV Bialorus: 632
+TVP Rozrywka: 834
+TVS: 844
+TVP3: 1139
+Polsat 1: 1168
+Super Polsat: 1172
+Polsat News 2: 1224
+TBN Poland: 1225
+TVN24: 1226
+TVN Turbo: 1243
+TVP ABC: 1254
+TTV: 1255
+Polo TV: 1257
+TV Trwam: 1258
+Stopklatka TV: 1259
+Fokus TV: 1260
+Red Carpet: 1311
+TVT: 1312
+Stars TV: 1313
+dlaCiebie.tv: 1322
+Nowa TV: 1344
+Eska TV Extra: 1345
+Polsat Music: 1346
+Eska Rock: 1347
+Polsat Games: 1348
+VOX Music TV: 1349
+Polsat Rodzina: 1350
+Polsat Doku: 1351
+Disco Polo Music: 1352
+Superstacja: 1353
+Polsat Sport Fight: 1354
+Polsat Seriale: 1355
+Polonia 1: 1360
+4Fun.TV: 1374
+4Fun Kids: 1375
+4Fun Dance: 1376
+Telewizja Republika: 1378
+EZO TV: 1379
+Power TV (pl): 1388
+Adventure TV (pl): 1389
+Nuta.TV: 1390
+Top Kids (pl): 1391
+Top Kids Jr (pl): 1392
+Biznes24: 1393
+TVC: 1394
+Super TV: 1395
+Home TV: 1396
+Gold TV: 1397
+Kino TV: 1398
+Filmbox Premium (pl): 1399
+Filmbox Family (pl): 1400
+Filmbox Extra HD (pl): 1401
+Filmbox Action (pl): 1402
+Water Planet: 1403
+Novela tv: 1404
+wPolsce.pl: 1405
+JAZZ HD: 1406
+EWTN: 1429
+Filmax: 1440
+Zoom TV: 1371
+Twoja TV: 1407
+Eurochannel (pl): 1445
+Polsat Viasat Nature (pl): 1450
+Polsat Viasat History (pl): 1451
+Polsat Viasat Explore (pl): 1452
+Epic Drama (pl): 1453
+2x2: 1467
+Mixtape: 1470
+DocuBox HD (pl): 1473
+Romance TV: 1474
+History (pl): 1484
+TVP3 Gdańsk: 1485
+TVP3 Szczecin: 1486
+TVP3 Poznań: 1487
+TVP3 Białystok: 1488
+TVP3 Olsztyn: 1489
+TVP3 Bydgoszcz: 1490
+TVP3 Gorzów Wielkopolski: 1491
+TVP3 Lublin: 1492
+TVP3 Rzeszów: 1493
+TVP3 Wrocław: 1494
+TVP3 Kraków: 1495
+TVP3 Opole: 1496
+TVP3 Katowice: 1497
+TVP3 Kielce: 1498
+TVP3 Łódź: 1499
+Red TOP TV: 1500
+3SAT: 16
+ANIXE HD: 1121
+ARD: 17
+ARTE: 81
+ATV (de): 198
+BR: 214
+ARD-alpha: 169
+Deluxe Lounge HD: 583
+Deluxe Music: 584
+Deutsche Welle: 154
+SPORT1 (DSF): 18
+HR-fernsehen: 148
+Kabel1: 23
+Kika: 85
+Welt: 155
+n-tv: 149
+MTV Germany: 253
+MDR: 511
+NDR Fernsehen: 152
+ORF1: 19
+ORF2: 20
+ORF3: 786
+PRO7: 35
+Phoenix: 213
+RTL: 21
+RTL2: 22
+RTL Nitro: 788
+Sixx: 512
+RBB Berlin: 135
+SAT1: 24
+Super RTL: 143
+SWR Fernsehen: 146
+tagesschau24: 803
+VOX: 25
+VIVA: 36
+WDR Fernsehen: 151
+ZDF: 26
+ZDFneo: 162
+ZDFinfo: 633
+ARD One: 1191
+SAT1 Gold: 1202
+Disney Channel (de): 1203
+AstroTV: 1468
+FOLX: 1476
+One music: 1477
+Zwei music: 1478
+Adria: 1479
+Adult Channel: 183
+Al Jazeera: 95
+Alibi SD Ireland: 1101
+Arirang: 193
+AnimalPlanet UK: 1117
+At the Races: 1105
+B in Balance: 638
+Baby TV: 105
+BBC One: 837
+BBC Two: 838
+BBC Four: 840
+CBBC: 839
+BBC Entertainment: 52
+BBC World News: 190
+BeIn Sports 11 HD: 1097
+BeIn Sports 12 HD: 1098
+Bloomberg: 167
+Blue Hustler: 49
+Boomerang: 64
+Brazzers TV Europe: 185
+BT Sport 1 HD: 1084
+BT Sport 2 HD: 1085
+BT Sport ESPN SD: 1058
+BT Sport Europe HD: 1051
+Canal+ Accion HD: 1091
+Canal+ Comedia HD: 1090
+Canal+ DCine HD: 1100
+Canal+ Deportes HD: 1094
+Canal+ Estrenos HD: 1089
+Canal+ Futbol HD: 1092
+Canal+ Golf HD: 1096
+beIN LaLiga: 1093
+Canal+ Series HD: 1088
+Cartoon Network (en2): 45
+CCTV News: 559
+CCTV9: 513
+CNN International: 29
+CNBC Europe: 226
+C Music TV: 203
+Comedy Central: 721
+Crime and Investigation UK: 1066
+Dave SD UK: 1087
+Discovery EN: 172
+Discovery History SD: 1102
+Discovery Home and Health SD UK: 1116
+Disney Junior: 567
+Disney Junior HD UK: 1104
+Disney XD: 1103
+DocuBox HD: 733
+E! Entertainment: 165
+E4 HD UK: 1083
+Eden HD: 1064
+English Club TV: 682
+Eroxxx HD: 731
+Eurochannel: 998
+Eurosport HD British: 1063
+Eurosport 2 HD British: 1086
+Extreme Sports: 51
+FashionBox HD: 734
+Fashion TV F.MEN: 209
+FashionTV HD: 227
+Fashion One: 522
+Fast&Funbox HD: 983
+Film 4: 1001
+FilmBox Arthouse: 982
+FightBox: 590
+Food Network: 636
+Fuel: 723
+Good Food Channel HD: 1069
+Ginx: 722
+History2: 1022
+History HD UK: 1071
+Hustler TV: 63
+Hustler HD: 564
+Channel 5: 851
+Channel 4: 852
+iConcerts: 543
+ITV: 853
+ITV2: 1003
+ITV3: 1078
+ITV4: 1079
+ITV HD London: 1076
+KBS World: 166
+Luxe.tv HD: 724
+NBA SD: 1099
+NHK World TV: 887
+More 4: 1000
+Club MTV: 160
+MTV90s: 41
+MTV Hits: 37
+MTV Live: 525
+MTV UK HD: 1126
+National Geographic HD UK: 1113
+National Geographic Wild HD Europe: 1106
+Nickelodeon HD UK: 1115
+Outdoor Channel: 637
+Pick TV: 1002
+Playboy TV: 186
+Premier Sports SD: 1109
+Racing UK SD: 1107
+Redlight HD: 849
+Sky1 HD UK: 1059
+Sky Arts HD: 1050
+Sky Atlantic HD UK: 1060
+Sky Living HD: 1065
+Sky Movies Action & Adventure HD: 1042
+Sky Movies Comedy HD: 1043
+Sky Movies Crime & Thriller HD: 1044
+Sky Movies Drama & Romance HD: 1049
+Sky Movies Disney HD: 1111
+Sky Movies Family HD: 1046
+Sky Movies Greats HD: 1047
+Sky Movies Premiere HD: 1048
+Sky Movies Select HD: 1045
+Sky Movies Showcase HD: 1118
+Sky news: 195
+Sky News HD UK: 1061
+Sky SciFi & Horror SD: 1119
+Sky Sports F1 HD: 1057
+Sky Sports 1: 502
+Sky Sports 2: 503
+Sky Sports 3: 504
+Sky Sports 4: 505
+Sky Sports 5: 1056
+Sky Sports News: 507
+Super One: 981
+Syfy SD UK: 1070
+TCM: 46
+TCM (v UPC): 163
+TV5monde (en): 890
+Universal SD UK: 1068
+MTV00s: 30
+MTV80s: 39
+360TuneBox: 841
+BeIn Sports 13 HD: 1131
+Private TV: 79
+DJazz: 1166
+Nautical Channel: 1176
+Sky Sports Main Event HD: 1177
+Sky Sports Premier League HD: 1178
+Sky Sports Footbal HD: 1179
+Sky Sports Cricket HD: 1180
+Sky Sports Golf HD: 1181
+TV4 (hu): 1200
+Nick Jr. (en): 1201
+Cartoon Network (en): 1204
+Nick Jr. Global: 1235
+Red Bull TV: 1246
+Passion XXX: 1317
+Reality Kings TV: 1041
+TRT World: 1336
+True Amateurs: 1465
+LollyKids: 1466
+Babes TV: 1517
+Desire: 1518
+Wild nature: 1524
+Home: 1525
+TRT Arabi: 1527
+ARTE (fr.): 534
+BFM TV: 537
+CNTV Francais: 516
+CANAL+: 532
+France2: 133
+France3: 134
+France4: 528
+France5: 529
+France24: 144
+France24 EN: 145
+France O: 870
+Gulli: 538
+CNews: 536
+LCP: 531
+Mezzo: 43
+Mezzo Live HD: 569
+Dorcel TV: 238
+M6: 540
+myZen: 719
+RFM TV: 995
+TF1: 530
+Trace Sports: 720
+TMC: 535
+TVA (Fr.): 153
+TV5monde: 89
+Wild TV: 257
+Wild TV HD: 587
+Dorcel XXX: 1183
+myZen 4K: 1342
+ATV: 235
+Sony Max: 754
+AXN Sat: 730
+Sony Movie: 755
+Cartoon Network+TCM (hu): 561
+Comedy Central (hu): 811
+Cool TV: 116
+FEM3: 797
+Digi Sport 1 HD: 793
+Digi Sport 2 HD: 794
+Film Mánia: 578
+Duna: 96
+Duna World: 128
+Hír TV: 229
+H!t Music Channel (hu): 990
+RTL Gold: 517
+Film+ (hu): 749
+Film Café: 753
+Life Network: 261
+M1: 86
+M2: 87
+M4 Sport: 1026
+Megamax (hu): 759
+Minimax (hu): 760
+Muzsika TV: 520
+Music Channel (hu): 987
+MTV (hu): 988
+National Geographic (hu): 765
+National Geographic Wild (hu): 766
+Nickelodeon (hu): 809
+Nóta TV: 521
+Paprika (hu): 758
+PRO4: 796
+RTL2 (hu): 748
+RTL+: 884
+RTL klub: 88
+Spektrum (hu): 756
+Sport1 (hu): 762
+Sport2 (hu): 763
+Spektrum Home (hu): 757
+SportM (hu): 764
+Sorozat+: 518
+Story4: 230
+SuperTV2: 795
+TV2: 94
+Viasat3: 550
+Viasat6: 792
+VIVA (hu): 810
+M5 HD: 1151
+PRIME: 1152
+Mozi+: 1153
+Izaura TV: 1154
+Zenebutik: 1155
+FOX: 1156
+Spiler TV: 1157
+Paramount Channel: 1158
+Pax TV: 1160
+Euronews (hu): 1170
+Sláger TV: 1182
+Galaxy: 1186
+Comedy Central Family (hu): 1195
+Filmbox (hu): 1207
+Lichi TV: 1366
+FIX TV: 1370
+Moziverzum: 1480
+Jocky TV: 1481
+Canale 5: 174
+Cielo: 642
+Deejay TV: 645
+Euronews: 647
+Frisbee: 648
+HSE24: 649
+Italia 2: 650
+Italia 1: 176
+Iris: 651
+K2: 652
+LA7: 653
+LA7d: 654
+LA5: 655
+Mediaset Extra: 656
+QVC: 659
+Rai 5: 660
+Rai Uno: 156
+Rai Due: 557
+Rai Tre: 558
+Rete 4: 177
+Rai Sport 1: 634
+Rai Sport 2: 635
+Rai Movie: 662
+Rai Premium: 663
+Rai Gulp: 664
+Rai Yoyo: 665
+Rai Storia: 666
+Rai News: 667
+RTL 102.5: 669
+Supertennis: 673
+TV2000: 675
+1TV: 97
+CCTV Russkij: 552
+Russian Travel Guide: 267
+Dom Kino: 101
+KHL TV: 705
+Muzyka Pervogo: 859
+Russia Today Doc: 709
+RTR: 508
+Shanson TV: 1015
+Soyuz: 1016
+TNT-Comedy: 1014
+Russia 24: 555
+Vremya: 102
+Russia Today: 1163
+8TV: 1237
+Carousel: 1250
+Euronews (ru): 1251
+Poehali: 1327
+Telecafe: 1328
+Telekanal O: 1329
+Dom Kino Premium: 1330
+Bober: 1331
+RTVi: 1332
+Gulli Girl: 1358
+TiJi: 1359
+RTVi Retro: 1365
+7D7TV: 1368
+Viva Russia: 1462
+Pobeda: 1516
+33: 780
+324: 782
+13tv: 785
+Antena3: 737
+Boing (es): 738
+Canal 24 Horas: 244
+Cero: 1128
+CNTV Espanol: 515
+Clan TVE: 767
+Cuatro: 739
+Esport 3: 779
+Energy: 741
+Factoría de Ficción: 742
+La 1: 769
+La 2: 770
+La 1 Cataluňa: 771
+La 2 Cataluňa: 772
+MTV (es): 784
+Neox: 728
+Nova (es): 744
+Super3: 781
+Teledeporte: 768
+Telecinco: 747
+TVE: 119
+TV3CAT: 777
+TV3: 783
+TVE HD: 773
+Aljazeera (Arabic): 573
+Brava HDTV: 560
+CCTV Arabic: 554
+CCTV4 Europe: 556
+Credo: 991
+BVN: 888
+Dusk!: 836
+IneditTV: 994
+Jurnal TV Moldova: 993
+Gospel: 989
+HRT 1: 138
+HRT 2: 139
+Kazakh TV: 715
+Music Channel (ro): 986
+NPO 1: 1005
+NPO 2: 1006
+NPO 3: 1007
+Publika: 992
+ProTV International: 856
+RTL 4: 1008
+RTL 5: 1009
+RÚV: 711
+SBS6: 1010
+Slovenija 1: 509
+Slovenija 2: 510
+Netviet: 1004
+Veronica: 1011
+VTV4: 575
+XMO: 1019
+HRT 3: 1188
+HRT 4: 1189
+NASA TV: 1205
+5 Kanal: 1215
+Inter: 1216
+NTN HD: 1217
+K1: 1218
+K2 UA: 1219
+Enter Film: 1220
+TET: 1221
+ZOOM: 1222
+Vintage TV: 1223
+VTV1: 1230
+VTV2: 1231
+VTV3: 1232
+UATV: 1233
+CNL: 1302
+Music Box: 1316
+Superyacht: 1325
+RTL Living (hr): 1380
+CMC Televizija: 1382
+Jugoton: 1383
+Klape i Tambure: 1384
+Nova TV: 1385
+Doma TV: 1386
+Mini TV: 1387
+RTL (hr): 1410
+RTL 2 (hr): 1411
+RTL Kockica (hr): 1412
+RTL Crime (hr): 1413
+RTL Passion (hr): 1414
+RTL Adria (hr): 1415
+HNTV: 1416
+FilmBox Premium (hr): 1418
+FilmBox Extra HD (hr): 1419
+FilmBox Stars (hr): 1420
+Gametoon HD (hr): 1426
+FilmBox Arthouse (hr): 1428
+Plava Vinkovačka: 1430
+Slavonije i Baranje: 1431
+Osječka: 1432
+OTV: 1433
+Z1: 1434
+Nova Pula: 1435
+Jadran: 1436
+Libertas: 1437
+Trend: 1438
+Ukraina 24: 1439
+DM Sat: 1409
+Viasat History (hr): 1442
+TV 1000 Balkans: 1443
+Eurochannel (hr): 1446
+Al Jazeera Balkans: 1447
+National Geographic (hr): 1456
+National Geographic Wild (hr): 1457
+FOX (hr): 1458
+FOX Life (hr): 1459
+FOX Crime (hr): 1460
+FOX Movies (hr): 1461
+TVCG SAT: 1463
+BN Televizija: 1464
+HRT International: 1469
+Klasik TV: 1482
+RTL Croatia World: 1501
+Samobor TV: 1503
+Domaći TV: 1504
+Slovenija 3: 1505
+HBO (hr): 1507
+HBO2 (hr): 1508
+HBO3 (hr): 1509
+Cinemax (hr): 1510
+Cinemax 2 (hr): 1511
+B1 Televizija: 1515
+Toon Kids (hr): 1523
+Sportska TV: 15288
+Laudato TV: 15289
+Aurora TV: 15294
+RTS Svet: 15295
+BBC Czech: 732
+BBC Radio: 595
+Classic FM: 814
+Country Radio: 679
+ČRo Brno: 815
+ČRo D-dur: 599
+ČRo České Budějovice: 816
+ČRo Plus: 600
+ČRo Jazz: 857
+ČRo Hradec Králové: 817
+ČRo Olomouc: 818
+Radio Proglas: 603
+ČRo Ostrava: 819
+ČRo Radio Praha: 871
+ČRo Region: 822
+ČRo Vysočina: 823
+ČRo Pardubice: 820
+ČRo Radiožurnál: 596
+ČRo Dvojka: 597
+ČRo Plzeň: 821
+ČRo Sever: 824
+ČRo Liberec: 825
+ČRo Regina DAB Praha: 826
+ČRo Vltava: 598
+ČRo Radio Wave: 602
+Dance Radio: 604
+Europa 2: 606
+Evropa 2: 829
+Frekvence 1: 830
+Fun rádio: 605
+Lumen: 611
+Jemne Melodie: 609
+Impuls: 828
+Rádio Anténa Rock: 858
+Rádio Junior: 846
+Radio Junior (sk): 612
+Radio Šport: 615
+Radio WOW: 616
+Radio7: 617
+Rádio VIVA: 628
+Radio Beat: 813
+Radio 1: 827
+Radio Expres: 613
+SRO1 - Slovensko: 618
+SRO2 - Regina Východ: 623
+SRO2 - Regina Stred: 624
+SRO2 - Regina Západ: 625
+SRO3 - Devín: 621
+SRO4 - Radio FM: 626
+SRO5 - Patria: 627
+SRO6 - Slovakia International: 622
+SRO7 - Klasika: 619
+SRO8 - Litera: 620
+VALC 1 - Gold: 860
+VALC 2 - Country and Folk: 861
+VALC 3 - Hit: 862
+VALC 4 - Rock: 863
+VALC 5 - Classic: 864
+VALC 6 - Valcárka: 865
+VALC Live: 866
+Radio Čas: 1133
+Fajn radio: 1134
+Rádio Blaník: 1135
+Kiss Morava: 1136
+Kiss 98: 1137
+Rocková republika: 1167
+Radiožurnál Sport: 1248
+Rádio SiTy: 1270
+ČRo Karlovy Vary: 1274
+ČRo Zlín: 1275
+ČRo Rádio Junior: 1276
+ČRo Rádio Retro: 1277
+Rádio Liptov: 1369
+Antena TV: 1475

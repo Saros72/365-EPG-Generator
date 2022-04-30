@@ -1,0 +1,173 @@
+ČT1 HD: 6054
+ČT2 HD: 6053
+Nova HD: 4451
+Prima HD: 4452
+Prima LOVE HD: 6031
+Prima Cool HD: 6032
+Nova FUN HD: 4453
+Nova Gold HD: 4454
+Nova Action HD: 4455
+Barrandov TV HD: 4456
+Barrandov Krimi: 6066
+Prima Krimi: 4338
+ČT3 HD: 6116
+ČT24 HD: 6024
+CNN Prima News HD: 6115
+TA3: 5
+Prima Star HD: 6119
+Televize Seznam HD: 6092
+Relax: 4459
+NOE: 6087
+Jednotka HD: 4099
+Dvojka HD: 4146
+Markíza Int. HD: 4460
+JOJ Family HD: 4461
+:24 HD: 4516
+Prima Show HD: 6124
+Nova Lady HD: 6125
+JOJ Cinema: 4236
+Nova Cinema HD: 4462
+Prima Max HD: 6064
+Paramount Network: 4463
+AMC HD: 6083
+FILM+ HD: 6084
+HBO HD: 6012
+HBO2 HD: 6071
+HBO3 HD: 6072
+Cinemax HD: 6090
+Cinemax 2 HD: 6091
+Film Europe HD: 6039
+AXN: 44
+AXN White: 6010
+AXN Black: 6009
+Filmbox: 20
+Filmbox Stars: 6029
+Filmbox Family: 6028
+Filmbox Extra HD: 6020
+Filmbox Premium HD: 6062
+Kino Barrandov: 6065
+CS Film-CS Horror: 29
+Film Europe +: 6018
+CS Mystery: 6048
+Epic Drama HD: 4326
+Comedy House HD: 6100
+ČT Sport HD: 6105
+PREMIER SPORT 1 HD: 6096
+PREMIER SPORT 2 HD: 6121
+Eurosport 1 HD: 6016
+Eurosport 2 HD: 6040
+Sport1 HD: 6050
+Sport2 HD: 6041
+Nova Sport 1 HD: 6042
+Nova Sport 2 HD: 6073
+Nova Sport 3 HD: 6122
+Nova Sport 4 HD: 6123
+Auto Motor Sport HD: 4504
+Sport 5: 4466
+Arena Sport 1 HD: 6102
+CHUCK TV HD: 6120
+Digi Sport 6 HD: 4446
+Golf Channel HD: 6033
+Extreme sports: 4465
+Ginx eSports TV: 6034
+ČT :D - ČT Art HD: 6108
+Disney Channel: 15
+Minimax: 38
+Nick Toons: 6099
+Jim Jam: 6017
+Nickelodeon: 4052
+Nick Jr.: 6027
+Baby TV: 4468
+Cartoon Network: 6079
+Duck TV: 6030
+Boomerang: 4469
+LaLa TV HD: 4507
+BBC Earth HD: 4495
+Prima Zoom HD: 4470
+NGC HD: 6015
+NGC Wild HD: 6060
+Spektrum HD: 35
+Spektrum Home: 6019
+Discovery Channel HD: 6085
+ID: 4135
+Disc. Turbo Xtra: 6055
+Discovery Science: 4015
+Animal Planet HD: 6038
+Travel Channel HD: 6008
+Viasat Explore HD: 4501
+Viasat Nature HD: 4503
+Viasat History HD: 4502
+History HD: 6014
+Fishing and Hunting: 6022
+UP Network: 6076
+Crime and Inv.: 6046
+CS History: 6082
+Travel XP HD: 6080
+Óčko HD: 4499
+Óčko Star HD: 4500
+Óčko Expres HD: 4505
+Óčko Black HD: 4506
+MTV: 6003
+MTV Hits: 6057
+Club MTV: 6058
+MTV 90s: 6059
+MTV 00s: 6004
+Stingray Classica HD: 6093
+Stingray Djazz HD: 6078
+RETRO Music TV: 6086
+TV REBEL: 6088
+Šlágr Premium HD: 6118
+Šlágr Muzika: 6043
+Šlágr 2 HD: 4528
+TLC: 6037
+Fashion TV: 6007
+TV Paprika: 6013
+Food Network: 6063
+CBS Reality: 6001
+Arte: 4474
+CNN Intl. Europe: 6070
+BBC World News: 6067
+Euronews: 6081
+CNBC: 4475
+Bloomberg Eu: 6068
+France 24: 6026
+ORF1: 6011
+ORF 2: 4508
+TV5 Monde: 4477
+Deutsche Welle: 4130
+ARD: 4478
+ZDF: 4479
+Rai 1: 4480
+Canal 24 Horas: 6069
+TVP Polonia: 4481
+Pervij kanal: 4482
+Russia Today: 4285
+Russia Today Doc: 4527
+TV 1000 Russkoe Kino: 4320
+Karusel: 4486
+PLAYBOY TV: 4487
+Erox HD: 4491
+Eroxxx HD: 6061
+Brazzers TV Europe: 4492
+Dorcel TV HD: 6021
+LEO TV: 6056
+Dusk TV: 6047
+Leo TV Gold HD: 6098
+Dorcel XXX HD: 6097
+XMO: 6051
+ČT JM HD: 6104
+ČT SM HD: 6103
+Praha TV: 6113
+RegionálníTV.cz: 6106
+Jihočeská TV: 6107
+Info TV Brno: 6110
+Regionální TV TVS: 6114
+Polar: 6109
+TV Brno 1: 6111
+Senát: 4525
+Poslanecká Sněmovna: 4524
+Posl.Sněmovna pult: 4526
+Magenta TV: 4494
+ČT1 HD Optik: 4076
+360Tune box HD: 4303
+Slovensko: 96
