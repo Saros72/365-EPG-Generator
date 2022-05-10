@@ -4,7 +4,7 @@
 
 # Nastavení
 # Počet dní (1-15)
-day = 3
+days = 3
 
 # Počet dní zpětně (0-7)
 days_back = 1
