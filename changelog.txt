@@ -1,2 +1,6 @@
+v2.8.1 (10.05.2022)
+- zdroj O2 TV Sport přidány kanály O2 Sport, O2 Fotbal, O2 Tenis
+- zdroj mujTVprogram přidány kanály ORF1, ORF2 (český popis pořadů)
+
 v2.7.2 (30.04.2022)
 T-Mobile - opravená chyba (změna názvu kanálu "Trojka" na ":24")

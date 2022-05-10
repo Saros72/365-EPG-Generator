@@ -4,7 +4,7 @@
 
 # Nastavení
 # Počet dní (1-15)
-days = 3
+day = 3
 
 # Počet dní zpětně (0-7)
 days_back = 1
@@ -18,11 +18,13 @@ O2_TV_SPORT = 1
 MUJ_TV_PROGRAM_CZ = 1
 SLEDOVANITV_CZ = 1
 
-# Seznam vlastních kanálů pro tv.sms.cz a T-Mobile TV Go
+# Seznam vlastních kanálů
 # Seznam id kanálů oddělené čárkou (např.: "2,3,32,94")
 # Pro všechny kanály ponechte prázdné
 TV_SMS_CZ_IDS = ""
 T_MOBILE_TV_GO_IDS = ""
+O2_TV_IDS = ""
+MUJ_TV_PROGRAM_IDS = ""
 SLEDOVANI_TV_CZ_IDS = ""
 
 #Časový posun (+/-hodina)
@@ -46,22 +48,28 @@ update = 0
 interval = 12
 
 
-import sys
-import os
-import xmltv
-import requests
-import xml.etree.ElementTree as ET
-import unicodedata
-import time
-from urllib.parse import quote
-from datetime import datetime, timedelta, date
-from ftplib import FTP
 import logging
-import time
-import schedule
-
-
 logging.basicConfig(filename='log.log', filemode='w', format='%(name)s - %(levelname)s - %(message)s')
+try:
+    import sys
+    import os
+    import xmltv
+    import requests
+    import xml.etree.ElementTree as ET
+    import unicodedata
+    import time
+    from urllib.parse import quote
+    from datetime import datetime, timedelta, date
+    from ftplib import FTP
+    import time
+    import schedule
+except Exception as ex:
+    print(ex)
+    logging.error("365 EPG Generator - %s" % ex)
+    input("Pro ukončení stiskněte libovolnou klávesu")
+    sys.exit(0)
+
+
 dn = os.path.dirname(os.path.realpath(__file__))
 fn = os.path.join(dn,"epg.xml")
 custom_names_path = os.path.join(dn,"custom_names.txt")
@@ -131,21 +139,19 @@ def get_stv_programmes(stv_ids, d, d_b):
 
 
 def get_muj_tv_programmes(ids, d, d_b):
+    ids = ids.split(",")
     if d_b > 1:
         d_b = 1
     if d > 10:
         d = 10
     channels = []
     programmes = []
-    ids_ = {"723": "723-skylink-7", "233": "233-stingray-classica", "234": "234-stingray-iconcerts", "110": "110-stingray-cmusic"}
-    if "723" in ids:
-        channels.append({'display-name': [(replace_names('Skylink 7'), u'cs')], 'id': '723-skylink-7','icon': [{'src': 'https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=ac6c69625699eaecc9b39f7ea4d69b8c&amp;p2=80'}]})
-    if "233" in ids:
-        channels.append({'display-name': [(replace_names('Stingray Classica'), u'cs')], 'id': '233-stingray-classica','icon': [{'src': 'https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=661af53f8f3b997611c29f844c7006fd&amp;p2=80'}]})
-    if "234" in ids:
-        channels.append({'display-name': [(replace_names('Stingray iConcerts'), u'cs')], 'id': '234-stingray-iconcerts','icon': [{'src': 'https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=99c87946872c81f46190c77af7cd1d89&amp;p2=80'}]})
-    if "110" in ids:
-        channels.append({'display-name': [(replace_names('Stingray CMusic'), u'cs')], 'id': '110-stingray-cmusic','icon': [{'src': 'https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=b323f2ad3200cb938b43bed58dd8fbf9&amp;p2=80'}]})
+    ids_ = {"723": "723-skylink-7", "233": "233-stingray-classica", "234": "234-stingray-iconcerts", "110": "110-stingray-cmusic", "40": "40-orf1", "41": "41-orf2"}
+    channels = []
+    c = {'display-name': [(replace_names('Skylink 7'), u'cs')], 'id': '723-skylink-7','icon': [{'src': 'https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=ac6c69625699eaecc9b39f7ea4d69b8c&amp;p2=80'}]}, {'display-name': [(replace_names('Stingray Classica'), u'cs')], 'id': '233-stingray-classica','icon': [{'src': 'https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=661af53f8f3b997611c29f844c7006fd&amp;p2=80'}]}, {'display-name': [(replace_names('Stingray iConcerts'), u'cs')], 'id': '234-stingray-iconcerts','icon': [{'src': 'https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=99c87946872c81f46190c77af7cd1d89&amp;p2=80'}]}, {'display-name': [(replace_names('Stingray CMusic'), u'cs')], 'id': '110-stingray-cmusic','icon': [{'src': 'https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=b323f2ad3200cb938b43bed58dd8fbf9&amp;p2=80'}]}, {'display-name': [(replace_names('ORF1'), u'cs')], 'id': '40-orf1','icon': [{'src': 'https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=422162d3082a84fc97a7fb9b3ad6823f&amp;p2=80'}]}, {'display-name': [(replace_names('ORF2'), u'cs')], 'id': '41-orf2','icon': [{'src': 'https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=477dcc38e54309f5db7aec56b62b4cdf&amp;p2=80'}]}
+    for x in c:
+        if x["id"].split("-")[0] in ids:
+            channels.append(x)
     now = datetime.now()
     for x in range(d_b*-1, d):
         next_day = now + timedelta(days = x)
@@ -164,6 +170,14 @@ def get_muj_tv_programmes(ids, d, d_b):
 
 def get_o2_programmes(o2, d, d_b):
     channelKeys = o2.split(",")
+    channels = []
+    o2_idd = []
+    for x in channelKeys:
+        o2_idd.append(x.replace(" HD", "").replace("Eurosport3", "Eurosport 3").replace("Eurosport4", "Eurosport 4").replace("Eurosport5", "Eurosport 5"))
+    c = {"display-name": [(replace_names("O2 Sport"), u"cs")], "id": "o2tv-sport", "icon": [{"src": 'http://www.o2tv.cz/assets/images/tv-logos/original/o2-sport-hd.png'}]}, {"display-name": [(replace_names("O2 Fotbal"), u"cs")], "id": "o2tv-fotbal", "icon": [{"src": 'http://www.o2tv.cz/assets/images/tv-logos/original/o2-tv-fotbal-hd.png'}]}, {"display-name": [(replace_names("O2 Tenis"), u"cs")], "id": "o2tv-tenis", "icon": [{"src": 'http://www.o2tv.cz/assets/images/tv-logos/original/o2-tv-tenis-hd.png'}]}, {"display-name": [(replace_names("O2 Sport1"), u"cs")], "id": "o2tv-sport1", "icon": [{"src": 'http://www.o2tv.cz/assets/images/tv-logos/original/o2-sport-hd.png'}]}, {"display-name": [(replace_names("O2 Sport2"), u"cs")], "id": "o2tv-sport2", "icon": [{"src": 'http://www.o2tv.cz/assets/images/tv-logos/original/o2-sport-hd.png'}]}, {"display-name": [(replace_names("O2 Sport3"), u"cs")], "id": "o2tv-sport3", "icon": [{"src": 'http://www.o2tv.cz/assets/images/tv-logos/original/o2-sport-hd.png'}]}, {"display-name": [(replace_names("O2 Sport4"), u"cs")], "id": "o2tv-sport4", "icon": [{"src": 'http://www.o2tv.cz/assets/images/tv-logos/original/o2-sport-hd.png'}]}, {"display-name": [(replace_names("O2 Sport5"), u"cs")], "id": "o2tv-sport5", "icon": [{"src": 'http://www.o2tv.cz/assets/images/tv-logos/original/o2-sport-hd.png'}]}, {"display-name": [(replace_names("O2 Sport6"), u"cs")], "id": "o2tv-sport6", "icon": [{"src": 'http://www.o2tv.cz/assets/images/tv-logos/original/o2-sport-hd.png'}]}, {"display-name": [(replace_names("O2 Sport7"), u"cs")], "id": "o2tv-sport7", "icon": [{"src": 'http://www.o2tv.cz/assets/images/tv-logos/original/o2-sport-hd.png'}]}, {"display-name": [(replace_names("O2 Sport8"), u"cs")], "id": "o2tv-sport8", "icon": [{"src": 'http://www.o2tv.cz/assets/images/tv-logos/original/o2-sport-hd.png'}]}, {"display-name": [(replace_names("Eurosport 3"), u"cs")], "id": "eurosport-3", "icon": [{"src": 'http://www.o2tv.cz/assets/images/tv-logos/original/eurosport-3.png'}]}, {"display-name": [(replace_names("Eurosport 4"), u"cs")], "id": "eurosport-4", "icon": [{"src": 'http://www.o2tv.cz/assets/images/tv-logos/original/eurosport-4.png'}]}, {"display-name": [(replace_names("Eurosport 5"), u"cs")], "id": "eurosport-5", "icon": [{"src": 'http://www.o2tv.cz/assets/images/tv-logos/original/eurosport-5.png'}]}
+    for x in c:
+        if x["display-name"][0][0] in o2_idd:
+            channels.append(x)
     params = ""
     for channelKey in channelKeys:
         params = params + ("&channelKey=" + quote(channelKey))
@@ -191,7 +205,7 @@ def get_o2_programmes(o2, d, d_b):
         sys.stdout.write('\x1b[1A')
         print(date_ + "  OK")
     print("\n")
-    return programmes
+    return channels, programmes
 
 
 def get_tm_programmes(tm_ids, d, d_b):
@@ -384,9 +398,12 @@ def main():
         try:
             print("O2 TV Sport kanály")
             print("Stahuji data...")
-            o2_id = "O2 Sport1 HD,O2 Sport2 HD,O2 Sport3 HD,O2 Sport4 HD,O2 Sport5 HD,O2 Sport6 HD,O2 Sport7 HD,O2 Sport8 HD,Eurosport3,Eurosport4,Eurosport5"
-            channels.extend(({"display-name": [(replace_names("O2 Sport1"), u"cs")], "id": "o2tv-sport1", "icon": [{"src": 'http://www.o2tv.cz/assets/images/tv-logos/original/o2-sport-hd.png'}]}, {"display-name": [(replace_names("O2 Sport2"), u"cs")], "id": "o2tv-sport2", "icon": [{"src": 'http://www.o2tv.cz/assets/images/tv-logos/original/o2-sport-hd.png'}]}, {"display-name": [(replace_names("O2 Sport3"), u"cs")], "id": "o2tv-sport3", "icon": [{"src": 'http://www.o2tv.cz/assets/images/tv-logos/original/o2-sport-hd.png'}]}, {"display-name": [(replace_names("O2 Sport4"), u"cs")], "id": "o2tv-sport4", "icon": [{"src": 'http://www.o2tv.cz/assets/images/tv-logos/original/o2-sport-hd.png'}]}, {"display-name": [(replace_names("O2 Sport5"), u"cs")], "id": "o2tv-sport5", "icon": [{"src": 'http://www.o2tv.cz/assets/images/tv-logos/original/o2-sport-hd.png'}]}, {"display-name": [(replace_names("O2 Sport6"), u"cs")], "id": "o2tv-sport6", "icon": [{"src": 'http://www.o2tv.cz/assets/images/tv-logos/original/o2-sport-hd.png'}]}, {"display-name": [(replace_names("O2 Sport7"), u"cs")], "id": "o2tv-sport7", "icon": [{"src": 'http://www.o2tv.cz/assets/images/tv-logos/original/o2-sport-hd.png'}]}, {"display-name": [(replace_names("O2 Sport8"), u"cs")], "id": "o2tv-sport8", "icon": [{"src": 'http://www.o2tv.cz/assets/images/tv-logos/original/o2-sport-hd.png'}]}, {"display-name": [(replace_names("Eurosport 3"), u"cs")], "id": "eurosport-3", "icon": [{"src": 'http://www.o2tv.cz/assets/images/tv-logos/original/eurosport-3.png'}]}, {"display-name": [(replace_names("Eurosport 4"), u"cs")], "id": "eurosport-4", "icon": [{"src": 'http://www.o2tv.cz/assets/images/tv-logos/original/eurosport-4.png'}]}, {"display-name": [(replace_names("Eurosport 5"), u"cs")], "id": "eurosport-5", "icon": [{"src": 'http://www.o2tv.cz/assets/images/tv-logos/original/eurosport-5.png'}]}))
-            programmes_o2 = get_o2_programmes(o2_id, days, days_back)
+            if O2_TV_IDS == "":
+                o2_id = "O2 Sport HD,O2 Fotbal HD,O2 Tenis HD,O2 Sport1 HD,O2 Sport2 HD,O2 Sport3 HD,O2 Sport4 HD,O2 Sport5 HD,O2 Sport6 HD,O2 Sport7 HD,O2 Sport8 HD,Eurosport3,Eurosport4,Eurosport5"
+            else:
+                o2_id = O2_TV_IDS
+            channels_o2, programmes_o2 = get_o2_programmes(o2_id, days, days_back)
+            channels.extend(channels_o2)
             programmes.extend(programmes_o2)
         except Exception as ex:
             print("Chyba\n")
@@ -395,7 +412,11 @@ def main():
         try:
             print("můjTVprogram.cz kanály")
             print("Stahuji data...")
-            channels_mujtv, programmes_mujtv = get_muj_tv_programmes(["723", "233", "234", "110"], days, days_back)
+            if MUJ_TV_PROGRAM_IDS == "":
+                mujtv_id = "723,233,234,110,40,41"
+            else:
+                mujtv_id = MUJ_TV_PROGRAM_IDS
+            channels_mujtv, programmes_mujtv = get_muj_tv_programmes(mujtv_id, days, days_back)
             channels.extend(channels_mujtv)
             programmes.extend(programmes_mujtv)
         except Exception as ex:
@@ -451,6 +472,8 @@ def main():
             except Exception as ex:
                 print("Chyba\n")
                 logging.error("FTP - %s" % ex)
+        input("Pro ukončení stiskněte libovolnou klávesu")
+        sys.exit(0)
     else:
         sys.stdout.write('\x1b[1A')
         sys.stdout.write('\x1b[2K')

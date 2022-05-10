@@ -1,0 +1,6 @@
+Skylink7: 723
+Stingray Classica: 233
+Stingray iConcerts: 234
+Stingray Cmusic: 110
+ORF1: 40
+ORF2: 41
