@@ -1071,8 +1071,11 @@ T-Mobile TV Go kanály:
 
 O2 TV Sport kanály:
 
-	O2 Sport1: o2tv-sport1
-	O2 Sport2: o2tv-sport2
+ O2 Sport: o2tv-sport
+ O2 Fotbal: o2tv-fotbal
+ O2 Tenis: o2tv-tenis
+ O2 Sport1: o2tv-sport1
+ 	O2 Sport2: o2tv-sport2
 	O2 Sport3: o2tv-sport3
 	O2 Sport4: o2tv-sport4
 	O2 Sport5: o2tv-sport5
@@ -1090,7 +1093,8 @@ můjTVprogram.cz kanály:
 	Stingray Classica: 233-stingray-classica
 	Stingray iConcerts: 234-stingray-iconcerts
 	Stingray CMusic: 110-stingray-cmusic
-
+  ORF1: 40-orf1
+  ORF2: 41-orf2
 
 SledovaniTV.cz kanály:
 
