@@ -1,34 +1,32 @@
 # -*- coding: utf-8 -*-
 
-#v2.7.2
+#v2.8.2
 
 # Nastavení
 # Počet dní (1-15)
-days = 3
+days = 1
 
 # Počet dní zpětně (0-7)
-days_back = 1
+days_back = 0
 
 # Výběr zdroje kanálů
 # 1 = povolit
 # 0 = zakázat
 TV_SMS_CZ = 1
-T_MOBILE_TV_GO = 1
-O2_TV_SPORT = 1
-MUJ_TV_PROGRAM_CZ = 1
-SLEDOVANITV_CZ = 1
+T_MOBILE_TV_GO = 0
+O2_TV_SPORT = 0
+MUJ_TV_PROGRAM_CZ = 0
+SLEDOVANITV_CZ = 0
 
 # Seznam vlastních kanálů
 # Seznam id kanálů oddělené čárkou (např.: "2,3,32,94")
 # Pro všechny kanály ponechte prázdné
-TV_SMS_CZ_IDS = ""
+TV_SMS_CZ_IDS = "2"
 T_MOBILE_TV_GO_IDS = ""
 O2_TV_IDS = ""
 MUJ_TV_PROGRAM_IDS = ""
 SLEDOVANI_TV_CZ_IDS = ""
 
-#Časový posun (+/-hodina)
-time_shift = +2
 
 #Nahrát EPG na ftp server
 #Ano = 1
@@ -73,8 +71,9 @@ except Exception as ex:
 dn = os.path.dirname(os.path.realpath(__file__))
 fn = os.path.join(dn,"epg.xml")
 custom_names_path = os.path.join(dn,"custom_names.txt")
-t_s = "%+d" % time_shift
-TS = " " +t_s[0] + "0" + t_s[1] + "00"
+now = datetime.now()
+local_now = now.astimezone()
+TS = " " + str(local_now)[-6:].replace(":", "")
 
 
 def encode(string):
