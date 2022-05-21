@@ -21,7 +21,7 @@ SLEDOVANITV_CZ = 0
 # Seznam vlastních kanálů
 # Seznam id kanálů oddělené čárkou (např.: "2,3,32,94")
 # Pro všechny kanály ponechte prázdné
-TV_SMS_CZ_IDS = "2"
+TV_SMS_CZ_IDS = ""
 T_MOBILE_TV_GO_IDS = ""
 O2_TV_IDS = ""
 MUJ_TV_PROGRAM_IDS = ""
@@ -74,6 +74,7 @@ custom_names_path = os.path.join(dn,"custom_names.txt")
 now = datetime.now()
 local_now = now.astimezone()
 TS = " " + str(local_now)[-6:].replace(":", "")
+TS1 = TS[:3] + str(int(TS[3]) -1) + TS[4:]
 
 
 def encode(string):
@@ -349,7 +350,11 @@ class Get_programmes_sms:
                     except:
                         k = ""
                     if i.attrib["id_tv"] in ch:
-                        self.programmes_sms.append({"channel": ch[i.attrib["id_tv"]].replace("804-ct-art", "805-ct-:d"), "start": i.attrib["o"].replace("-", "").replace(":", "").replace(" ", "") + TS, "stop": i.attrib["d"].replace("-", "").replace(":", "").replace(" ", "") + TS, "title": [(n, "")], "desc": [(k, "")]})
+                        if ch[i.attrib["id_tv"]] == "1455-nova-+1":
+                            TS_ = TS1
+                        else:
+                            TS_ = TS
+                        self.programmes_sms.append({"channel": ch[i.attrib["id_tv"]].replace("804-ct-art", "805-ct-:d"), "start": i.attrib["o"].replace("-", "").replace(":", "").replace(" ", "") + TS_, "stop": i.attrib["d"].replace("-", "").replace(":", "").replace(" ", "") + TS_, "title": [(n, "")], "desc": [(k, "")]})
                 sys.stdout.write('\x1b[1A')
                 print(date_ + "  OK")
         print("\n")
