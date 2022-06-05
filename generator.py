@@ -1,22 +1,23 @@
 # -*- coding: utf-8 -*-
 
-#v2.8.2
+#v2.9.0
 
 # Nastavení
 # Počet dní (1-15)
-days = 1
+days = 3
 
 # Počet dní zpětně (0-7)
-days_back = 0
+days_back = 1
 
 # Výběr zdroje kanálů
 # 1 = povolit
 # 0 = zakázat
 TV_SMS_CZ = 1
-T_MOBILE_TV_GO = 0
-O2_TV_SPORT = 0
-MUJ_TV_PROGRAM_CZ = 0
-SLEDOVANITV_CZ = 0
+T_MOBILE_TV_GO = 1
+O2_TV_SPORT = 1
+MUJ_TV_PROGRAM_CZ = 1
+SLEDOVANITV_CZ = 1
+TV_SPIEL = 1
 
 # Seznam vlastních kanálů
 # Seznam id kanálů oddělené čárkou (např.: "2,3,32,94")
@@ -26,6 +27,7 @@ T_MOBILE_TV_GO_IDS = ""
 O2_TV_IDS = ""
 MUJ_TV_PROGRAM_IDS = ""
 SLEDOVANI_TV_CZ_IDS = ""
+TV_SPIEL_IDS = ""
 
 
 #Nahrát EPG na ftp server
@@ -74,7 +76,6 @@ custom_names_path = os.path.join(dn,"custom_names.txt")
 now = datetime.now()
 local_now = now.astimezone()
 TS = " " + str(local_now)[-6:].replace(":", "")
-TS1 = TS[:3] + str(int(TS[3]) -1) + TS[4:]
 
 
 def encode(string):
@@ -126,6 +127,48 @@ def get_stv_programmes(stv_ids, d, d_b):
                 programm = {'channel': "stv-" + k, 'start': x["startTime"].replace("-", "").replace(" ", "").replace(":", "") + "00" + TS, 'stop': x["endTime"].replace("-", "").replace(" ", "").replace(":", "") + "00" + TS, 'title': [(x["title"], u'')], 'desc': [(x["description"], u'')]}
                 try:
                     icon = x["poster"]
+                except:
+                    icon = None
+                if icon != None:
+                    programm['icon'] = [{"src": icon}]
+                if programm not in programmes:
+                    programmes.append(programm)
+        sys.stdout.write('\x1b[1A')
+        print(date_ + "  OK")
+    print("\n")
+    return channels, programmes
+
+
+def get_tv_spiel_programmes(ids, d, d_b):
+    ids = ids.split(",")
+    if d_b > 7:
+        d_b = 7
+    if d > 14:
+        d = 14
+    channels = []
+    programmes = []
+    ids_ = {'display-name': [(replace_names('Eurosport 1 (DE)'), u'cs')], 'id': 'EURO','icon': [{'src': 'http://live.tvspielfilm.de/static/images/channels/large/EURO.png'}]}, {'display-name': [(replace_names('Eurosport 2 (DE)'), u'cs')], 'id': 'EURO2','icon': [{'src': 'http://live.tvspielfilm.de/static/images/channels/large/EURO2.png'}]}, {'display-name': [(replace_names('Sky Sport 1 (DE)'), u'cs')], 'id': 'HDSPO','icon': [{'src': 'http://live.tvspielfilm.de/static/images/channels/large/HDSPO.png'}]}, {'display-name': [(replace_names('Sky Sport 2 (DE)'), u'cs')], 'id': 'SHD2','icon': [{'src': 'http://live.tvspielfilm.de/static/images/channels/large/SHD2.png'}]}, {'display-name': [(replace_names('Sky Sport Austria1'), u'cs')], 'id': 'SPO-A','icon': [{'src': 'http://live.tvspielfilm.de/static/images/channels/large/SPO-A.png'}]}, {'display-name': [(replace_names('ORF Sport+'), u'cs')], 'id': 'ORFSP','icon': [{'src': 'http://live.tvspielfilm.de/static/images/channels/large/ORFSP.png'}]}
+    for x in ids_:
+        if x["id"] in ids:
+            channels.append(x)
+    now = datetime.now()
+    for x in range(d_b*-1, d):
+        next_day = now + timedelta(days = x)
+        date_ = next_day.strftime("%d.%m.%Y")
+        date = next_day.strftime("%Y-%m-%d")
+        print(date_)
+        for y in ids:
+            html = requests.get("https://live.tvspielfilm.de/static/broadcast/list/" + y + "/" + date).json()
+            for x in html:
+                start = time.strftime('%Y%m%d%H%M%S', time.localtime(int(x['timestart'])))
+                stop = time.strftime('%Y%m%d%H%M%S', time.localtime(int(x['timeend'])))
+                try:
+                    desc = x['text']
+                except:
+                    desc = ""
+                programm = {"channel": y, "start": str(start) + TS, "stop": str(stop) + TS, "title": [(x['title'], "")], "desc": [(desc, u'')]}
+                try:
+                    icon = x["images"][0]["size2"]
                 except:
                     icon = None
                 if icon != None:
@@ -350,11 +393,7 @@ class Get_programmes_sms:
                     except:
                         k = ""
                     if i.attrib["id_tv"] in ch:
-                        if ch[i.attrib["id_tv"]] == "1455-nova-+1":
-                            TS_ = TS1
-                        else:
-                            TS_ = TS
-                        self.programmes_sms.append({"channel": ch[i.attrib["id_tv"]].replace("804-ct-art", "805-ct-:d"), "start": i.attrib["o"].replace("-", "").replace(":", "").replace(" ", "") + TS_, "stop": i.attrib["d"].replace("-", "").replace(":", "").replace(" ", "") + TS_, "title": [(n, "")], "desc": [(k, "")]})
+                        self.programmes_sms.append({"channel": ch[i.attrib["id_tv"]].replace("804-ct-art", "805-ct-:d"), "start": i.attrib["o"].replace("-", "").replace(":", "").replace(" ", "") + TS, "stop": i.attrib["d"].replace("-", "").replace(":", "").replace(" ", "") + TS, "title": [(n, "")], "desc": [(k, "")]})
                 sys.stdout.write('\x1b[1A')
                 print(date_ + "  OK")
         print("\n")
@@ -426,6 +465,20 @@ def main():
         except Exception as ex:
             print("Chyba\n")
             logging.error("můjTVprogram.cz kanály - %s" % ex)
+    if TV_SPIEL == 1:
+        try:
+            print("TV Spiel kanály")
+            print("Stahuji data...")
+            if TV_SPIEL_IDS == "":
+                tv_spiel_id = "EURO,EURO2,HDSPO,SHD2,SPO-A,ORFSP"
+            else:
+                tv_spiel_id = TV_SPIEL_IDS
+            channels_tv_spiel, programmes_tv_spiel = get_tv_spiel_programmes(tv_spiel_id, days, days_back)
+            channels.extend(channels_tv_spiel)
+            programmes.extend(programmes_tv_spiel)
+        except Exception as ex:
+            print("Chyba\n")
+            logging.error("TV Spiel kanály - %s" % ex)
     if SLEDOVANITV_CZ == 1:
         try:
             print("SledovaniTV.cz kanály")

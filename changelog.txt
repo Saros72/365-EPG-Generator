@@ -1,8 +1,6 @@
-v2.8.3 (21.05.2022)
-- oprava Nova +1
-
-v2.8.2 (20.05.2022)
+v2.9.0 (05.06.2022)
 - automatický časový posun
+- nový zdroj TV Spiel (pouze vybrané německé a rakouské sportovní kanály)
 
 v2.8.1 (10.05.2022)
 - zdroj O2 TV Sport přidány kanály O2 Sport, O2 Fotbal, O2 Tenis
