@@ -1069,6 +1069,194 @@ T-Mobile TV Go kanály:
 	Slovensko: tm-96-slovensko
 
 
+Magio Go kanály:
+
+  Jednotka HD: mag-4099-jednotka
+  Dvojka HD: mag-4146-dvojka
+  :24 HD: mag-4516-:24
+  Markíza HD: mag-4044-markiza
+  JOJ HD: mag-4070-joj
+  Plus HD: mag-4222-plus
+  DAJTO HD: mag-4111-dajto
+  Doma HD: mag-4221-doma
+  Wau HD: mag-4223-wau
+  Folklorika TV HD: mag-4332-folklorika-tv
+  TA3: mag-5-ta3
+  ČT1 HD: mag-4240-ct1
+  ČT2 HD: mag-4239-ct2
+  ČT24 HD: mag-4074-ct24
+  ČT3 HD: mag-4522-ct3
+  Prima Plus: mag-4334-prima-plus
+  Nova Intl.: mag-4530-nova-intl.
+  Comedy House HD: mag-4514-comedy-house
+  Barrandov TV HD: mag-4456-barrandov-tv
+  Barrandov Krimi: mag-4281-barrandov-krimi
+  Prima Krimi: mag-4338-prima-krimi
+  Televize Seznam HD: mag-4458-televize-seznam  Prima Max HD: mag-4278-prima-max
+  Senzi: mag-4165-senzi
+  Prima Zoom HD: mag-4470-prima-zoom
+  Lux TV: mag-4333-lux-tv
+  NOE: mag-4329-noe
+  Relax: mag-4459-relax
+  Markíza KRIMI HD: mag-4557-markiza-krimi
+  Prima LOVE HD: mag-4101-prima-love
+  Prima Cool HD: mag-4102-prima-cool
+  Ťuki TV HD: mag-4234-tuki-tv
+  LaLa TV HD: mag-4507-lala-tv
+  Jim Jam: mag-4014-jim-jam
+  Nickelodeon: mag-4052-nickelodeon
+  Minimax: mag-38-minimax
+  Disney Channel: mag-15-disney-channel
+  Nick Toons: mag-4513-nick-toons
+  ČT :D - ČT Art HD: mag-4467-ct-:d---ct-art
+  Nick Jr.: mag-4092-nick-jr.
+  Cartoon Network: mag-6079-cartoon-network
+  Duck TV: mag-4100-duck-tv
+  Nickelodeon Ukraine: mag-4552-nickelodeon-ukraine
+  TV RiK: mag-4553-tv-rik
+  PREMIER SPORT 1 HD: mag-4162-premier-sport-1  PREMIER SPORT 2 HD: mag-4533-premier-sport-2  Nova Sport 3 HD: mag-4535-nova-sport-3
+  Nova Sport 4 HD: mag-4537-nova-sport-4
+  Arena Sport 1 HD: mag-4517-arena-sport-1
+  Eurosport 1 HD: mag-4011-eurosport-1
+  Eurosport 2 HD: mag-4142-eurosport-2
+  Sport1 HD: mag-4230-sport1
+  Sport2 HD: mag-4143-sport2
+  Nova Sport 1 HD: mag-4144-nova-sport-1
+  Nova Sport 2 HD: mag-4298-nova-sport-2
+  Golf Channel HD: mag-4106-golf-channel
+  Auto Motor Sport HD: mag-4504-auto-motor-sport
+  Fightbox: mag-4529-fightbox
+  Extreme sports: mag-4465-extreme-sports
+  Sport 5: mag-4466-sport-5
+  Ginx eSports TV: mag-4125-ginx-esports-tv
+  ČT Sport HD: mag-4464-ct-sport
+  RTVS SPORT HD: mag-4532-rtvs-sport
+  CHUCK TV HD: mag-4531-chuck-tv
+  JOJ Sport: mag-4555-joj-sport
+  BBC Earth HD: mag-4495-bbc-earth
+  Viasat History HD: mag-4502-viasat-history
+  Viasat Explore HD: mag-4501-viasat-explore
+  Viasat Nature HD: mag-4503-viasat-nature
+  Discovery Channel HD: mag-4327-discovery-channel
+  ID: mag-4135-id
+  Animal Planet HD: mag-4138-animal-planet
+  Spektrum HD: mag-35-spektrum
+  Spektrum Home: mag-4026-spektrum-home
+  NGC HD: mag-4004-ngc
+  NGC Wild HD: mag-4264-ngc-wild
+  Disc. Turbo Xtra: mag-4243-disc.-turbo-xtra
+  Discovery Science: mag-4015-discovery-science
+  History HD: mag-4003-history
+  Fishing and Hunting: mag-4042-fishing-and-hunting
+  UP Network: mag-4310-up-network
+  Crime and Inv.: mag-4178-crime-and-inv.
+  CS History: mag-4321-cs-history
+  Travel Channel HD: mag-118-travel-channel
+  Travel XP HD: mag-4316-travel-xp
+  Food Network: mag-4272-food-network
+  TLC: mag-4134-tlc
+  Fashion TV: mag-45-fashion-tv
+  JOJ Cinema HD: mag-4237-joj-cinema
+  Epic Drama HD: mag-4326-epic-drama
+  Filmbox: mag-20-filmbox
+  Filmbox Stars: mag-4098-filmbox-stars
+  AXN: mag-44-axn
+  AXN Black: mag-120-axn-black
+  AXN White: mag-121-axn-white
+  CS Film-CS Horror: mag-29-cs-film-cs-horror
+  Film Europe HD: mag-4140-film-europe
+  AMC HD: mag-4324-amc
+  FILM+ HD: mag-4325-film+
+  HBO HD: mag-3603-hbo
+  HBO2 HD: mag-4296-hbo2
+  HBO3 HD: mag-4297-hbo3
+  Cinemax HD: mag-4339-cinemax
+  Cinemax 2 HD: mag-4340-cinemax-2
+  Filmbox Family: mag-4096-filmbox-family
+  Filmbox Extra HD: mag-4027-filmbox-extra
+  Filmbox Premium HD: mag-4270-filmbox-premium  Kino Barrandov: mag-4280-kino-barrandov
+  Film Europe +: mag-4024-film-europe-+
+  CS Mystery: mag-4224-cs-mystery
+  MTV 80s: mag-4308-mtv-80s
+  Óčko HD: mag-4499-ocko
+  Óčko Star HD: mag-4500-ocko-star
+  Óčko Expres HD: mag-4505-ocko-expres
+  Óčko Black HD: mag-4506-ocko-black
+  MTV: mag-22-mtv
+  MTV Hits: mag-4261-mtv-hits
+  Club MTV: mag-4262-club-mtv
+  MTV 90s: mag-4263-mtv-90s
+  MTV 00s: mag-23-mtv-00s
+  Stingray Classica HD: mag-4510-stingray-classica
+  Stingray Djazz HD: mag-4312-stingray-djazz
+  RETRO Music TV: mag-4328-retro-music-tv
+  TV REBEL: mag-4330-tv-rebel
+  Šlágr Originál: mag-4147-slagr-original
+  Arte: mag-4474-arte
+  Šlágr Muzika HD: mag-4528-slagr-muzika
+  Šlágr Premium HD: mag-4515-slagr-premium
+  Erox HD: mag-4491-erox
+  Eroxxx HD: mag-4268-eroxxx
+  Dorcel TV HD: mag-6021-dorcel-tv
+  LEO TV: mag-4259-leo-tv
+  Dusk TV: mag-4218-dusk-tv
+  Leo TV Gold HD: mag-4322-leo-tv-gold
+  Dorcel XXX HD: mag-4511-dorcel-xxx
+  XMO: mag-4232-xmo
+  CNN Prima News HD: mag-4523-cnn-prima-news
+  RTL: mag-11-rtl
+  PRO7: mag-10-pro7
+  CNN Intl. Europe: mag-4292-cnn-intl.-europe
+  BBC World News: mag-4286-bbc-world-news
+  Euronews: mag-4318-euronews
+  Bloomberg Eu: mag-4287-bloomberg-eu
+  France 24: mag-4084-france-24
+  ORF1: mag-122-orf1
+  ORF 2: mag-4508-orf-2
+  Deutsche Welle: mag-4130-deutsche-welle
+  ARD: mag-4478-ard
+  ZDF: mag-4479-zdf
+  Rai 1: mag-4480-rai-1
+  Canal 24 Horas: mag-4291-canal-24-horas
+  TVP Polonia: mag-4481-tvp-polonia
+  Ukraina TV: mag-4323-ukraina-tv
+  TV8: mag-4035-tv8
+  M1 HD: mag-4544-m1
+  M2 HD: mag-4545-m2
+  M4 sport HD: mag-4306-m4-sport
+  M5 HD: mag-4540-m5
+  RTL Gold: mag-4497-rtl-gold
+  RTL Klub HD: mag-4548-rtl-klub
+  TV2: mag-4007-tv2
+  RTL 2  HD: mag-4543-rtl-2-
+  RTL +: mag-4185-rtl-+
+  Duna HD: mag-4542-duna
+  Cool TV: mag-4012-cool-tv
+  FILM+ HU HD: mag-4546-film+-hu
+  Film 4: mag-4541-film-4
+  Galaxy 4: mag-4498-galaxy-4
+  Super TV2: mag-4251-super-tv2
+  FEM3: mag-4245-fem3
+  Mozi+: mag-4249-mozi+
+  Duna World HD: mag-4547-duna-world
+  MTV HU: mag-4246-mtv-hu
+  Sláger TV HU: mag-4229-slager-tv-hu
+  Muzsika TV: mag-4247-muzsika-tv
+  Sorozat+: mag-4250-sorozat+
+  Hír TV: mag-4509-hir-tv
+  Comedy Central HU: mag-4254-comedy-central-hu
+  Comedy Central F: mag-4317-comedy-central-f
+  Nickelodeon HU: mag-4248-nickelodeon-hu
+  Viasat 3: mag-4177-viasat-3
+  Viasat 6: mag-4193-viasat-6
+  TV4: mag-4010-tv4
+  STORY 4: mag-4176-story-4
+  Magyar ATV HD: mag-4539-magyar-atv
+  TV2 Séf: mag-4519-tv2-sef
+  Prime: mag-4496-prime
+  Life TV: mag-4053-life-tv
+
+
 O2 TV Sport kanály:
 
  O2 Sport: o2tv-sport
@@ -1089,16 +1277,31 @@ O2 TV Sport kanály:
 
 můjTVprogram.cz kanály:
 
-	Skylink 7: 723-skylink-7
-	Stingray Classica: 233-stingray-classica
-	Stingray iConcerts: 234-stingray-iconcerts
-	Stingray CMusic: 110-stingray-cmusic
+  Skylink 7: 723-skylink-7
+  Stingray Classica: 233-stingray-classica
+  Stingray iConcerts: 234-stingray-iconcerts
+  Stingray CMusic: 110-stingray-cmusic
   ORF1: 40-orf1
   ORF2: 41-orf2
+  RTL: 49-rtl
+  RTL2: 50-rtl2
+  Polsat: 39-polsat
+  TVP1: 37-tvp1
+  TVP2: 38-tvp2
+  Pro7: 174-pro7
+  SAT1: 52-sat1
+  Kabel1: 54-kabel1
+  VOX: 53-vox
+  ZDF: 393-zdf
+  ZDF Neo: 216-zdf-neo
+  3SAT: 46-3sat
+  SAT.1 GOLD: 408-sat1-gold
+  Vixen: 892-vixen
+
 
 SledovaniTV.cz kanály:
 
-ČT1: stv-ct1
+  ČT1: stv-ct1
   ČT2: stv-ct2
   ČT3: stv-ct3
   ČT24: stv-ct24
@@ -1384,7 +1587,35 @@ SledovaniTV.cz kanály:
   Babes TV: stv-babes_tv
   Redlight: stv-redlight
 
+
+SledovanieTV.sk kanály:
+
+  Markíza: stvsk-markiza
+  JOJ: stvsk-joj
+  JOJ Plus: stvsk-jojplus
+  Doma: stvsk-doma
+  JOJ Šport: stvsk-joj_sport
+  Dajto: stvsk-dajto
+  Rik: stvsk-rik2
+  Jojko: stvsk-rik
+  WAU: stvsk-wau
+  Nova International: stvsk-novaint
+  Prima PLUS: stvsk-primaplus
+  RTVS Šport: stvsk-stv4
+  Televizia Osem: stvsk-tv_osem
+  M1: stvsk-m1
+  M2: stvsk-m2
+  M4 Sport: stvsk-m4
+  Arcadia World: stvsk-arcadia
+  TV Karpaty: stvsk-karpaty
+  TV Liptov: stvsk-tv_liptov
+  Central: stvsk-tv_central
+  TV Lux: stvsk-tv_lux
+  TV Ružomberok: stvsk-ruzomberok
+
+
 TV Spiel kanály:
+
   Eurosport 1 (DE): EURO
   Eurosport 2 (DE): EURO2
   Sky Sport 1 (DE): HDSPO

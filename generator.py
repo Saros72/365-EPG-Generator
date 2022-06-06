@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-#v2.9.0
+#v2.11.0
 
 # Nastavení
 # Počet dní (1-15)
@@ -14,9 +14,11 @@ days_back = 1
 # 0 = zakázat
 TV_SMS_CZ = 1
 T_MOBILE_TV_GO = 1
+MAGIO_GO = 1
 O2_TV_SPORT = 1
 MUJ_TV_PROGRAM_CZ = 1
 SLEDOVANITV_CZ = 1
+SLEDOVANIETV_SK = 1
 TV_SPIEL = 1
 
 # Seznam vlastních kanálů
@@ -24,9 +26,11 @@ TV_SPIEL = 1
 # Pro všechny kanály ponechte prázdné
 TV_SMS_CZ_IDS = ""
 T_MOBILE_TV_GO_IDS = ""
+MAGIO_GO_IDS = ""
 O2_TV_IDS = ""
 MUJ_TV_PROGRAM_IDS = ""
 SLEDOVANI_TV_CZ_IDS = ""
+SLEDOVANIE_TV_SK_IDS = ""
 TV_SPIEL_IDS = ""
 
 
@@ -98,6 +102,46 @@ def replace_names(value):
         if v[0] == value:
             value = v[1]
     return value
+
+
+def get_stvsk_programmes(stv_ids, d, d_b):
+    if d_b > 7:
+        d_b = 7
+    if d > 15:
+        d = 15
+    channels = []
+    programmes = []
+    stv_channels = {"markiza": "Markíza", "joj": "JOJ", "jojplus": "JOJ Plus", "doma": "Doma", "joj_sport": "JOJ Šport", "dajto": "Dajto", "rik2": "Rik", "rik": "Jojko", "wau": "WAU", "novaint": "Nova International", "primaplus": "Prima PLUS", "stv4": "RTVS Šport", "tv_osem": "Televizia Osem", "m1": "M1", "m2": "M2", "m4": "M4 Sport", "arcadia": "Arcadia World", "karpaty": "TV Karpaty", "tv_liptov": "TV Liptov", "tv_central": "Central", "tv_lux": "TV Lux", "ruzomberok": "TV Ružomberok"}
+    if stv_ids == "":
+        stv_id = "".join('{},'.format(k) for k in stv_channels.keys())[:-1]
+    else:
+        stv_id = stv_ids
+    for k, v in stv_channels.items():
+        if k in stv_id.split(","):
+            channels.append({'display-name': [(replace_names(v), u'cs')], 'id': 'stvsk-' + k,'icon': [{'src': 'https://sledovanietv.sk/cache/biglogos/' + k + '.png'}]})
+    now = datetime.now()
+    st = 1
+    for i in range(d_b*-1, d):
+        next_day = now + timedelta(days = i)
+        date_from = next_day.strftime("%Y-%m-%d")
+        date_ = next_day.strftime("%d.%m.%Y")
+        print(date_)
+        req = requests.get("http://felixtv.wz.cz/epg/stv_sk.php?ch=" + stv_id + "&d=" + date_from).json()["channels"]
+        for k in req.keys():
+            for x in req[k]:
+                programm = {'channel': "stvsk-" + k, 'start': x["startTime"].replace("-", "").replace(" ", "").replace(":", "") + "00" + TS, 'stop': x["endTime"].replace("-", "").replace(" ", "").replace(":", "") + "00" + TS, 'title': [(x["title"], u'')], 'desc': [(x["description"], u'')]}
+                try:
+                    icon = x["poster"]
+                except:
+                    icon = None
+                if icon != None:
+                    programm['icon'] = [{"src": icon}]
+                if programm not in programmes:
+                    programmes.append(programm)
+        sys.stdout.write('\x1b[1A')
+        print(date_ + "  OK")
+    print("\n")
+    return channels, programmes
 
 
 def get_stv_programmes(stv_ids, d, d_b):
@@ -189,9 +233,9 @@ def get_muj_tv_programmes(ids, d, d_b):
         d = 10
     channels = []
     programmes = []
-    ids_ = {"723": "723-skylink-7", "233": "233-stingray-classica", "234": "234-stingray-iconcerts", "110": "110-stingray-cmusic", "40": "40-orf1", "41": "41-orf2"}
+    ids_ = {'723': '723-skylink-7', '233': '233-stingray-classica', '234': '234-stingray-iconcerts', '110': '110-stingray-cmusic', '40': '40-orf1', '41': '41-orf2', '49': '49-rtl', '50': '50-rtl2', '39': '39-polsat', '37': '37-tvp1', '38': '38-tvp2', '174': '174-pro7', '52': '52-sat1', '54': '54-kabel1', '53': '53-vox', '393': '393-zdf', '216': '216-zdf-neo', '46': '46-3sat', '408': '408-sat1-gold', '892': '892-vixen'}
     channels = []
-    c = {'display-name': [(replace_names('Skylink 7'), u'cs')], 'id': '723-skylink-7','icon': [{'src': 'https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=ac6c69625699eaecc9b39f7ea4d69b8c&amp;p2=80'}]}, {'display-name': [(replace_names('Stingray Classica'), u'cs')], 'id': '233-stingray-classica','icon': [{'src': 'https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=661af53f8f3b997611c29f844c7006fd&amp;p2=80'}]}, {'display-name': [(replace_names('Stingray iConcerts'), u'cs')], 'id': '234-stingray-iconcerts','icon': [{'src': 'https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=99c87946872c81f46190c77af7cd1d89&amp;p2=80'}]}, {'display-name': [(replace_names('Stingray CMusic'), u'cs')], 'id': '110-stingray-cmusic','icon': [{'src': 'https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=b323f2ad3200cb938b43bed58dd8fbf9&amp;p2=80'}]}, {'display-name': [(replace_names('ORF1'), u'cs')], 'id': '40-orf1','icon': [{'src': 'https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=422162d3082a84fc97a7fb9b3ad6823f&amp;p2=80'}]}, {'display-name': [(replace_names('ORF2'), u'cs')], 'id': '41-orf2','icon': [{'src': 'https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=477dcc38e54309f5db7aec56b62b4cdf&amp;p2=80'}]}
+    c = {'display-name': [(replace_names('Skylink 7'), u'cs')], 'id': '723-skylink-7','icon': [{'src': 'https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=ac6c69625699eaecc9b39f7ea4d69b8c&amp;p2=80'}]}, {'display-name': [(replace_names('Stingray Classica'), u'cs')], 'id': '233-stingray-classica','icon': [{'src': 'https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=661af53f8f3b997611c29f844c7006fd&amp;p2=80'}]}, {'display-name': [(replace_names('Stingray iConcerts'), u'cs')], 'id': '234-stingray-iconcerts','icon': [{'src': 'https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=99c87946872c81f46190c77af7cd1d89&amp;p2=80'}]}, {'display-name': [(replace_names('Stingray CMusic'), u'cs')], 'id': '110-stingray-cmusic','icon': [{'src': 'https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=b323f2ad3200cb938b43bed58dd8fbf9&amp;p2=80'}]}, {'display-name': [(replace_names('ORF1'), u'cs')], 'id': '40-orf1','icon': [{'src': 'https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=422162d3082a84fc97a7fb9b3ad6823f&amp;p2=80'}]}, {'display-name': [(replace_names('ORF2'), u'cs')], 'id': '41-orf2','icon': [{'src': 'https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=477dcc38e54309f5db7aec56b62b4cdf&amp;p2=80'}]}, {'display-name': [(replace_names('RTL'), u'cs')], 'id': '49-rtl','icon': [{'src': 'https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=7cb9005e66956c56fd0671ee79ee2471&amp;p2=80'}]}, {'display-name': [(replace_names('RTL2'), u'cs')], 'id': '50-rtl2','icon': [{'src': 'https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=418e0d04529ea3aaa2bc2c925ddf5982&amp;p2=80'}]}, {'display-name': [(replace_names('Polsat'), u'cs')], 'id': '39-polsat','icon': [{'src': 'https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=f54e290782e8352303cfe43ce949d339&amp;p2=80'}]}, {'display-name': [(replace_names('TVP1'), u'cs')], 'id': '37-tvp1','icon': [{'src': 'https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=770431539d1fa662f705c1c05a0dd943&amp;p2=80'}]}, {'display-name': [(replace_names('TVP2'), u'cs')], 'id': '38-tvp2','icon': [{'src': 'https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=e2ce4065f27ce199f7613f38878cef72&amp;p2=80'}]}, {'display-name': [(replace_names('Pro7'), u'cs')], 'id': '174-pro7','icon': [{'src': 'https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=e23a7fb8caff9ff514f254c43a39d9b6&amp;p2=80'}]}, {'display-name': [(replace_names('SAT1'), u'cs')], 'id': '52-sat1','icon': [{'src': 'https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=97dd916e0164fff141065c3fba71c291&amp;p2=80'}]}, {'display-name': [(replace_names('Kabel1'), u'cs')], 'id': '54-kabel1','icon': [{'src': 'https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=be6dc88dd3c1c243ba4f28cccb8f1d34&amp;p2=80'}]}, {'display-name': [(replace_names('VOX'), u'cs')], 'id': '53-vox','icon': [{'src': 'https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=d2c68d2b145a5f2e20e5c05c20a9679e&amp;p2=80'}]}, {'display-name': [(replace_names('ZDF'), u'cs')], 'id': '393-zdf','icon': [{'src': 'https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=dad48d516fbdb30321564701cc3faa04&amp;p2=80'}]}, {'display-name': [(replace_names('ZDF Neo'), u'cs')], 'id': '216-zdf-neo','icon': [{'src': 'https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=cd5b8935893b0e4cde41bc3720435f14&amp;p2=80'}]}, {'display-name': [(replace_names('3SAT'), u'cs')], 'id': '46-3sat','icon': [{'src': 'https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=58d350c6065d9355a52c6dbc3b31b185&amp;p2=80'}]}, {'display-name': [(replace_names('SAT.1 GOLD'), u'cs')], 'id': '408-sat1-gold','icon': [{'src': ''}]}, {'display-name': [(replace_names('Vixen'), u'cs')], 'id': '892-vixen','icon': [{'src': 'https://services.mujtvprogram.cz/tvprogram2services/services/logoImageDownloader.php?p1=4499ebafb26a915859febcb4306703ca&amp;p2=80'}]}
     for x in c:
         if x["id"].split("-")[0] in ids:
             channels.append(x)
@@ -251,17 +295,21 @@ def get_o2_programmes(o2, d, d_b):
     return channels, programmes
 
 
-def get_tm_programmes(tm_ids, d, d_b):
+def get_tm_programmes(tm_ids, d, d_b, lng):
     if d > 10:
         d = 10
+    if lng == "cz":
+        prfx = "tm-"
+    else:
+        prfx = "mag-"
     tm_ids_list = tm_ids.split(",")
     programmes2 = []
-    params={"dsid": "c75536831e9bdc93", "deviceName": "Redmi Note 7", "deviceType": "OTT_ANDROID", "osVersion": "10", "appVersion": "3.7.0", "language": "CZ"}
-    headers={"Host": "czgo.magio.tv", "authorization": "Bearer", "User-Agent": "okhttp/3.12.12", "content-type":  "application/json", "Connection": "Keep-Alive"}
-    req = requests.post("https://czgo.magio.tv/v2/auth/init", params=params, headers=headers, verify=True).json()
+    params={"dsid": "c75536831e9bdc93", "deviceName": "Redmi Note 7", "deviceType": "OTT_ANDROID", "osVersion": "10", "appVersion": "3.7.0", "language": lng.upper()}
+    headers={"Host": lng + "go.magio.tv", "authorization": "Bearer", "User-Agent": "okhttp/3.12.12", "content-type":  "application/json", "Connection": "Keep-Alive"}
+    req = requests.post("https://" + lng + "go.magio.tv/v2/auth/init", params=params, headers=headers, verify=True).json()
     token = req["token"]["accessToken"]
-    headers2={"Host": "czgo.magio.tv", "authorization": "Bearer " + token, "User-Agent": "okhttp/3.12.12", "content-type":  "application/json"}
-    req1 = requests.get("https://czgo.magio.tv/v2/television/channels?list=LIVE&queryScope=LIVE", headers=headers2).json()["items"]
+    headers2={"Host": lng + "go.magio.tv", "authorization": "Bearer " + token, "User-Agent": "okhttp/3.12.12", "content-type":  "application/json"}
+    req1 = requests.get("https://" + lng + "go.magio.tv/v2/television/channels?list=LIVE&queryScope=LIVE", headers=headers2).json()["items"]
     channels2 = []
     ids = ""
     tvch = {}
@@ -272,16 +320,16 @@ def get_tm_programmes(tm_ids, d, d_b):
             logo = str(y["channel"]["logoUrl"])
             ids = ids + "," + id
             tm = str(ids[1:])
-            tvch[name] = "tm-" + id + "-" + encode(name).replace(" HD", "").lower().replace(" ", "-")
-            channels2.append(({"display-name": [(replace_names(name.replace(" HD", "")), u"cs")], "id": "tm-" + id + "-" + encode(name).replace(" HD", "").lower().replace(" ", "-"), "icon": [{"src": logo}]}))
+            tvch[name] = prfx + id + "-" + encode(name).replace(" HD", "").lower().replace(" ", "-")
+            channels2.append(({"display-name": [(replace_names(name.replace(" HD", "")), u"cs")], "id": prfx + id + "-" + encode(name).replace(" HD", "").lower().replace(" ", "-"), "icon": [{"src": logo}]}))
         else:
             if id in tm_ids_list:
                 name = y["channel"]["name"]
                 logo = str(y["channel"]["logoUrl"])
                 ids = ids + "," + id
                 tm = str(ids[1:])
-                tvch[name] = "tm-" + id + "-" + encode(name).replace(" HD", "").lower().replace(" ", "-")
-                channels2.append(({"display-name": [(name.replace(" HD", ""), u"cs")], "id": "tm-" + id + "-" + encode(name).replace(" HD", "").lower().replace(" ", "-"), "icon": [{"src": logo}]}))
+                tvch[name] = prfx + id + "-" + encode(name).replace(" HD", "").lower().replace(" ", "-")
+                channels2.append(({"display-name": [(name.replace(" HD", ""), u"cs")], "id": prfx + id + "-" + encode(name).replace(" HD", "").lower().replace(" ", "-"), "icon": [{"src": logo}]}))
     tvch["Trojka HD"] = "tm-4516-:24"
     now = datetime.now()
     for i in range(d_b*-1, d):
@@ -291,7 +339,7 @@ def get_tm_programmes(tm_ids, d, d_b):
         date_from = back_day.strftime("%Y-%m-%d")
         date_ = next_day.strftime("%d.%m.%Y")
         print(date_)
-        req = requests.get("https://czgo.magio.tv/v2/television/epg?filter=channel.id=in=(" + tm + ");endTime=ge=" + date_from + "T23:00:00.000Z;startTime=le=" + date_to + "T23:59:59.999Z&limit=" + str(len(channels2)) + "&offset=0&lang=CZ", headers=headers2).json()["items"]
+        req = requests.get("https://" + lng + "go.magio.tv/v2/television/epg?filter=channel.id=in=(" + tm + ");endTime=ge=" + date_from + "T23:00:00.000Z;startTime=le=" + date_to + "T23:59:59.999Z&limit=" + str(len(channels2)) + "&offset=0&lang=" + lng.upper(), headers=headers2).json()["items"]
         for x in range(0, len(req)):
             for y in req[x]["programs"]:
                 channel = y["channel"]["name"]
@@ -431,12 +479,26 @@ def main():
                 tm_id = ""
             else:
                 tm_id = T_MOBILE_TV_GO_IDS
-            channels_tm, programmes_tm = get_tm_programmes(tm_id, days, days_back)
+            channels_tm, programmes_tm = get_tm_programmes(tm_id, days, days_back, "cz")
             channels.extend(channels_tm)
             programmes.extend(programmes_tm)
         except Exception as ex:
             print("Chyba\n")
             logging.error("T-Mobile TV Go kanály - %s" % ex)
+    if MAGIO_GO == 1:
+        try:
+            print("Magio Go kanály")
+            print("Stahuji data...")
+            if MAGIO_GO_IDS == "":
+                mag_id = ""
+            else:
+                mag_id = MAGIO_GO_IDS
+            channels_mag, programmes_mag = get_tm_programmes(tm_id, days, days_back, "sk")
+            channels.extend(channels_mag)
+            programmes.extend(programmes_mag)
+        except Exception as ex:
+            print("Chyba\n")
+            logging.error("Magio Go kanály - %s" % ex)
     if O2_TV_SPORT == 1:
         try:
             print("O2 TV Sport kanály")
@@ -456,7 +518,7 @@ def main():
             print("můjTVprogram.cz kanály")
             print("Stahuji data...")
             if MUJ_TV_PROGRAM_IDS == "":
-                mujtv_id = "723,233,234,110,40,41"
+                mujtv_id = "723,233,234,110,40,41,49,50,39,37,38,174,52,54,53,393,216,46,408,892"
             else:
                 mujtv_id = MUJ_TV_PROGRAM_IDS
             channels_mujtv, programmes_mujtv = get_muj_tv_programmes(mujtv_id, days, days_back)
@@ -465,6 +527,34 @@ def main():
         except Exception as ex:
             print("Chyba\n")
             logging.error("můjTVprogram.cz kanály - %s" % ex)
+    if SLEDOVANITV_CZ == 1:
+        try:
+            print("SledovaniTV.cz kanály")
+            print("Stahuji data...")
+            if SLEDOVANI_TV_CZ_IDS == "":
+                stv_id = ""
+            else:
+                stv_id = SLEDOVANI_TV_CZ_IDS
+            channels_stv, programmes_stv = get_stv_programmes(stv_id, days, days_back)
+            channels.extend(channels_stv)
+            programmes.extend(programmes_stv)
+        except Exception as ex:
+            print("Chyba\n")
+            logging.error("SledovaniTV.cz kanály - %s" % ex)
+    if SLEDOVANIETV_SK == 1:
+        try:
+            print("SledovanieTV.sk kanály")
+            print("Stahuji data...")
+            if SLEDOVANIE_TV_SK_IDS == "":
+                stv_id = ""
+            else:
+                stv_id = SLEDOVANIE_TV_SK_IDS
+            channels_stvsk, programmes_stvsk = get_stvsk_programmes(stv_id, days, days_back)
+            channels.extend(channels_stvsk)
+            programmes.extend(programmes_stvsk)
+        except Exception as ex:
+            print("Chyba\n")
+            logging.error("SledovanieTV.sk kanály - %s" % ex)
     if TV_SPIEL == 1:
         try:
             print("TV Spiel kanály")
@@ -479,20 +569,6 @@ def main():
         except Exception as ex:
             print("Chyba\n")
             logging.error("TV Spiel kanály - %s" % ex)
-    if SLEDOVANITV_CZ == 1:
-        try:
-            print("SledovaniTV.cz kanály")
-            print("Stahuji data...")
-            if SLEDOVANI_TV_CZ_IDS == "":
-                stv_id = ""
-            else:
-                stv_id = SLEDOVANI_TV_CZ_IDS
-            channels_stv, programmes_stv = get_stv_programmes(stv_id, days, days_back)
-            channels.extend(channels_stv)
-            programmes.extend(programmes_stv)
-        except Exception as ex:
-            print("Chyba\n")
-            logging.error("můjTVprogram.cz kanály - %s" % ex)
     if channels != []:
         print("Celkem kanálů: " + str(len(channels)))
         print("Generuji...")

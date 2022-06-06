@@ -1,3 +1,7 @@
+v2.11.0 (06.06.2022)
+- přidány zdroje Magio Go, SledovanieTV.sk a TV Spiel
+- zdroj můjTVprogram - přidány vybrané německé kanály (většinou český popis pořadu)
+
 v2.9.0 (05.06.2022)
 - automatický časový posun
 - nový zdroj TV Spiel (pouze vybrané německé a rakouské sportovní kanály)
