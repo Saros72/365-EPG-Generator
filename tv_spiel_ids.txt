@@ -1,6 +1,0 @@
-Eurosport 1 (DE): EURO
-Eurosport 2 (DE): EURO2
-Sky Sport 1 (DE): HDSPO
-Sky Sport 2 (DE): SHD2
-Sky Sport Austria1: SPO-A
-ORF Sport+: ORFSP
