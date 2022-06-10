@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-#v2.11.0
+#v2.12.0
 
 # Nastavení
 # Počet dní (1-15)
@@ -20,6 +20,7 @@ MUJ_TV_PROGRAM_CZ = 1
 SLEDOVANITV_CZ = 1
 SLEDOVANIETV_SK = 1
 TV_SPIEL = 1
+OTT_PLAY = 1
 
 # Seznam vlastních kanálů
 # Seznam id kanálů oddělené čárkou (např.: "2,3,32,94")
@@ -32,6 +33,7 @@ MUJ_TV_PROGRAM_IDS = ""
 SLEDOVANI_TV_CZ_IDS = ""
 SLEDOVANIE_TV_SK_IDS = ""
 TV_SPIEL_IDS = ""
+OTT_PLAY_IDS = ""
 
 
 #Nahrát EPG na ftp server
@@ -67,6 +69,7 @@ try:
     from ftplib import FTP
     import time
     import schedule
+    from bs4 import BeautifulSoup
 except Exception as ex:
     print(ex)
     logging.error("365 EPG Generator - %s" % ex)
@@ -180,6 +183,46 @@ def get_stv_programmes(stv_ids, d, d_b):
         sys.stdout.write('\x1b[1A')
         print(date_ + "  OK")
     print("\n")
+    return channels, programmes
+
+
+def get_ott_play_programmes(ids):
+    channels = []
+    f = {"7:2777": "fox-tv", "7:2779": "fox-tv", "7:2528": "fox-tv", "ITbas:SuperTennis.it": "korona"}
+    ids_ = ids.split(",")
+    c = {'display-name': [(replace_names('Penthouse Gold'), u'cs')], 'id': '7:2777','icon': [{'src': 'http://pics.cbilling.pw/streams/penthouse1-hd.png'}]}, {'display-name': [(replace_names('Penthouse Quickies'), u'cs')], 'id': '7:2779','icon': [{'src': 'http://pics.cbilling.pw/streams/penthouse2-hd.png'}]}, {'display-name': [(replace_names('Vivid Red'), u'cs')], 'id': '7:2528','icon': [{'src': 'http://pics.cbilling.pw/streams/vivid-red-hd.png'}]}, {'display-name': [(replace_names('Super Tennis'), u'cs')], 'id': 'ITbas:SuperTennis.it','icon': [{'src': 'https://guidatv.sky.it/logo/5246supertennishd_Light_Fit.png?checksum=13f5cbb1646d848fde3af6fccba8dd4c'}]}
+    for x in c:
+        if x["id"] in ids_:
+            channels.append(x)
+    programmes = []
+    headers = {"User-Agent": "Mozilla/5.0 (Linux; U; Android 12; cs-cz; Xiaomi 11 Lite 5G NE Build/SKQ1.211006.001) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/89.0.4389.116 Mobile Safari/537.36 XiaoMi/MiuiBrowser/12.16.3.1-gn", "Host": "epg.ott-play.com", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9", "Connection": "keep-alive"}
+    for id in ids_:
+        r = requests.get("http://epg.ott-play.com/php/show_prog.php?f=" + f[id] + "/epg/" + id + ".json", headers = headers)
+        soup = BeautifulSoup(r.text, "html.parser")
+        table = soup.find_all('table')[0]
+        tr = table.find_all("tr")
+        data = []
+        for td in tr:
+           cols = td.find_all("td")
+           cols = [ele.text.strip() for ele in cols]
+           data.append([ele for ele in cols if ele])
+        for d in data[1:]:
+            dat = d[0].split("/")
+            dat = dat[2] + dat[1] + dat[0]
+            ts = d[1][:5].replace(":", "") + "00"
+            te = d[1][6:11].replace(":", "") + "00"
+            timestart = dat + ts
+            timeend = dat + te
+            title = d[2]
+            try:
+                if "|" in d[3]:
+                    descr = d[3].split(" | ")[1][2:]
+                else:
+                    descr = d[3]
+            except:
+                descr = ""
+            programmes.append({"channel": id, "start": timestart + TS, "stop": timeend + TS, "title": [(title, "")], "desc": [(descr, u'')]})
+    print("OK\n")
     return channels, programmes
 
 
@@ -569,6 +612,20 @@ def main():
         except Exception as ex:
             print("Chyba\n")
             logging.error("TV Spiel kanály - %s" % ex)
+    if OTT_PLAY == 1:
+        try:
+            print("OTT Play kanály")
+            print("Stahuji data...")
+            if OTT_PLAY_IDS == "":
+                ott_play_id = "7:2777,7:2779,7:2528,ITbas:SuperTennis.it"
+            else:
+                ott_play_id =OTT_PLAY_IDS
+            channels_ott_play, programmes_ott_play = get_ott_play_programmes(ott_play_id)
+            channels.extend(channels_ott_play)
+            programmes.extend(programmes_ott_play)
+        except Exception as ex:
+            print("Chyba\n")
+            logging.error("OTT Play kanály - %s" % ex)
     if channels != []:
         print("Celkem kanálů: " + str(len(channels)))
         print("Generuji...")
