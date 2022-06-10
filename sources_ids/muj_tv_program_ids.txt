@@ -1,0 +1,20 @@
+Skylink 7: 723
+Stingray Classica: 233
+Stingray iConcerts: 234
+Stingray CMusic: 110
+ORF1: 40
+ORF2: 41
+RTL: 49
+RTL2: 50
+Polsat: 39
+TVP1: 37
+TVP2: 38
+Pro7: 174
+SAT1: 52
+Kabel1: 54
+VOX: 53
+ZDF: 393
+ZDF Neo: 216
+3SAT: 46
+SAT.1 GOLD: 408
+Vixen: 892
