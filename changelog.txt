@@ -1,3 +1,6 @@
+v2.12.1 (13.06.2022)
+- Magio Go - oprava seznamu vlastních kanálů
+
 v2.12.0 (10.06.2022)
 - nový zdroj OTT Play a vybrané kanály (Penthouse Gold, Penthouse Quickies, Vivid Red, Super Tennis)
 

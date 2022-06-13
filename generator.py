@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-#v2.12.0
+#v2.12.1
 
 # Nastavení
 # Počet dní (1-15)
@@ -536,7 +536,7 @@ def main():
                 mag_id = ""
             else:
                 mag_id = MAGIO_GO_IDS
-            channels_mag, programmes_mag = get_tm_programmes(tm_id, days, days_back, "sk")
+            channels_mag, programmes_mag = get_tm_programmes(mag_id, days, days_back, "sk")
             channels.extend(channels_mag)
             programmes.extend(programmes_mag)
         except Exception as ex:
