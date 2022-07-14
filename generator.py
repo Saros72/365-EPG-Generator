@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-#v2.12.1
+#v2.13.0
 
 # Nastavení
 # Počet dní (1-15)
@@ -329,7 +329,11 @@ def get_o2_programmes(o2, d, d_b):
                 stop = datetime.fromtimestamp(int(e["end"])/1000).strftime('%Y%m%d%H%M%S')
                 if e["npvr"] == True:
                     req = requests.get("https://api.o2tv.cz/unity/api/v1/programs/" + str(e["epgId"]) + "/").json()
-                    programmes.append({"channel": ch_name, "start": start + TS, "stop": stop + TS, "title": [(name, "")], "desc": [(req["shortDescription"], u'')]})
+                    try:
+                        desc = req["shortDescription"]
+                    except:
+                        desc = ""
+                    programmes.append({"channel": ch_name, "start": start + TS, "stop": stop + TS, "title": [(name, "")], "desc": [(desc, u'')]})
                 else:
                     programmes.append({"channel": ch_name, "start": start + TS, "stop": stop + TS, "title": [(name, "")]})
         sys.stdout.write('\x1b[1A')

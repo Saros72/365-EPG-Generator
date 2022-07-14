@@ -1,3 +1,6 @@
+v2.13.0 (14.07.2022)
+- opravena chyba u O2TV Sport kanálů
+
 v2.12.1 (13.06.2022)
 - Magio Go - oprava seznamu vlastních kanálů
 
