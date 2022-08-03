@@ -18,3 +18,4 @@ ZDF Neo: 216
 3SAT: 46
 SAT.1 GOLD: 408
 Vixen: 892
+Canal+ Sport: 1040

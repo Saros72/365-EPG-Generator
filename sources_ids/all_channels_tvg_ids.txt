@@ -892,6 +892,7 @@ TV.SMS.cz kanály:
 	ČRo Rádio Retro: 1277-cro-radio-retro
 	Rádio Liptov: 1369-radio-liptov
 	Antena TV: 1475-antena-tv
+  Canal+ Sport: 15412-canal+-sport
 
 
 T-Mobile TV Go kanály:
@@ -1297,6 +1298,7 @@ můjTVprogram.cz kanály:
   3SAT: 46-3sat
   SAT.1 GOLD: 408-sat1-gold
   Vixen: 892-vixen
+  Canal+ Sport: 1040-canal+sport
 
 
 SledovaniTV.cz kanály:

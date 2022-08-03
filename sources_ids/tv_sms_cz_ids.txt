@@ -895,3 +895,4 @@ Rádio SiTy: 1270
 ČRo Rádio Retro: 1277
 Rádio Liptov: 1369
 Antena TV: 1475
+Canal+ Sport: 15412
