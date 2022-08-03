@@ -1,3 +1,6 @@
+v2.14.0 (03.08.2022)
+- zdroj můjTVprogram přidán kanál Canal+ Sport (tvg-id="1040-canal+sport")
+
 v2.13.0 (14.07.2022)
 - opravena chyba u O2TV Sport kanálů
 
