@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 
-#v2.14.0
+#v2.16.0
 
 # Nastavení
 # Počet dní (1-15)
-days = 3
+days = 1
 
 # Počet dní zpětně (0-7)
 days_back = 1
@@ -12,15 +12,15 @@ days_back = 1
 # Výběr zdroje kanálů
 # 1 = povolit
 # 0 = zakázat
-TV_SMS_CZ = 1
-T_MOBILE_TV_GO = 1
-MAGIO_GO = 1
-O2_TV_SPORT = 1
-MUJ_TV_PROGRAM_CZ = 1
+TV_SMS_CZ = 0
+T_MOBILE_TV_GO = 0
+MAGIO_GO = 0
+O2_TV_SPORT = 0
+MUJ_TV_PROGRAM_CZ = 0
 SLEDOVANITV_CZ = 1
-SLEDOVANIETV_SK = 1
-TV_SPIEL = 1
-OTT_PLAY = 1
+SLEDOVANIETV_SK = 0
+TV_SPIEL = 0
+OTT_PLAY = 0
 
 # Seznam vlastních kanálů
 # Seznam id kanálů oddělené čárkou (např.: "2,3,32,94")
@@ -154,7 +154,10 @@ def get_stv_programmes(stv_ids, d, d_b):
         d = 15
     channels = []
     programmes = []
-    stv_channels = {"ct1": "ČT1", "ct2": "ČT2", "ct3": "ČT3", "ct24": "ČT24", "ctdecko": "Déčko", "ctart": "ČT art", "ct4sport": "ČT Sport", "nova": "Nova", "novacinema": "Nova Cinema", "fanda": "Nova Action", "smichov": "Nova Fun", "nova_lady": "Nova Lady", "telka": "Nova Gold", "primafamily": "Prima", "primacool": "Prima COOL", "prima_max": "Prima Max", "primalove": "Prima Love", "prima_krimi": "Prima Krimi", "prima_show": "Prima Show", "prima_star": "Prima Star", "primazoom": "Prima Zoom", "prima_news": "CNN Prima News", "primacomedy": "Paramount Network", "barrandov": "TV Barrandov", "barrandovplus": "Barrandov Krimi", "kinobarrandov": "Kino Barrandov", "Seznam": "Televize Seznam", "pohoda": "Relax", "tvnoe": "TV Noe", "stv1": "Jednotka", "stv2": "Dvojka", "stv3": "Trojka", "markizaint": "Markíza International", "jojfamily": "JOJ Family", "ta3": "TA3", "tv_lux": "TV Lux", "TVlife": "Life TV", "HBO": "HBO", "HBO2": "HBO 2", "hbo_comedy": "HBO 3", "cinemax1": "Cinemax 1", "cinemax2": "Cinemax 2", "jojcinema": "JOJ Cinema", "amc": "AMC", "film_plus": "Film+", "filmbox": "FilmBox", "FilmboxHD": "Filmbox Extra HD", "FilmboxExtra": "FilmBox Premium", "filmboxplus": "Filmbox Stars", "FilmboxFamily": "FilmBox Family", "FilmboxArthouse": "Filmbox Arthouse", "Film_Europe": "Film Europe", "Kino_CS": "Film Europe + HD", "axn": "AXN", "axnwhite": "AXN White", "axnblack": "AXN Black", "cs_film": "CS Film", "horor_film": "CS Horror", "haha_tv": "HaHa TV", "spektrum": "Spektrum", "NGC_HD": "National Geographic HD", "nat_geo_wild": "National Geographic Wild", "animal_planet": "Animal Planet", "Discovery": "Discovery", "Science": "Discovery Science", "world": "Discovery Turbo Xtra", "ID": "Investigation Discovery", "TLC": "Discovery : TLC", "sat_crime_invest": "Crime and Investigation", "history": "History Channel", "viasat_explore": "Viasat Explore", "viasat_history": "Viasat History", "viasat_nature": "Viasat Nature", "love_nature": "Love Nature", "travelxp": "Travelxp", "travelhd": "Travel Channel HD", "fishinghunting": "Fishing&Hunting", "kinosvet": "CS Mystery", "war": "CS History", "tv_paprika": "TV Paprika", "mnamtv": "TV Mňam", "hobby": "Hobby TV", "natura": "TV Natura", "DocuBoxHD": "DocuBox", "FashionboxHD": "FashionBox", "nasatv": "NASA TV", "nasatv_uhd": "NASA TV UHD", "Eurosport": "Eurosport", "Eurosport2": "Eurosport2", "Sport1": "Sport1", "Sport2": "Sport2", "nova_sport": "Nova Sport 1", "nova_sport2": "Nova Sport 2", "slovak_sport": "Arena sport 1", "slovak_sport2": "Arena sport 2", "sport5": "Sport 5", "auto_motor_sport": "Auto Motor Sport", "golf": "Golf Channel", "FightboxHD": "FightBox", "chucktv": "Chuck TV", "Fastnfunbox": "Fast & Fun Box", "lala_tv": "Lala TV", "rik2": "Rik", "Jim_Jam": "Jim Jam", "Nickelodeon": "Nickelodeon", "nicktoons": "Nicktoons", "nickjr": "Nick JR", "nick_jr_en": "Nick JR EN", "Minimax": "Minimax", "Disney_Channel": "Disney Channel", "disney_junior": "Disney Junior", "cartoon_cz": "Cartoon Network CZ", "cartoon_network_hd": "Cartoon Network HD", "cartoon": "Cartoon Network EN", "boomerang": "Boomerang", "baby_tv": "Baby TV", "ockoHD": "Óčko HD", "ocko_starHD": "Óčko STAR HD", "ocko_expresHD": "Óčko EXPRES HD", "ocko_blackHD": "Óčko BLACK HD", "retro": "Retro", "rebel": "Rebel", "mtv": "MTV", "mtv_hits": "MTV Hits", "360TuneBox": "360TuneBox", "deluxe": "Deluxe Music", "lounge": "Lounge TV", "i_concerts": "iConcerts", "mezzo": "Mezzo", "mezzo_live": "Mezzo Live HD", "slagr": "Šláger Originál", "slagr2": "Šláger Muzika", "slagr_premium": "Šláger Premium HD", "ct1sm": "ČT1 SM", "ct1jm": "ČT1 JM", "regiotv": "regionalnitelevize.cz", "rt_jc": "Regionální televize jižní Čechy", "rt_ustecko": "RT Ústecko", "praha": "TV Praha", "brno1": "TV Brno 1", "info_tv_brno": "Info TV Brno a jižní morava", "Polar": "Polar", "slovacko": "TVS", "v1tv": "V1 TV", "plzen_tv": "Plzeň TV", "zaktv": "ZAK TV", "kladno": "Kladno.1 TV", "filmpro": "Filmpro", "rtm_plus_liberec": "RTM+ (Liberecko)", "orf1": "ORF eins", "orf2": "ORF zwei", "cnn": "CNN", "sky_news": "Sky News", "bbc": "BBC World", "france24": "France 24", "france24_fr": "France 24 (FR)", "tv5": "TV5MONDE", "russiatoday": "Russia Today", "rt_doc": "RT Documentary", "uatv": "UA TV", "mnau": "TV Mňau", "zoo_brno_a_vesnice": "Zoo Brno - Africká vesnice", "zoo_brno_m_kamcatsky": "Zoo Brno - Medvěd kamčatský", "zoo_brno_m_ledni": "Zoo Brno - Medvěd lední", "komentovana_krmeni": "Zoo Brno - Komentovaná krmení", "zvirata_v_zoo": "Zoo Brno - Život v zoo", "loop_naturetv-galerie-zvirat": "Galerie zvířat", "loop_naturetv-osetrovani-mladat": "Ošetřování mláďat", "uscenes_cat_cafe": "Kočičí kavárna", "stork_nest": "Čapí hnízdo", "uscenes_hammock_beach": "Pláž", "uscenes_coral_garden": "Korálová zahrada", "loop_naturetv_mumlava_waterfalls": "Mumlavské vodopády", "night_prague": "Noční Praha", "fireplace": "Krb", "eroxHD": "Erox", "eroxxxHD": "Eroxxx", "leo_gold": "Leo TV Gold", "extasy_4k": "Extasy 4K", "radio_cro1": "ČRo Radiožurnál", "radio_cro2": "ČRo Dvojka", "radio_wave": "ČRo Radio Wave", "radio_evropa2": "Evropa 2", "radio_impuls": "Impuls", "radio_frekvence1": "Frekvence 1", "radio_kiss": "Kiss", "radio_fajn": "Fajn Radio", "radio_orlicko": "Rádio Orlicko", "radio_krokodyl": "Krokodýl", "radio_cernahora": "Černá Hora", "radio_signal": "Signál rádio", "radio_spin": "Rádio Spin", "radio_country": "Rádio Country", "radio_beat": "Rádio BEAT", "radio_1": "Rádio 1", "radio_dychovka": "Radio Dychovka", "radio_dechovka": "Radio Dechovka", "radio_slovensko": "Rádio Slovensko", "radio_fm": "Rádio FM", "radio_regina_sk": "Rádio Regina Západ", "radio_expres": "Rádio Expres", "radio_fun": "Rádio Fun", "radio_jemne": "Rádio Jemné", "radio_vlna": "Rádio Vlna", "radio_bestfm": "Rádio Best FM", "radio_kosice": "Rádio Košice", "radio_wow_sk": "Radio WOW", "radio_lumen": "Rádio Lumen", "radio_regina_vy": "Rádia Regina Východ", "radio_devin": "Rádio Devín", "radio_patria": "Rádio Patria", "radio_fit_family": "Fit family rádio", "radio_nonstop": "NON-STOP rádio", "radio_cro3": "ČRo Vltava", "radio_cro6": "ČRo Plus", "radio_jazz": "ČRo Jazz", "radio_junior": "ČRo Junior", "radio_ddur": "ČRo D-Dur", "radio_brno": "ČRo Brno", "radio_praha": "ČRo Radio Praha", "radio_ceskebudejovice": "ČRo České Budějovice", "radio_hk": "ČRo Hradec Králové", "radio_olomouc": "ČRo Olomouc", "radio_ostrava": "ČRo Ostrava", "radio_pardubice": "ČRo Pardubice", "radio_plzen": "ČRo Plzeň", "radio_region": "ČRo Region - Středočeský kraj", "radio_vysocina": "ČRo Region - Vysočina", "radio_sever": "ČRo Sever", "radio_liberec": "ČRo Sever - Liberec", "radio_regina": "ČRo Regina", "radior": "RadioR", "radio_blatna": "Rádio Otava", "radio_proglas": "Proglas", "ivysocina_stream_zs": "i-Vysočina", "tvbeskyd": "TV Beskyd", "cms_tv": "cms:tv", "panorama_tv": "Panorama TV", "jihoceska_televize": "Jihočeská televize", "tik_bohumin": "Tik Bohumín", "DorceltvHD": "Dorcel TV", "DorcelHD": "Dorcel XXX", "playboy": "Playboy TV", "radio_cro_pohoda": "ČRo Pohoda", "radio_jih": "Rádio Jih", "radio_jihlava": "Rádio Jihlava", "radio_free": "Free Rádio", "radio_jukej": "JuKej Radio", "radio_pigy_disko": "PiGy Disko Trysko", "radio_pigy_pisnicky": "PiGy Pohádkové písničky", "radio_pigy_pohadky": "PiGy Pohádky", "radio_z": "Radio Z", "radio_cas": "Radio Čas", "radio_dance": "Dance Rádio", "radio_hit_desitka": "Hitrádio Desítka", "radio_hitradio_80": "Hitradio Osmdesatka", "radio_hitradio_90": "Hitradio Devadesátka", "radio_hitradio_orion": "Hitradio Orion", "radio_blanik": "Rádio Blaník", "radio_rock_radio": "Rock Rádio", "radio_cro_sport": "ČRo Radiožurnál Sport", "radio_cro_zlin": "ČRo Zlín", "radio_cro_kv": "ČRo Karlovy Vary", "radio_color": "Radio Color", "radio_hey": "Radio Hey", "seejay": "SeeJay", "russia_channel1": "Pervij kanal", "dom_kino": "Dom Kino", "dom_kino_premium": "Dom Kino Premium", "vremya": "Vremya", "poehali": "Poekhali!", "muzika_pervogo": "Muzika Pervogo", "bobyor": "Bobyor", "telekanal_o": "O!", "telecafe": "Telecafe", "karousel": "Karusel", "x-mo": "X-mo", "brazzers": "Brazzers TV Europe", "leo": "Leo TV", "extasy": "Extasy", "privatetv": "Private HD", "realitykings": "Reality Kings", "true_amateurs": "True Amateurs", "babes_tv": "Babes TV", "redlight": "Redlight"}
+    stv_channels = {}
+    req = requests.get("http://felixtv.wz.cz/epg/channels.php").json()
+    for x in req["channels"]:
+        stv_channels[x["id"]] = x["name"]
     if stv_ids == "":
         stv_id = "".join('{},'.format(k) for k in stv_channels.keys())[:-1]
     else:
