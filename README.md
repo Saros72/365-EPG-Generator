@@ -1,8 +1,8 @@
-<h1>365 EPG Generator</h1>
+<h2>365 EPG Generator</h2>
 
 <p>
 
-Python skript pro vygenerování XML souboru pro EPG
+Python skript pro vygenerování XML souboru pro EPG (vyžaduje instalaci knihovny requests)
 
 <p>
 
@@ -10,6 +10,8 @@ Python skript pro vygenerování XML souboru pro EPG
 
 <p>
 
-<b><a href="https://www.paypal.me/petrsaros">DONATE</a></b>
+<b>DONATE</b>
+
+<a href="https://www.paypal.me/petrsaros">PayPal</a>
 
 <p>
