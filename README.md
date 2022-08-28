@@ -14,4 +14,5 @@ Python skript pro vygenerování XML souboru pro EPG (vyžaduje instalaci knihov
 
 <a href="https://www.paypal.me/petrsaros">PayPal</a>
 
+<a href="https://revolut.me/petrsarka">Revolut</a>
 <p>
