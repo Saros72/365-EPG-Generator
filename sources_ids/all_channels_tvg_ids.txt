@@ -1305,225 +1305,92 @@ SledovaniTV.cz kanály:
 
   ČT1: stv-ct1
   ČT2: stv-ct2
-  ČT3: stv-ct3
   ČT24: stv-ct24
   Déčko: stv-ctdecko
   ČT art: stv-ctart
   ČT Sport: stv-ct4sport
   Nova: stv-nova
+  Nova Fun: stv-smichov
   Nova Cinema: stv-novacinema
   Nova Action: stv-fanda
-  Nova Fun: stv-smichov
-  Nova Lady: stv-nova_lady
   Nova Gold: stv-telka
   Prima: stv-primafamily
   Prima COOL: stv-primacool
   Prima Max: stv-prima_max
-  Prima Love: stv-primalove
   Prima Krimi: stv-prima_krimi
-  Prima Show: stv-prima_show
-  Prima Star: stv-prima_star
   Prima Zoom: stv-primazoom
-  CNN Prima News: stv-prima_news
+  Prima Love: stv-primalove
   Paramount Network: stv-primacomedy
   TV Barrandov: stv-barrandov
-  Barrandov Krimi: stv-barrandovplus
   Kino Barrandov: stv-kinobarrandov
+  Barrandov Krimi: stv-barrandovplus
+  JOJ Family: stv-jojfamily
   Televize Seznam: stv-Seznam
-  Relax: stv-pohoda
-  TV Noe: stv-tvnoe
+  Óčko: stv-ocko
+  Óčko STAR: stv-ockogold
+  Óčko Expres: stv-ocko_express
   Jednotka: stv-stv1
   Dvojka: stv-stv2
-  Trojka: stv-stv3
   Markíza International: stv-markizaint
-  JOJ Family: stv-jojfamily
   TA3: stv-ta3
-  TV Lux: stv-tv_lux
-  Life TV: stv-TVlife
-  HBO: stv-HBO
-  HBO 2: stv-HBO2
-  HBO 3: stv-hbo_comedy
-  Cinemax 1: stv-cinemax1
-  Cinemax 2: stv-cinemax2
-  JOJ Cinema: stv-jojcinema
-  AMC: stv-amc
-  Film+: stv-film_plus
-  FilmBox: stv-filmbox
-  Filmbox Extra HD: stv-FilmboxHD
-  FilmBox Premium: stv-FilmboxExtra
-  Filmbox Stars: stv-filmboxplus
-  FilmBox Family: stv-FilmboxFamily
-  Filmbox Arthouse: stv-FilmboxArthouse
-  Film Europe: stv-Film_Europe
-  Film Europe + HD: stv-Kino_CS
-  AXN: stv-axn
-  AXN White: stv-axnwhite
-  AXN Black: stv-axnblack
-  CS Film: stv-cs_film
-  CS Horror: stv-horor_film
-  HaHa TV: stv-haha_tv
-  Spektrum: stv-spektrum
-  National Geographic HD: stv-NGC_HD
-  National Geographic Wild: stv-nat_geo_wild
-  Animal Planet: stv-animal_planet
-  Discovery: stv-Discovery
-  Discovery Science: stv-Science
-  Discovery Turbo Xtra: stv-world
-  Investigation Discovery: stv-ID
-  Discovery : TLC: stv-TLC
-  Crime and Investigation: stv-sat_crime_invest
-  History Channel: stv-history
-  Viasat Explore: stv-viasat_explore
-  Viasat History: stv-viasat_history
-  Viasat Nature: stv-viasat_nature
-  Love Nature: stv-love_nature
-  Travelxp: stv-travelxp
-  Travel Channel HD: stv-travelhd
-  Fishing&Hunting: stv-fishinghunting
-  CS Mystery: stv-kinosvet
-  CS History: stv-war
-  TV Paprika: stv-tv_paprika
-  TV Mňam: stv-mnamtv
-  Hobby TV: stv-hobby
-  TV Natura: stv-natura
-  DocuBox: stv-DocuBoxHD
-  FashionBox: stv-FashionboxHD
-  NASA TV: stv-nasatv
-  NASA TV UHD: stv-nasatv_uhd
-  Eurosport: stv-Eurosport
-  Eurosport2: stv-Eurosport2
-  Sport1: stv-Sport1
-  Sport2: stv-Sport2
-  Nova Sport 1: stv-nova_sport
-  Nova Sport 2: stv-nova_sport2
-  Arena sport 1: stv-slovak_sport
   Arena sport 2: stv-slovak_sport2
-  Sport 5: stv-sport5
-  Auto Motor Sport: stv-auto_motor_sport
-  Golf Channel: stv-golf
-  FightBox: stv-FightboxHD
-  Chuck TV: stv-chucktv
-  Fast & Fun Box: stv-Fastnfunbox
-  Lala TV: stv-lala_tv
-  Rik: stv-rik2
-  Jim Jam: stv-Jim_Jam
-  Nickelodeon: stv-Nickelodeon
-  Nicktoons: stv-nicktoons
-  Nick JR: stv-nickjr
-  Nick JR EN: stv-nick_jr_en
-  Minimax: stv-Minimax
-  Disney Channel: stv-Disney_Channel
-  Disney Junior: stv-disney_junior
-  Cartoon Network CZ: stv-cartoon_cz
-  Cartoon Network HD: stv-cartoon_network_hd
-  Cartoon Network EN: stv-cartoon
-  Boomerang: stv-boomerang
-  Baby TV: stv-baby_tv
-  Óčko HD: stv-ockoHD
-  Óčko STAR HD: stv-ocko_starHD
-  Óčko EXPRES HD: stv-ocko_expresHD
-  Óčko BLACK HD: stv-ocko_blackHD
   Retro: stv-retro
-  Rebel: stv-rebel
-  MTV: stv-mtv
-  MTV Hits: stv-mtv_hits
-  360TuneBox: stv-360TuneBox
-  Deluxe Music: stv-deluxe
-  Lounge TV: stv-lounge
-  iConcerts: stv-i_concerts
-  Mezzo: stv-mezzo
-  Mezzo Live HD: stv-mezzo_live
-  Šláger Originál: stv-slagr
-  Šláger Muzika: stv-slagr2
-  Šláger Premium HD: stv-slagr_premium
-  ČT1 SM: stv-ct1sm
-  ČT1 JM: stv-ct1jm
-  regionalnitelevize.cz: stv-regiotv
-  Regionální televize jižní Čechy: stv-rt_jc
-  RT Ústecko: stv-rt_ustecko
-  TV Praha: stv-praha
-  TV Brno 1: stv-brno1
-  Info TV Brno a jižní morava: stv-info_tv_brno
+  Life TV: stv-TVlife
   Polar: stv-Polar
   TVS: stv-slovacko
   V1 TV: stv-v1tv
-  Plzeň TV: stv-plzen_tv
-  ZAK TV: stv-zaktv
-  Kladno.1 TV: stv-kladno
-  Filmpro: stv-filmpro
-  RTM+ (Liberecko): stv-rtm_plus_liberec
+  TV Brno 1: stv-brno1
+  OIK TV: stv-oik
+  regionalnitelevize.cz: stv-regiotv
+  i-Vysočina: stv-ivysocina_stream_zs
+  TV Noe: stv-tvnoe
+  Šláger Originál: stv-slagr
   ORF eins: stv-orf1
   ORF zwei: stv-orf2
-  CNN: stv-cnn
-  Sky News: stv-sky_news
-  BBC World: stv-bbc
+  UA TV: stv-uatv
   France 24: stv-france24
   France 24 (FR): stv-france24_fr
-  TV5MONDE: stv-tv5
-  Russia Today: stv-russiatoday
-  RT Documentary: stv-rt_doc
-  UA TV: stv-uatv
+  TV Mňam: stv-mnamtv
   TV Mňau: stv-mnau
-  Zoo Brno - Africká vesnice: stv-zoo_brno_a_vesnice
-  Zoo Brno - Medvěd kamčatský: stv-zoo_brno_m_kamcatsky
-  Zoo Brno - Medvěd lední: stv-zoo_brno_m_ledni
-  Zoo Brno - Komentovaná krmení: stv-komentovana_krmeni
-  Zoo Brno - Život v zoo: stv-zvirata_v_zoo
-  Galerie zvířat: stv-loop_naturetv-galerie-zvirat
-  Ošetřování mláďat: stv-loop_naturetv-osetrovani-mladat
-  Kočičí kavárna: stv-uscenes_cat_cafe
-  Čapí hnízdo: stv-stork_nest
-  Pláž: stv-uscenes_hammock_beach
-  Korálová zahrada: stv-uscenes_coral_garden
-  Mumlavské vodopády: stv-loop_naturetv_mumlava_waterfalls
-  Noční Praha: stv-night_prague
+  Filmpro: stv-filmpro
   Krb: stv-fireplace
-  Erox: stv-eroxHD
-  Eroxxx: stv-eroxxxHD
-  Leo TV Gold: stv-leo_gold
-  Extasy 4K: stv-extasy_4k
+  Rádio 1: stv-radio_1
+  Rádio Country: stv-radio_country
+  Kiss: stv-radio_kiss
+  Rádio Spin: stv-radio_spin
+  Signál rádio: stv-radio_signal
+  Evropa 2: stv-radio_evropa2
+  Fajn Radio: stv-radio_fajn
+  Černá Hora: stv-radio_cernahora
+  NON-STOP rádio: stv-radio_nonstop
+  Rádio BEAT: stv-radio_beat
+  Krokodýl: stv-radio_krokodyl
   ČRo Radiožurnál: stv-radio_cro1
   ČRo Dvojka: stv-radio_cro2
-  ČRo Radio Wave: stv-radio_wave
-  Evropa 2: stv-radio_evropa2
-  Impuls: stv-radio_impuls
-  Frekvence 1: stv-radio_frekvence1
-  Kiss: stv-radio_kiss
-  Fajn Radio: stv-radio_fajn
-  Rádio Orlicko: stv-radio_orlicko
-  Krokodýl: stv-radio_krokodyl
-  Černá Hora: stv-radio_cernahora
-  Signál rádio: stv-radio_signal
-  Rádio Spin: stv-radio_spin
-  Rádio Country: stv-radio_country
-  Rádio BEAT: stv-radio_beat
-  Rádio 1: stv-radio_1
-  Radio Dychovka: stv-radio_dychovka
-  Radio Dechovka: stv-radio_dechovka
-  Rádio Slovensko: stv-radio_slovensko
-  Rádio FM: stv-radio_fm
-  Rádio Regina Západ: stv-radio_regina_sk
-  Rádio Expres: stv-radio_expres
-  Rádio Fun: stv-radio_fun
-  Rádio Jemné: stv-radio_jemne
-  Rádio Vlna: stv-radio_vlna
-  Rádio Best FM: stv-radio_bestfm
-  Rádio Košice: stv-radio_kosice
-  Radio WOW: stv-radio_wow_sk
-  Rádio Lumen: stv-radio_lumen
-  Rádia Regina Východ: stv-radio_regina_vy
-  Rádio Devín: stv-radio_devin
-  Rádio Patria: stv-radio_patria
-  Fit family rádio: stv-radio_fit_family
-  NON-STOP rádio: stv-radio_nonstop
   ČRo Vltava: stv-radio_cro3
   ČRo Plus: stv-radio_cro6
-  ČRo Jazz: stv-radio_jazz
-  ČRo Junior: stv-radio_junior
+  Free Rádio: stv-radio_free
+  ČRo Radio Wave: stv-radio_wave
   ČRo D-Dur: stv-radio_ddur
-  ČRo Brno: stv-radio_brno
+  ČRo Jazz: stv-radio_jazz
+  Radio Dechovka: stv-radio_dechovka
   ČRo Radio Praha: stv-radio_praha
+  ČRo Junior: stv-radio_junior
+  Rádio Slovensko: stv-radio_slovensko
+  Rádio Regina Západ: stv-radio_regina_sk
+  Rádio Devín: stv-radio_devin
+  Rádio FM: stv-radio_fm
+  Rádio Vlna: stv-radio_vlna
+  Rádio Jemné: stv-radio_jemne
+  Rádio Lumen: stv-radio_lumen
+  Rádio Expres: stv-radio_expres
+  Rádio Best FM: stv-radio_bestfm
+  Rádio Fun: stv-radio_fun
+  Rádio Patria: stv-radio_patria
+  Proglas: stv-radio_proglas
+  ČRo Brno: stv-radio_brno
   ČRo České Budějovice: stv-radio_ceskebudejovice
+  Radio WOW: stv-radio_wow_sk
   ČRo Hradec Králové: stv-radio_hk
   ČRo Olomouc: stv-radio_olomouc
   ČRo Ostrava: stv-radio_ostrava
@@ -1534,54 +1401,229 @@ SledovaniTV.cz kanály:
   ČRo Sever: stv-radio_sever
   ČRo Sever - Liberec: stv-radio_liberec
   ČRo Regina: stv-radio_regina
-  RadioR: stv-radior
-  Rádio Otava: stv-radio_blatna
-  Proglas: stv-radio_proglas
-  i-Vysočina: stv-ivysocina_stream_zs
+  Prima Show: stv-prima_show
+  ČT3: stv-ct3
+  ČT1 JM: stv-ct1jm
+  ČT1 SM: stv-ct1sm
+  CNN Prima News: stv-prima_news
+  Prima Star: stv-prima_star
+  Nova Lady: stv-nova_lady
+  Trojka: stv-stv3
+  RTVS :24: stv-stv24
+  Travelxp: stv-travelxp
+  Arcadia World: stv-arcadia
+  NASA TV: stv-nasatv
+  NASA TV UHD: stv-nasatv_uhd
+  Arena sport 1: stv-slovak_sport
+  Šláger Premium HD: stv-slagr_premium
+  Šláger Muzika: stv-slagr2
+  Nickelodeon Ukraine: stv-nickelodeon_pluto_ua
+  Rik: stv-rik2
+  ZAK TV: stv-zaktv
+  Plzeň TV: stv-plzen_tv
+  Televize Ústeckého kraje: stv-ustecko_tv
+  BBC World: stv-bbc
+  Sky News: stv-sky_news
+  TV Natura: stv-natura
+  TV Lux: stv-tv_lux
+  Lounge TV: stv-lounge
+  Chuck TV: stv-chucktv
+  Hobby TV: stv-hobby
+  HaHa TV: stv-haha_tv
+  Zoo Brno - Africká vesnice: stv-zoo_brno_a_vesnice
+  Zoo Brno - Medvěd kamčatský: stv-zoo_brno_m_kamcatsky
+  Zoo Brno - Medvěd lední: stv-zoo_brno_m_ledni
+  Zoo Brno - Komentovaná krmení: stv-komentovana_krmeni
+  Zoo Brno - Život v zoo: stv-zvirata_v_zoo
+  Kladno.1 TV: stv-kladno
+  TV Praha: stv-praha
+  RTM+ (Liberecko): stv-rtm_plus_liberec
   TV Beskyd: stv-tvbeskyd
+  Galerie zvířat: stv-loop_naturetv-galerie-zvirat
+  Ošetřování mláďat: stv-loop_naturetv-osetrovani-mladat
   cms:tv: stv-cms_tv
+  Kočičí kavárna: stv-uscenes_cat_cafe
+  Korálová zahrada: stv-uscenes_coral_garden
   Panorama TV: stv-panorama_tv
+  Pláž: stv-uscenes_hammock_beach
+  Noční Praha: stv-night_prague
+  Mumlavské vodopády: stv-loop_naturetv_mumlava_waterfalls
+  Čapí hnízdo: stv-stork_nest
+  Info TV Brno a jižní morava: stv-info_tv_brno
+  Krušná TV: stv-krusna_tv
+  Epic Drama: stv-epic_drama
   Jihočeská televize: stv-jihoceska_televize
   Tik Bohumín: stv-tik_bohumin
-  Dorcel TV: stv-DorceltvHD
-  Dorcel XXX: stv-DorcelHD
-  Playboy TV: stv-playboy
+  Regionální televize jižní Čechy: stv-rt_jc
+  RT Ústecko: stv-rt_ustecko
+  Poslanecká sněmovna ČR: stv-pscr
+  Das Erste: stv-ard
+  ZDF: stv-zdf
+  1+1: stv-ukraina_24
   ČRo Pohoda: stv-radio_cro_pohoda
   Rádio Jih: stv-radio_jih
   Rádio Jihlava: stv-radio_jihlava
-  Free Rádio: stv-radio_free
+  Rádio Košice: stv-radio_kosice
+  Rádio Regina Východ: stv-radio_regina_vy
+  Radio Dychovka: stv-radio_dychovka
+  Rádio Orlicko: stv-radio_orlicko
+  Impuls: stv-radio_impuls
+  Frekvence 1: stv-radio_frekvence1
+  Rádio Jih Cimbálka: stv-radio_jih_cimbalka
   JuKej Radio: stv-radio_jukej
   PiGy Disko Trysko: stv-radio_pigy_disko
   PiGy Pohádkové písničky: stv-radio_pigy_pisnicky
   PiGy Pohádky: stv-radio_pigy_pohadky
+  Fit family rádio: stv-radio_fit_family
   Radio Z: stv-radio_z
   Radio Čas: stv-radio_cas
   Dance Rádio: stv-radio_dance
   Hitrádio Desítka: stv-radio_hit_desitka
+  RadioR: stv-radior
+  Rádio Otava: stv-radio_blatna
   Hitradio Osmdesatka: stv-radio_hitradio_80
   Hitradio Devadesátka: stv-radio_hitradio_90
+  Hitrádio Faktor: stv-radio_hitradio_faktor
   Hitradio Orion: stv-radio_hitradio_orion
+  Hitrádio Dragon: stv-radio_hitradio_dragon
+  Hitrádio - Milénium: stv-radio_hitradio_milenium
   Rádio Blaník: stv-radio_blanik
   Rock Rádio: stv-radio_rock_radio
+  Hitrádio Contact: stv-radio_hitradio_contact  Hitrádio Zlín: stv-radio_hitradio_zlin
   ČRo Radiožurnál Sport: stv-radio_cro_sport
+  Hitrádio Vysočina: stv-radio_hitradio_vysocina
+  Hitrádio City Zóna lásky: stv-radio_hitradio_city_zona_lasky
   ČRo Zlín: stv-radio_cro_zlin
   ČRo Karlovy Vary: stv-radio_cro_kv
+  Hitrádio City Brno: stv-radio_hitradio_city_brno
   Radio Color: stv-radio_color
+  Hitrádio City 93,7 FM: stv-radio_hitradio_city_93-7
+  Hitrádio FM: stv-radio_hitradio_fm
   Radio Hey: stv-radio_hey
-  SeeJay: stv-seejay
-  Pervij kanal: stv-russia_channel1
-  Dom Kino: stv-dom_kino
-  Dom Kino Premium: stv-dom_kino_premium
-  Vremya: stv-vremya
-  Poekhali!: stv-poehali
-  Muzika Pervogo: stv-muzika_pervogo
-  Bobyor: stv-bobyor
-  O!: stv-telekanal_o
-  Telecafe: stv-telecafe
-  Karusel: stv-karousel
+  Hitrádio FM Plus: stv-radio_hitradio_fm_plus  SeeJay: stv-seejay
+  Hitrádio FM Crystal: stv-radio_hitradio_fm_crystal
+  Hitrádio PopRock: stv-radio_hitradio_poprock  Helax 93,7: stv-radio_helax_93-7
+  Rádio Povídka: stv-radio_povidka
+  Rádio Pohádka: stv-radio_pohadka
+  Rádio Humor: stv-radio_humor
+  Dobré rádio: stv-radio_dobre_radio
+  Classic Praha: stv-radio_classic_praha
+  Flash radio: stv-radio_flash
+  Frekvence 1 - Youradio Československé hity: stv-radio_frekvence1_youradio_cr_hity
+  Frekvence 1 - Youradio Legendy: stv-radio_frekvence1_youradio_legendy
+  Frekvence 1 - Youradio Osmdesátky: stv-radio_frekvence1_youradio_osmdesatky
+  Funkstar Radio: stv-radio_funkstar_en
+  Oldies Rádio: stv-radio_oldies_radio
+  Rádio Bonton: stv-radio_bonton
+  Radio Čas Rock: stv-radio_cas_rock
+  Rádio Dálnice: stv-radio_dalnice_stream_yq
+  Radio Dixie: stv-radio_dixie
+  Rádio Dráťák: stv-radio_dratak
+  Radio Haná: stv-radio_hana
+  Radio Ostravan: stv-radio_ostravan
+  Radio Punctum: stv-radio_punctum
+  Rádio Samson: stv-radio_samson
+  United Czech Chillers: stv-radio_united_czech_chillers
+  Známka Punku: stv-radio_znamka_punku
+  Rádio Smile: stv-radio_smile
+  Rádio G6 (Gipsy Radio): stv-radio_g6-gipsy_radio
+  Nekonečný šum: stv-radio_nekonecny_sum
+  Cartoon Network HD: stv-cartoon_network_hd
+  Nova Sport 1: stv-nova_sport
+  Nova Sport 2: stv-nova_sport2
+  JOJ Cinema: stv-jojcinema
+  Óčko HD: stv-ockoHD
+  Óčko STAR HD: stv-ocko_starHD
+  Óčko EXPRES HD: stv-ocko_expresHD
+  Óčko BLACK HD: stv-ocko_blackHD
+  HBO: stv-HBO
+  HBO 2: stv-HBO2
+  HBO 3: stv-hbo_comedy
+  Cinemax 1: stv-cinemax1
+  Cinemax 2: stv-cinemax2
+  FilmBox: stv-filmbox
+  Filmbox Extra HD: stv-FilmboxHD
+  FilmBox Premium: stv-FilmboxExtra
+  FilmBox Family: stv-FilmboxFamily
+  DocuBox: stv-DocuBoxHD
+  FashionBox: stv-FashionboxHD
+  FightBox: stv-FightboxHD
+  Fast & Fun Box: stv-Fastnfunbox
+  Filmbox Arthouse: stv-FilmboxArthouse
+  Filmbox Stars: stv-filmboxplus
+  360TuneBox: stv-360TuneBox
+  AXN: stv-axn
+  AXN Black: stv-axnblack
+  AXN White: stv-axnwhite
+  National Geographic Wild: stv-nat_geo_wild
+  National Geographic HD: stv-NGC_HD
+  Love Nature 4K: stv-love_nature
+  Animal Planet: stv-animal_planet
+  Travel Channel HD: stv-travelhd
+  Spektrum: stv-spektrum
+  Viasat History: stv-viasat_history
+  Viasat Explore: stv-viasat_explore
+  Viasat Nature: stv-viasat_nature
+  Eurosport: stv-Eurosport
+  Eurosport2: stv-Eurosport2
+  Sport1: stv-Sport1
+  Sport2: stv-Sport2
+  Sport 5: stv-sport5
+  Auto Motor Sport: stv-auto_motor_sport
+  Fishing&Hunting: stv-fishinghunting
+  Golf Channel: stv-golf
+  Film Europe: stv-Film_Europe
+  Relax: stv-pohoda
+  Rebel: stv-rebel
+  MTV 00s: stv-VH1
+  CS Film: stv-cs_film
+  Cartoon Network CZ: stv-cartoon_cz
+  Cartoon Network EN: stv-cartoon
+  Boomerang: stv-boomerang
+  Film Europe + HD: stv-Kino_CS
+  Nickelodeon: stv-Nickelodeon
+  Nick JR: stv-nickjr
+  Disney Channel: stv-Disney_Channel
+  Disney Junior: stv-disney_junior
+  Jim Jam: stv-Jim_Jam
+  Minimax: stv-Minimax
+  Baby TV: stv-baby_tv
+  Discovery: stv-Discovery
+  Discovery : TLC: stv-TLC
+  Discovery Science: stv-Science
+  Discovery Turbo Xtra: stv-world
+  Investigation Discovery: stv-ID
+  Crime and Investigation: stv-sat_crime_invest
+  History Channel: stv-history
+  CNN: stv-cnn
+  TV5MONDE: stv-tv5
+  Film+: stv-film_plus
+  CS Mystery: stv-kinosvet
+  AMC: stv-amc
+  Deluxe Music: stv-deluxe
+  MTV: stv-mtv
+  Nick JR EN: stv-nick_jr_en
+  CS Horror: stv-horor_film
+  Lala TV: stv-lala_tv
+  CS History: stv-war
+  TV Paprika: stv-tv_paprika
+  MTV Hits: stv-mtv_hits
+  M1: stv-m1
+  M2: stv-m2
+  Duna: stv-duna
+  Duna World: stv-dunaworld
+  Mezzo Live HD: stv-mezzo_live
+  Mezzo: stv-mezzo
+  Erox: stv-eroxHD
+  Eroxxx: stv-eroxxxHD
   X-mo: stv-x-mo
+  Dorcel TV: stv-DorceltvHD
+  Dorcel XXX: stv-DorcelHD
   Brazzers TV Europe: stv-brazzers
-  Leo TV: stv-leo
+  Playboy TV: stv-playboy
+  Leo TV Gold: stv-leo_gold
+  LeoTV: stv-leo
+  Extasy 4K: stv-extasy_4k
   Extasy: stv-extasy
   Private HD: stv-privatetv
   Reality Kings: stv-realitykings
