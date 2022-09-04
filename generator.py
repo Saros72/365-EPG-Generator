@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 
-#v2.16.0
+#v2.17.0
 
 # Nastavení
 # Počet dní (1-15)
-days = 1
+days = 3
 
 # Počet dní zpětně (0-7)
 days_back = 1
@@ -12,15 +12,15 @@ days_back = 1
 # Výběr zdroje kanálů
 # 1 = povolit
 # 0 = zakázat
-TV_SMS_CZ = 0
-T_MOBILE_TV_GO = 0
-MAGIO_GO = 0
-O2_TV_SPORT = 0
-MUJ_TV_PROGRAM_CZ = 0
+TV_SMS_CZ = 1
+T_MOBILE_TV_GO = 1
+MAGIO_GO = 1
+O2_TV_SPORT = 1
+MUJ_TV_PROGRAM_CZ = 1
 SLEDOVANITV_CZ = 1
-SLEDOVANIETV_SK = 0
-TV_SPIEL = 0
-OTT_PLAY = 0
+SLEDOVANIETV_SK = 1
+TV_SPIEL = 1
+OTT_PLAY = 1
 
 # Seznam vlastních kanálů
 # Seznam id kanálů oddělené čárkou (např.: "2,3,32,94")
@@ -40,10 +40,10 @@ OTT_PLAY_IDS = ""
 #Ano = 1
 #Ne = 0
 ftp_upload = 0
-ftp_server = "server.cz"
+ftp_server = ""
 ftp_port = 21
-ftp_login = "login"
-ftp_password = "heslo"
+ftp_login = ""
+ftp_password = ""
 ftp_folder = "/"
 
 #Auto aktualizace
@@ -307,7 +307,7 @@ def get_o2_programmes(o2, d, d_b):
     o2_idd = []
     for x in channelKeys:
         o2_idd.append(x.replace(" HD", "").replace("Eurosport3", "Eurosport 3").replace("Eurosport4", "Eurosport 4").replace("Eurosport5", "Eurosport 5"))
-    c = {"display-name": [(replace_names("O2 Sport"), u"cs")], "id": "o2tv-sport", "icon": [{"src": 'http://www.o2tv.cz/assets/images/tv-logos/original/o2-sport-hd.png'}]}, {"display-name": [(replace_names("O2 Fotbal"), u"cs")], "id": "o2tv-fotbal", "icon": [{"src": 'http://www.o2tv.cz/assets/images/tv-logos/original/o2-tv-fotbal-hd.png'}]}, {"display-name": [(replace_names("O2 Tenis"), u"cs")], "id": "o2tv-tenis", "icon": [{"src": 'http://www.o2tv.cz/assets/images/tv-logos/original/o2-tv-tenis-hd.png'}]}, {"display-name": [(replace_names("O2 Sport1"), u"cs")], "id": "o2tv-sport1", "icon": [{"src": 'http://www.o2tv.cz/assets/images/tv-logos/original/o2-sport-hd.png'}]}, {"display-name": [(replace_names("O2 Sport2"), u"cs")], "id": "o2tv-sport2", "icon": [{"src": 'http://www.o2tv.cz/assets/images/tv-logos/original/o2-sport-hd.png'}]}, {"display-name": [(replace_names("O2 Sport3"), u"cs")], "id": "o2tv-sport3", "icon": [{"src": 'http://www.o2tv.cz/assets/images/tv-logos/original/o2-sport-hd.png'}]}, {"display-name": [(replace_names("O2 Sport4"), u"cs")], "id": "o2tv-sport4", "icon": [{"src": 'http://www.o2tv.cz/assets/images/tv-logos/original/o2-sport-hd.png'}]}, {"display-name": [(replace_names("O2 Sport5"), u"cs")], "id": "o2tv-sport5", "icon": [{"src": 'http://www.o2tv.cz/assets/images/tv-logos/original/o2-sport-hd.png'}]}, {"display-name": [(replace_names("O2 Sport6"), u"cs")], "id": "o2tv-sport6", "icon": [{"src": 'http://www.o2tv.cz/assets/images/tv-logos/original/o2-sport-hd.png'}]}, {"display-name": [(replace_names("O2 Sport7"), u"cs")], "id": "o2tv-sport7", "icon": [{"src": 'http://www.o2tv.cz/assets/images/tv-logos/original/o2-sport-hd.png'}]}, {"display-name": [(replace_names("O2 Sport8"), u"cs")], "id": "o2tv-sport8", "icon": [{"src": 'http://www.o2tv.cz/assets/images/tv-logos/original/o2-sport-hd.png'}]}, {"display-name": [(replace_names("Eurosport 3"), u"cs")], "id": "eurosport-3", "icon": [{"src": 'http://www.o2tv.cz/assets/images/tv-logos/original/eurosport-3.png'}]}, {"display-name": [(replace_names("Eurosport 4"), u"cs")], "id": "eurosport-4", "icon": [{"src": 'http://www.o2tv.cz/assets/images/tv-logos/original/eurosport-4.png'}]}, {"display-name": [(replace_names("Eurosport 5"), u"cs")], "id": "eurosport-5", "icon": [{"src": 'http://www.o2tv.cz/assets/images/tv-logos/original/eurosport-5.png'}]}
+    c = {"display-name": [(replace_names("O2 Sport"), u"cs")], "id": "o2tv-sport", "icon": [{"src": 'https://www.o2tv.cz/assets/images/tv-logos/original/o2-sport-hd.png'}]}, {"display-name": [(replace_names("O2 Fotbal"), u"cs")], "id": "o2tv-fotbal", "icon": [{"src": 'https://www.o2tv.cz/assets/images/tv-logos/original/o2-tv-fotbal-hd.png'}]}, {"display-name": [(replace_names("O2 Tenis"), u"cs")], "id": "o2tv-tenis", "icon": [{"src": 'https://www.o2tv.cz/assets/images/tv-logos/original/o2-tv-tenis-hd.png'}]}, {"display-name": [(replace_names("O2 Sport1"), u"cs")], "id": "o2tv-sport1", "icon": [{"src": 'https://www.o2tv.cz/assets/images/tv-logos/original/o2-sport-hd.png'}]}, {"display-name": [(replace_names("O2 Sport2"), u"cs")], "id": "o2tv-sport2", "icon": [{"src": 'https://www.o2tv.cz/assets/images/tv-logos/original/o2-sport-hd.png'}]}, {"display-name": [(replace_names("O2 Sport3"), u"cs")], "id": "o2tv-sport3", "icon": [{"src": 'https://www.o2tv.cz/assets/images/tv-logos/original/o2-sport-hd.png'}]}, {"display-name": [(replace_names("O2 Sport4"), u"cs")], "id": "o2tv-sport4", "icon": [{"src": 'https://www.o2tv.cz/assets/images/tv-logos/original/o2-sport-hd.png'}]}, {"display-name": [(replace_names("O2 Sport5"), u"cs")], "id": "o2tv-sport5", "icon": [{"src": 'https://www.o2tv.cz/assets/images/tv-logos/original/o2-sport-hd.png'}]}, {"display-name": [(replace_names("O2 Sport6"), u"cs")], "id": "o2tv-sport6", "icon": [{"src": 'https://www.o2tv.cz/assets/images/tv-logos/original/o2-sport-hd.png'}]}, {"display-name": [(replace_names("O2 Sport7"), u"cs")], "id": "o2tv-sport7", "icon": [{"src": 'https://www.o2tv.cz/assets/images/tv-logos/original/o2-sport-hd.png'}]}, {"display-name": [(replace_names("O2 Sport8"), u"cs")], "id": "o2tv-sport8", "icon": [{"src": 'https://www.o2tv.cz/assets/images/tv-logos/original/o2-sport-hd.png'}]}, {"display-name": [(replace_names("Eurosport 3"), u"cs")], "id": "eurosport-3", "icon": [{"src": 'https://www.o2tv.cz/assets/images/tv-logos/original/eurosport-3.png'}]}, {"display-name": [(replace_names("Eurosport 4"), u"cs")], "id": "eurosport-4", "icon": [{"src": 'https://www.o2tv.cz/assets/images/tv-logos/original/eurosport-4.png'}]}, {"display-name": [(replace_names("Eurosport 5"), u"cs")], "id": "eurosport-5", "icon": [{"src": 'https://www.o2tv.cz/assets/images/tv-logos/original/eurosport-5.png'}]}
     for x in c:
         if x["display-name"][0][0] in o2_idd:
             channels.append(x)
@@ -647,30 +647,31 @@ def main():
             sys.stdout.write('\x1b[2K')
             now = datetime.now()
             dt = now.strftime("%d.%m.%Y %H:%M")
+            if ftp_upload == 1:
+                try:
+                    ftp = FTP()
+                    ftp.set_debuglevel(2)
+                    ftp.connect(ftp_server, ftp_port)
+                    ftp.login(ftp_login, ftp_password)
+                    ftp.cwd(ftp_folder)
+                    file = open(fn, "rb")
+                    ftp.storbinary('STOR ' + "epg.xml", file)
+                    file.close()
+                    ftp.quit()
+                except Exception as ex:
+                    print("Chyba\n")
+                    logging.error("FTP - %s" % ex)
             if update == 1:
-                print("Hotovo (" + dt + ")\n\n")
+                print("\n\nHotovo (" + dt + ")\n\n")
             else:
                 print("Hotovo\n\n")
+                input("Pro ukončení stiskněte libovolnou klávesu")
+                sys.exit(0)
         except Exception as ex:
             sys.stdout.write('\x1b[1A')
             print("Chyba\n")
             logging.error("xmltv.Writer - %s" % ex)
-        if ftp_upload == 1:
-            try:
-                ftp = FTP()
-                ftp.set_debuglevel(2)
-                ftp.connect(ftp_server, ftp_port)
-                ftp.login(ftp_login, ftp_password)
-                ftp.cwd(ftp_folder)
-                file = open(fn, "rb")
-                ftp.storbinary('STOR ' + "epg.xml", file)
-                file.close()
-                ftp.quit()
-            except Exception as ex:
-                print("Chyba\n")
-                logging.error("FTP - %s" % ex)
-        input("Pro ukončení stiskněte libovolnou klávesu")
-        sys.exit(0)
+
     else:
         sys.stdout.write('\x1b[1A')
         sys.stdout.write('\x1b[2K')
