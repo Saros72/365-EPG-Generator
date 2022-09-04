@@ -2,7 +2,7 @@
 
 <p>
 
-Python skript pro vygenerování XML souboru pro EPG (vyžaduje instalaci knihovny requests)
+Python skript pro vygenerování XML souboru pro EPG (vyžaduje instalaci knihoven requests, bs4 a schedule)
 
 <p>
 
