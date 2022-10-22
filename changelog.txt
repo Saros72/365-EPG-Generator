@@ -1,3 +1,6 @@
+v2.19.0 (22.10.2022)
+- opraven zdroj SledovanieTV.sk, přidány ostatní kanály 
+
 v2.17.0 (04.09.2022)
 - oprava chyb
 

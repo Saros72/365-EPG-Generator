@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-#v2.17.0
+#v2.19.0
 
 # Nastavení
 # Počet dní (1-15)
@@ -114,7 +114,10 @@ def get_stvsk_programmes(stv_ids, d, d_b):
         d = 15
     channels = []
     programmes = []
-    stv_channels = {"markiza": "Markíza", "joj": "JOJ", "jojplus": "JOJ Plus", "doma": "Doma", "joj_sport": "JOJ Šport", "dajto": "Dajto", "rik2": "Rik", "rik": "Jojko", "wau": "WAU", "novaint": "Nova International", "primaplus": "Prima PLUS", "stv4": "RTVS Šport", "tv_osem": "Televizia Osem", "m1": "M1", "m2": "M2", "m4": "M4 Sport", "arcadia": "Arcadia World", "karpaty": "TV Karpaty", "tv_liptov": "TV Liptov", "tv_central": "Central", "tv_lux": "TV Lux", "ruzomberok": "TV Ružomberok"}
+    stv_channels = {}
+    req = requests.get("http://felixtv.wz.cz/epg/channels_sk.php").json()
+    for x in req["channels"]:
+        stv_channels[x["id"]] = x["name"]
     if stv_ids == "":
         stv_id = "".join('{},'.format(k) for k in stv_channels.keys())[:-1]
     else:
