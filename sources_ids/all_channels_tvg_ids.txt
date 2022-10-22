@@ -1634,28 +1634,329 @@ SledovaniTV.cz kanály:
 
 SledovanieTV.sk kanály:
 
+  Jednotka: stvsk-stv1sk
+  Dvojka: stvsk-stv2sk
+  Trojka: stvsk-stv3
+  RTVS Šport: stvsk-stv4
   Markíza: stvsk-markiza
+  Dajto: stvsk-dajto
+  Doma: stvsk-doma
   JOJ: stvsk-joj
   JOJ Plus: stvsk-jojplus
-  Doma: stvsk-doma
-  JOJ Šport: stvsk-joj_sport
-  Dajto: stvsk-dajto
-  Rik: stvsk-rik2
-  Jojko: stvsk-rik
   WAU: stvsk-wau
-  Nova International: stvsk-novaint
+  JOJ Cinema: stvsk-jojcinema
+  Jojko: stvsk-rik
+  JOJ Šport: stvsk-joj_sport
+  PKtest: stvsk-PKtest
+  TA3: stvsk-ta3
+  Arcadia World: stvsk-arcadia
+  ČT1: stvsk-ct1
+  ČT2: stvsk-ct2
+  ČT3: stvsk-ct3
+  Déčko: stvsk-ctdecko
+  ČT Sport: stvsk-ct4sport
+  ČT art: stvsk-ctart
+  ČT24: stvsk-ct24
   Prima PLUS: stvsk-primaplus
-  RTVS Šport: stvsk-stv4
-  Televizia Osem: stvsk-tv_osem
+  CNN Prima News: stvsk-prima_news
+  Televize Seznam: stvsk-Seznam
+  Nova International: stvsk-novaint
+  Nova Sport 1: stvsk-nova_sport
+  Nova Sport 2: stvsk-nova_sport2
+  RTVS :24: stvsk-stv24
+  HBO: stvsk-HBO
+  HBO 2: stvsk-HBO2
+  HBO 3: stvsk-hbo_comedy
+  Markíza Krimi: stvsk-markiza_krimi
+  Cinemax 1: stvsk-cinemax1
+  Cinemax 2: stvsk-cinemax2
+  FilmBox: stvsk-filmbox
+  TV Barrandov: stvsk-barrandov
+  Barrandov Krimi: stvsk-barrandovplus
+  Kino Barrandov: stvsk-kinobarrandov
+  AXN: stvsk-axn
+  AXN Black: stvsk-axnblack
+  AXN White: stvsk-axnwhite
+  Film Europe: stvsk-Film_Europe
+  Film Europe + HD: stvsk-Kino_CS
+  CS Film: stvsk-cs_film
+  CS Mystery: stvsk-kinosvet
+  CS Horror: stvsk-horor_film
+  CS History: stvsk-war
+  AMC: stvsk-amc
+  Film+: stvsk-film_plus
+  Love Nature 4K: stvsk-love_nature
+  Travelxp: stvsk-travelxp
+  National Geographic HD: stvsk-NGC_HD
+  National Geographic Wild: stvsk-nat_geo_wild
+  Animal Planet: stvsk-animal_planet
+  Travel Channel HD: stvsk-travelhd
+  Spektrum: stvsk-spektrum
+  Spektrum home: stvsk-spektrum_home
+  Viasat History: stvsk-viasat_history
+  Viasat Explore: stvsk-viasat_explore
+  Viasat Nature: stvsk-viasat_nature
+  Discovery: stvsk-Discovery
+  Discovery : TLC: stvsk-TLC
+  Discovery Science: stvsk-Science
+  Discovery Turbo Xtra: stvsk-world
+  Investigation Discovery: stvsk-ID
+  Crime and Investigation: stvsk-sat_crime_invest
+  History Channel: stvsk-history
+  NASA TV: stvsk-nasatv
+  NASA TV UHD: stvsk-nasatv_uhd
+  Eurosport: stvsk-Eurosport
+  Eurosport2: stvsk-Eurosport2
+  Sport1: stvsk-Sport1
+  Sport2: stvsk-Sport2
+  Arena sport 1: stvsk-slovak_sport
+  Arena sport 2: stvsk-slovak_sport2
+  Auto Motor Sport: stvsk-auto_motor_sport
+  Golf Channel: stvsk-golf
+  Óčko HD: stvsk-ockoHD
+  Óčko STAR HD: stvsk-ocko_starHD
+  Óčko EXPRES HD: stvsk-ocko_expresHD
+  Óčko BLACK HD: stvsk-ocko_blackHD
+  Relax: stvsk-pohoda
+  Rebel: stvsk-rebel
+  Retro: stvsk-retro
+  Mezzo: stvsk-mezzo
+  Mezzo Live HD: stvsk-mezzo_live
+  iConcerts: stvsk-i_concerts
+  MTV: stvsk-mtv
+  MTV Hits: stvsk-mtv_hits
+  MTV 00s: stvsk-VH1
+  Deluxe Music: stvsk-deluxe
+  Šláger Premium HD: stvsk-slagr_premium
+  Šláger Originál: stvsk-slagr
+  Šláger Muzika: stvsk-slagr2
+  Rik: stvsk-rik2
+  Cartoon Network HD: stvsk-cartoon_network_hd
+  Cartoon Network CZ: stvsk-cartoon_cz
+  Cartoon Network EN: stvsk-cartoon
+  Nickelodeon: stvsk-Nickelodeon
+  Nick JR: stvsk-nickjr
+  Nick JR EN: stvsk-nick_jr_en
+  Nicktoons: stvsk-nicktoons
+  Nickelodeon Ukraine: stvsk-nickelodeon_pluto_ua
+  Jim Jam: stvsk-Jim_Jam
+  Minimax: stvsk-Minimax
+  Baby TV: stvsk-baby_tv
+  TV Paprika: stvsk-tv_paprika
+  BBC World: stvsk-bbc
+  CNN: stvsk-cnn
+  Sky News: stvsk-sky_news
+  France 24: stvsk-france24
+  France 24 (FR): stvsk-france24_fr
+  TV Noe: stvsk-tvnoe
+  Life TV: stvsk-TVlife
+  TV Natura: stvsk-natura
+  TV Lux: stvsk-tv_lux
+  Lounge TV: stvsk-lounge
+  Chuck TV: stvsk-chucktv
+  Hobby TV: stvsk-hobby
+  TV Mňam: stvsk-mnamtv
+  TV Mňau: stvsk-mnau
+  HaHa TV: stvsk-haha_tv
+  Zoo Brno - Africká vesnice: stvsk-zoo_brno_a_vesnice
+  Zoo Brno - Medvěd kamčatský: stvsk-zoo_brno_m_kamcatsky
+  Zoo Brno - Medvěd lední: stvsk-zoo_brno_m_ledni
+  Zoo Brno - Komentovaná krmení: stvsk-komentovana_krmeni
+  Zoo Brno - Život v zoo: stvsk-zvirata_v_zoo
+  Filmpro: stvsk-filmpro
+  Televízia Osem: stvsk-tv_osem
+  Bardejovska TV: stvsk-bardejovskatv
+  Severka.TV: stvsk-severka_tv
+  TV Liptov: stvsk-tv_liptov
+  Central: stvsk-tv_central
+  TV Zemplín: stvsk-tvzemplin
+  TV Ružomberok: stvsk-ruzomberok
+  Polar: stvsk-Polar
+  Panorama Kubínská hoľa: stvsk-pan_kubinska_hora
+  Panorama Malinô Brdo: stvsk-pan_marino_brdo
+  TV Karpaty: stvsk-karpaty
+  cms:tv: stvsk-cms_tv
+  UA TV: stvsk-uatv
   M1: stvsk-m1
   M2: stvsk-m2
   M4 Sport: stvsk-m4
-  Arcadia World: stvsk-arcadia
-  TV Karpaty: stvsk-karpaty
-  TV Liptov: stvsk-tv_liptov
-  Central: stvsk-tv_central
-  TV Lux: stvsk-tv_lux
-  TV Ružomberok: stvsk-ruzomberok
+  M5: stvsk-m5
+  Duna: stvsk-duna
+  Duna World: stvsk-dunaworld
+  ORF eins: stvsk-orf1
+  ORF zwei: stvsk-orf2
+  Das Erste: stvsk-ard
+  ZDF: stvsk-zdf
+  Super Polsat: stvsk-polsatsport
+  Polsat: stvsk-polsat
+  Krb: stvsk-fireplace
+  Mumlavské vodopády: stvsk-loop_naturetv_mumlava_waterfalls
+  Kočičí kavárna: stvsk-uscenes_cat_cafe
+  Galerie zvířat: stvsk-loop_naturetv-galerie-zvirat
+  Ošetřování mláďat: stvsk-loop_naturetv-osetrovani-mladat
+  Korálová zahrada: stvsk-uscenes_coral_garden
+  Pláž: stvsk-uscenes_hammock_beach
+  Noční Praha: stvsk-night_prague
+  Bocianie hniezdo: stvsk-stork_nest_sk
+  Epic Drama: stvsk-epic_drama
+  PMtest: stvsk-prima_max_test
+  PZTest: stvsk-pztest
+  PCtest: stvsk-PCtest
+  PLTest: stvsk-pltest
+  True Amateurs: stvsk-true_amateurs
+  Babes TV: stvsk-babes_tv
+  Leo TV Gold: stvsk-leo_gold
+  1+1: stvsk-ukraina_24
+  ČRo Pohoda: stvsk-radio_cro_pohoda
+  Rádio Jih: stvsk-radio_jih
+  Rádio Jihlava: stvsk-radio_jihlava
+  Rádio Orlicko: stvsk-radio_orlicko
+  Rádio 1: stvsk-radio_1
+  Rádio Country: stvsk-radio_country
+  Kiss: stvsk-radio_kiss
+  Rádio Spin: stvsk-radio_spin
+  Signál rádio: stvsk-radio_signal
+  Evropa 2: stvsk-radio_evropa2
+  Fajn Radio: stvsk-radio_fajn
+  Rádio Košice: stvsk-radio_kosice
+  Impuls: stvsk-radio_impuls
+  Frekvence 1: stvsk-radio_frekvence1
+  NON-STOP rádio: stvsk-radio_nonstop
+  Černá Hora: stvsk-radio_cernahora
+  Rádio Regina Východ: stvsk-radio_regina_vy
+  Rádio BEAT: stvsk-radio_beat
+  Radio Dychovka: stvsk-radio_dychovka
+  Krokodýl: stvsk-radio_krokodyl
+  ČRo Radiožurnál: stvsk-radio_cro1
+  ČRo Dvojka: stvsk-radio_cro2
+  Rádio Jih Cimbálka: stvsk-radio_jih_cimbalka
+  ČRo Vltava: stvsk-radio_cro3
+  ČRo Plus: stvsk-radio_cro6
+  Free Rádio: stvsk-radio_free
+  ČRo Radio Wave: stvsk-radio_wave
+  ČRo D-Dur: stvsk-radio_ddur
+  ČRo Jazz: stvsk-radio_jazz
+  Radio Dechovka: stvsk-radio_dechovka
+  ČRo Radio Praha: stvsk-radio_praha
+  ČRo Junior: stvsk-radio_junior
+  Rádio Slovensko: stvsk-radio_slovensko
+  JuKej Radio: stvsk-radio_jukej
+  Rádio Regina Západ: stvsk-radio_regina_sk
+  PiGy Disko Trysko: stvsk-radio_pigy_disko
+  PiGy Pohádkové písničky: stvsk-radio_pigy_pisnicky
+  PiGy Pohádky: stvsk-radio_pigy_pohadky
+  Rádio Devín: stvsk-radio_devin
+  Radio Z: stvsk-radio_z
+  Radio Čas: stvsk-radio_cas
+  Rádio FM: stvsk-radio_fm
+  Dance Rádio: stvsk-radio_dance
+  Rusyn FM: stvsk-rusyn_fm
+  Hitrádio Desítka: stvsk-radio_hit_desitka
+  Rádio Vlna: stvsk-radio_vlna
+  ČRo Zlín: stvsk-radio_cro_zlin
+  Rádio Jemné: stvsk-radio_jemne
+  ČRo Karlovy Vary: stvsk-radio_cro_kv
+  Rádio Lumen: stvsk-radio_lumen
+  Radio Color: stvsk-radio_color
+  Rádio Expres: stvsk-radio_expres
+  Radio Hey: stvsk-radio_hey
+  Rádio Best FM: stvsk-radio_bestfm
+  Rádio Fun: stvsk-radio_fun
+  Rádio Patria: stvsk-radio_patria
+  Fit family rádio: stvsk-radio_fit_family
+  Proglas: stvsk-radio_proglas
+  ČRo Brno: stvsk-radio_brno
+  ČRo České Budějovice: stvsk-radio_ceskebudejovice
+  Radio WOW: stvsk-radio_wow_sk
+  ČRo Hradec Králové: stvsk-radio_hk
+  ČRo Olomouc: stvsk-radio_olomouc
+  ČRo Ostrava: stvsk-radio_ostrava
+  Hitrádio Faktor: stvsk-radio_hitradio_faktor
+  ČRo Pardubice: stvsk-radio_pardubice
+  Hitrádio Dragon: stvsk-radio_hitradio_dragon
+  Hitrádio - Milénium: stvsk-radio_hitradio_milenium
+  ČRo Plzeň: stvsk-radio_plzen
+  ČRo Region - Středočeský kraj: stvsk-radio_region
+  Hitrádio Contact: stvsk-radio_hitradio_contact
+  Hitrádio Zlín: stvsk-radio_hitradio_zlin
+  ČRo Region - Vysočina: stvsk-radio_vysocina
+  ČRo Sever: stvsk-radio_sever
+  Hitrádio Vysočina: stvsk-radio_hitradio_vysocina
+  Hitrádio City Zóna lásky: stvsk-radio_hitradio_city_zona_lasky
+  ČRo Sever - Liberec: stvsk-radio_liberec
+  ČRo Regina: stvsk-radio_regina
+  Hitrádio City Brno: stvsk-radio_hitradio_city_brno
+  RadioR: stvsk-radior
+  Hitrádio City 93,7 FM: stvsk-radio_hitradio_city_93-7
+  ČRo Radiožurnál Sport: stvsk-radio_cro_sport
+  Hitrádio FM: stvsk-radio_hitradio_fm
+  Hitrádio FM Plus: stvsk-radio_hitradio_fm_plus
+  Hitrádio FM Crystal: stvsk-radio_hitradio_fm_crystal
+  Hitrádio PopRock: stvsk-radio_hitradio_poprock
+  Helax 93,7: stvsk-radio_helax_93-7
+  Rádio Povídka: stvsk-radio_povidka
+  Rádio Pohádka: stvsk-radio_pohadka
+  Rádio Humor: stvsk-radio_humor
+  SeeJay: stvsk-seejay
+  Dobré rádio: stvsk-radio_dobre_radio
+  Classic Praha: stvsk-radio_classic_praha
+  Flash radio: stvsk-radio_flash
+  Frekvence 1 - Youradio Československé hity: stvsk-radio_frekvence1_youradio_cr_hity
+  Frekvence 1 - Youradio Legendy: stvsk-radio_frekvence1_youradio_legendy
+  Frekvence 1 - Youradio Osmdesátky: stvsk-radio_frekvence1_youradio_osmdesatky
+  Funkstar Radio: stvsk-radio_funkstar_en
+  Oldies Rádio: stvsk-radio_oldies_radio
+  Rádio Bonton: stvsk-radio_bonton
+  Radio Čas Rock: stvsk-radio_cas_rock
+  Rádio Dálnice: stvsk-radio_dalnice_stream_yq
+  Radio Dixie: stvsk-radio_dixie
+  Rádio Dráťák: stvsk-radio_dratak
+  Radio Haná: stvsk-radio_hana
+  Radio Ostravan: stvsk-radio_ostravan
+  Radio Punctum: stvsk-radio_punctum
+  Rádio Samson: stvsk-radio_samson
+  United Czech Chillers: stvsk-radio_united_czech_chillers
+  Známka Punku: stvsk-radio_znamka_punku
+  Rádio Smile: stvsk-radio_smile
+  Rádio G6 (Gipsy Radio): stvsk-radio_g6-gipsy_radio
+  Nekonečný šum: stvsk-radio_nekonecny_sum
+  Max Radio: stvsk-radio_max_radio
+  Filmbox Extra HD: stvsk-FilmboxHD
+  FilmBox Premium: stvsk-FilmboxExtra
+  FilmBox Family: stvsk-FilmboxFamily
+  DocuBox: stvsk-DocuBoxHD
+  FashionBox: stvsk-FashionboxHD
+  FightBox: stvsk-FightboxHD
+  Fast & Fun Box: stvsk-Fastnfunbox
+  Filmbox Arthouse: stvsk-FilmboxArthouse
+  Filmbox Stars: stvsk-filmboxplus
+  360TuneBox: stvsk-360TuneBox
+  Sport 5: stvsk-sport5
+  Fishing&Hunting: stvsk-fishinghunting
+  Boomerang: stvsk-boomerang
+  Disney Channel: stvsk-Disney_Channel
+  Disney Junior: stvsk-disney_junior
+  RTL Klub: stvsk-rtl_klub
+  Cool TV: stvsk-cool_tv_hun
+  RTL II: stvsk-rtl2_hun
+  RTL+: stvsk-rtl_plus_hun
+  Muzsika TV: stvsk-muzsikatv
+  Sorozat+: stvsk-sorozat_plus_hun
+  TV4: stvsk-tv4_hun
+  Story4: stvsk-story4_hun
+  Erox: stvsk-eroxHD
+  Eroxxx: stvsk-eroxxxHD
+  X-mo: stvsk-x-mo
+  Dorcel TV: stvsk-DorceltvHD
+  Dorcel XXX: stvsk-DorcelHD
+  Brazzers TV Europe: stvsk-brazzers
+  Playboy TV: stvsk-playboy
+  Leo TV: stvsk-leo
+  Extasy 4K: stvsk-extasy_4k
+  Extasy: stvsk-extasy
+  Private HD: stvsk-privatetv
+  Reality Kings: stvsk-realitykings
+  Redlight: stvsk-redlight
 
 
 TV Spiel kanály:

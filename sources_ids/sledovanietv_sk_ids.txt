@@ -1,22 +1,323 @@
+Jednotka: stv1sk
+Dvojka: stv2sk
+Trojka: stv3
+RTVS Šport: stv4
 Markíza: markiza
+Dajto: dajto
+Doma: doma
 JOJ: joj
 JOJ Plus: jojplus
-Doma: doma
-JOJ Šport: joj_sport
-Dajto: dajto
-Rik: rik2
-Jojko: rik
 WAU: wau
-Nova International: novaint
+JOJ Cinema: jojcinema
+Jojko: rik
+JOJ Šport: joj_sport
+PKtest: PKtest
+TA3: ta3
+Arcadia World: arcadia
+ČT1: ct1
+ČT2: ct2
+ČT3: ct3
+Déčko: ctdecko
+ČT Sport: ct4sport
+ČT art: ctart
+ČT24: ct24
 Prima PLUS: primaplus
-RTVS Šport: stv4
-Televizia Osem: tv_osem
+CNN Prima News: prima_news
+Televize Seznam: Seznam
+Nova International: novaint
+Nova Sport 1: nova_sport
+Nova Sport 2: nova_sport2
+RTVS :24: stv24
+HBO: HBO
+HBO 2: HBO2
+HBO 3: hbo_comedy
+Markíza Krimi: markiza_krimi
+Cinemax 1: cinemax1
+Cinemax 2: cinemax2
+FilmBox: filmbox
+TV Barrandov: barrandov
+Barrandov Krimi: barrandovplus
+Kino Barrandov: kinobarrandov
+AXN: axn
+AXN Black: axnblack
+AXN White: axnwhite
+Film Europe: Film_Europe
+Film Europe + HD: Kino_CS
+CS Film: cs_film
+CS Mystery: kinosvet
+CS Horror: horor_film
+CS History: war
+AMC: amc
+Film+: film_plus
+Love Nature 4K: love_nature
+Travelxp: travelxp
+National Geographic HD: NGC_HD
+National Geographic Wild: nat_geo_wild
+Animal Planet: animal_planet
+Travel Channel HD: travelhd
+Spektrum: spektrum
+Spektrum home: spektrum_home
+Viasat History: viasat_history
+Viasat Explore: viasat_explore
+Viasat Nature: viasat_nature
+Discovery: Discovery
+Discovery : TLC: TLC
+Discovery Science: Science
+Discovery Turbo Xtra: world
+Investigation Discovery: ID
+Crime and Investigation: sat_crime_invest
+History Channel: history
+NASA TV: nasatv
+NASA TV UHD: nasatv_uhd
+Eurosport: Eurosport
+Eurosport2: Eurosport2
+Sport1: Sport1
+Sport2: Sport2
+Arena sport 1: slovak_sport
+Arena sport 2: slovak_sport2
+Auto Motor Sport: auto_motor_sport
+Golf Channel: golf
+Óčko HD: ockoHD
+Óčko STAR HD: ocko_starHD
+Óčko EXPRES HD: ocko_expresHD
+Óčko BLACK HD: ocko_blackHD
+Relax: pohoda
+Rebel: rebel
+Retro: retro
+Mezzo: mezzo
+Mezzo Live HD: mezzo_live
+iConcerts: i_concerts
+MTV: mtv
+MTV Hits: mtv_hits
+MTV 00s: VH1
+Deluxe Music: deluxe
+Šláger Premium HD: slagr_premium
+Šláger Originál: slagr
+Šláger Muzika: slagr2
+Rik: rik2
+Cartoon Network HD: cartoon_network_hd
+Cartoon Network CZ: cartoon_cz
+Cartoon Network EN: cartoon
+Nickelodeon: Nickelodeon
+Nick JR: nickjr
+Nick JR EN: nick_jr_en
+Nicktoons: nicktoons
+Nickelodeon Ukraine: nickelodeon_pluto_ua
+Jim Jam: Jim_Jam
+Minimax: Minimax
+Baby TV: baby_tv
+TV Paprika: tv_paprika
+BBC World: bbc
+CNN: cnn
+Sky News: sky_news
+France 24: france24
+France 24 (FR): france24_fr
+TV Noe: tvnoe
+Life TV: TVlife
+TV Natura: natura
+TV Lux: tv_lux
+Lounge TV: lounge
+Chuck TV: chucktv
+Hobby TV: hobby
+TV Mňam: mnamtv
+TV Mňau: mnau
+HaHa TV: haha_tv
+Zoo Brno - Africká vesnice: zoo_brno_a_vesnice
+Zoo Brno - Medvěd kamčatský: zoo_brno_m_kamcatsky
+Zoo Brno - Medvěd lední: zoo_brno_m_ledni
+Zoo Brno - Komentovaná krmení: komentovana_krmeni
+Zoo Brno - Život v zoo: zvirata_v_zoo
+Filmpro: filmpro
+Televízia Osem: tv_osem
+Bardejovska TV: bardejovskatv
+Severka.TV: severka_tv
+TV Liptov: tv_liptov
+Central: tv_central
+TV Zemplín: tvzemplin
+TV Ružomberok: ruzomberok
+Polar: Polar
+Panorama Kubínská hoľa: pan_kubinska_hora
+Panorama Malinô Brdo: pan_marino_brdo
+TV Karpaty: karpaty
+cms:tv: cms_tv
+UA TV: uatv
 M1: m1
 M2: m2
 M4 Sport: m4
-Arcadia World: arcadia
-TV Karpaty: karpaty
-TV Liptov: tv_liptov
-Central: tv_central
-TV Lux: tv_lux
-TV Ružomberok: ruzomberok
+M5: m5
+Duna: duna
+Duna World: dunaworld
+ORF eins: orf1
+ORF zwei: orf2
+Das Erste: ard
+ZDF: zdf
+Super Polsat: polsatsport
+Polsat: polsat
+Krb: fireplace
+Mumlavské vodopády: loop_naturetv_mumlava_waterfalls
+Kočičí kavárna: uscenes_cat_cafe
+Galerie zvířat: loop_naturetv-galerie-zvirat
+Ošetřování mláďat: loop_naturetv-osetrovani-mladat
+Korálová zahrada: uscenes_coral_garden
+Pláž: uscenes_hammock_beach
+Noční Praha: night_prague
+Bocianie hniezdo: stork_nest_sk
+Epic Drama: epic_drama
+PMtest: prima_max_test
+PZTest: pztest
+PCtest: PCtest
+PLTest: pltest
+True Amateurs: true_amateurs
+Babes TV: babes_tv
+Leo TV Gold: leo_gold
+1+1: ukraina_24
+ČRo Pohoda: radio_cro_pohoda
+Rádio Jih: radio_jih
+Rádio Jihlava: radio_jihlava
+Rádio Orlicko: radio_orlicko
+Rádio 1: radio_1
+Rádio Country: radio_country
+Kiss: radio_kiss
+Rádio Spin: radio_spin
+Signál rádio: radio_signal
+Evropa 2: radio_evropa2
+Fajn Radio: radio_fajn
+Rádio Košice: radio_kosice
+Impuls: radio_impuls
+Frekvence 1: radio_frekvence1
+NON-STOP rádio: radio_nonstop
+Černá Hora: radio_cernahora
+Rádio Regina Východ: radio_regina_vy
+Rádio BEAT: radio_beat
+Radio Dychovka: radio_dychovka
+Krokodýl: radio_krokodyl
+ČRo Radiožurnál: radio_cro1
+ČRo Dvojka: radio_cro2
+Rádio Jih Cimbálka: radio_jih_cimbalka
+ČRo Vltava: radio_cro3
+ČRo Plus: radio_cro6
+Free Rádio: radio_free
+ČRo Radio Wave: radio_wave
+ČRo D-Dur: radio_ddur
+ČRo Jazz: radio_jazz
+Radio Dechovka: radio_dechovka
+ČRo Radio Praha: radio_praha
+ČRo Junior: radio_junior
+Rádio Slovensko: radio_slovensko
+JuKej Radio: radio_jukej
+Rádio Regina Západ: radio_regina_sk
+PiGy Disko Trysko: radio_pigy_disko
+PiGy Pohádkové písničky: radio_pigy_pisnicky
+PiGy Pohádky: radio_pigy_pohadky
+Rádio Devín: radio_devin
+Radio Z: radio_z
+Radio Čas: radio_cas
+Rádio FM: radio_fm
+Dance Rádio: radio_dance
+Rusyn FM: rusyn_fm
+Hitrádio Desítka: radio_hit_desitka
+Rádio Vlna: radio_vlna
+ČRo Zlín: radio_cro_zlin
+Rádio Jemné: radio_jemne
+ČRo Karlovy Vary: radio_cro_kv
+Rádio Lumen: radio_lumen
+Radio Color: radio_color
+Rádio Expres: radio_expres
+Radio Hey: radio_hey
+Rádio Best FM: radio_bestfm
+Rádio Fun: radio_fun
+Rádio Patria: radio_patria
+Fit family rádio: radio_fit_family
+Proglas: radio_proglas
+ČRo Brno: radio_brno
+ČRo České Budějovice: radio_ceskebudejovice
+Radio WOW: radio_wow_sk
+ČRo Hradec Králové: radio_hk
+ČRo Olomouc: radio_olomouc
+ČRo Ostrava: radio_ostrava
+Hitrádio Faktor: radio_hitradio_faktor
+ČRo Pardubice: radio_pardubice
+Hitrádio Dragon: radio_hitradio_dragon
+Hitrádio - Milénium: radio_hitradio_milenium
+ČRo Plzeň: radio_plzen
+ČRo Region - Středočeský kraj: radio_region
+Hitrádio Contact: radio_hitradio_contact
+Hitrádio Zlín: radio_hitradio_zlin
+ČRo Region - Vysočina: radio_vysocina
+ČRo Sever: radio_sever
+Hitrádio Vysočina: radio_hitradio_vysocina
+Hitrádio City Zóna lásky: radio_hitradio_city_zona_lasky
+ČRo Sever - Liberec: radio_liberec
+ČRo Regina: radio_regina
+Hitrádio City Brno: radio_hitradio_city_brno
+RadioR: radior
+Hitrádio City 93,7 FM: radio_hitradio_city_93-7
+ČRo Radiožurnál Sport: radio_cro_sport
+Hitrádio FM: radio_hitradio_fm
+Hitrádio FM Plus: radio_hitradio_fm_plus
+Hitrádio FM Crystal: radio_hitradio_fm_crystal
+Hitrádio PopRock: radio_hitradio_poprock
+Helax 93,7: radio_helax_93-7
+Rádio Povídka: radio_povidka
+Rádio Pohádka: radio_pohadka
+Rádio Humor: radio_humor
+SeeJay: seejay
+Dobré rádio: radio_dobre_radio
+Classic Praha: radio_classic_praha
+Flash radio: radio_flash
+Frekvence 1 - Youradio Československé hity: radio_frekvence1_youradio_cr_hity
+Frekvence 1 - Youradio Legendy: radio_frekvence1_youradio_legendy
+Frekvence 1 - Youradio Osmdesátky: radio_frekvence1_youradio_osmdesatky
+Funkstar Radio: radio_funkstar_en
+Oldies Rádio: radio_oldies_radio
+Rádio Bonton: radio_bonton
+Radio Čas Rock: radio_cas_rock
+Rádio Dálnice: radio_dalnice_stream_yq
+Radio Dixie: radio_dixie
+Rádio Dráťák: radio_dratak
+Radio Haná: radio_hana
+Radio Ostravan: radio_ostravan
+Radio Punctum: radio_punctum
+Rádio Samson: radio_samson
+United Czech Chillers: radio_united_czech_chillers
+Známka Punku: radio_znamka_punku
+Rádio Smile: radio_smile
+Rádio G6 (Gipsy Radio): radio_g6-gipsy_radio
+Nekonečný šum: radio_nekonecny_sum
+Max Radio: radio_max_radio
+Filmbox Extra HD: FilmboxHD
+FilmBox Premium: FilmboxExtra
+FilmBox Family: FilmboxFamily
+DocuBox: DocuBoxHD
+FashionBox: FashionboxHD
+FightBox: FightboxHD
+Fast & Fun Box: Fastnfunbox
+Filmbox Arthouse: FilmboxArthouse
+Filmbox Stars: filmboxplus
+360TuneBox: 360TuneBox
+Sport 5: sport5
+Fishing&Hunting: fishinghunting
+Boomerang: boomerang
+Disney Channel: Disney_Channel
+Disney Junior: disney_junior
+RTL Klub: rtl_klub
+Cool TV: cool_tv_hun
+RTL II: rtl2_hun
+RTL+: rtl_plus_hun
+Muzsika TV: muzsikatv
+Sorozat+: sorozat_plus_hun
+TV4: tv4_hun
+Story4: story4_hun
+Erox: eroxHD
+Eroxxx: eroxxxHD
+X-mo: x-mo
+Dorcel TV: DorceltvHD
+Dorcel XXX: DorcelHD
+Brazzers TV Europe: brazzers
+Playboy TV: playboy
+Leo TV: leo
+Extasy 4K: extasy_4k
+Extasy: extasy
+Private HD: privatetv
+Reality Kings: realitykings
+Redlight: redlight
