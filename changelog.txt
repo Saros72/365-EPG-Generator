@@ -1,3 +1,7 @@
+v2.20.0 (23.10.2022)
+- nově nyní nastavení proměnných v souboru settings.py
+- možnost změnit název uloženého souboru 
+
 v2.19.0 (22.10.2022)
 - opraven zdroj SledovanieTV.sk, přidány ostatní kanály 
 
