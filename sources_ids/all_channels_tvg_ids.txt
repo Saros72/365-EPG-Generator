@@ -1260,17 +1260,17 @@ Magio Go kanály:
 
 O2 TV Sport kanály:
 
- O2 Sport: o2tv-sport
- O2 Fotbal: o2tv-fotbal
- O2 Tenis: o2tv-tenis
- O2 Sport1: o2tv-sport1
- 	O2 Sport2: o2tv-sport2
-	O2 Sport3: o2tv-sport3
-	O2 Sport4: o2tv-sport4
-	O2 Sport5: o2tv-sport5
-	O2 Sport6: o2tv-sport6
-	O2 Sport7: o2tv-sport7
-	O2 Sport8: o2tv-sport8
+ O2TV Sport: o2tv-sport
+ O2TV Fotbal: o2tv-fotbal
+ O2TV Tenis: o2tv-tenis
+ O2TV Sport1: o2tv-sport1
+ 	O2TV Sport2: o2tv-sport2
+	O2TV Sport3: o2tv-sport3
+	O2TV Sport4: o2tv-sport4
+	O2TV Sport5: o2tv-sport5
+	O2TV Sport6: o2tv-sport6
+	O2TV Sport7: o2tv-sport7
+	O2TV Sport8: o2tv-sport8
   Eurosport 3: eurosport-3
   Eurosport 4: eurosport-4
   Eurosport 5: eurosport-5
