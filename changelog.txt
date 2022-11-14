@@ -1,3 +1,6 @@
+v2.21.0 (14.11.2022)
+- optimalizace
+
 v2.20.0 (23.10.2022)
 - nově nyní nastavení proměnných v souboru settings.py
 - možnost změnit název uloženého souboru 
