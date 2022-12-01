@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-#v2.21.0
+#v2.22.0
 
 import logging
 logging.basicConfig(filename='log.log', filemode='w', format='%(name)s - %(levelname)s - %(message)s')
@@ -332,7 +332,6 @@ def get_tm_programmes(tm_ids, d, d_b, lng):
                 tm = str(ids[1:])
                 tvch[name] = prfx + id + "-" + encode(name).replace(" HD", "").lower().replace(" ", "-")
                 channels2.append(({"display-name": [(name.replace(" HD", ""), u"cs")], "id": prfx + id + "-" + encode(name).replace(" HD", "").lower().replace(" ", "-"), "icon": [{"src": logo}]}))
-    tvch["Trojka HD"] = "tm-4516-:24"
     now = datetime.now()
     for i in range(d_b*-1, d):
         next_day = now + timedelta(days = i)
@@ -352,9 +351,12 @@ def get_tm_programmes(tm_ids, d, d_b, lng):
                 epi = y["program"]["programValue"]["episodeId"]
                 if epi != None:
                     title = title + " (" + epi + ")"
-                programm = {'channel': tvch[channel], 'start': start_time + TS, 'stop': stop_time + TS, 'title': [(title, u'')], 'desc': [(desc, u'')]}
-                if programm not in programmes2:
-                    programmes2.append(programm)
+                try:
+                    programm = {'channel': tvch[channel], 'start': start_time + TS, 'stop': stop_time + TS, 'title': [(title, u'')], 'desc': [(desc, u'')]}
+                    if programm not in programmes2:
+                        programmes2.append(programm)
+                except:
+                    pass
         sys.stdout.write('\x1b[1A')
         print(date_ + "  OK")
     print("\n")
