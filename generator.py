@@ -609,7 +609,7 @@ def main():
                     ftp.login(ftp_login, ftp_password)
                     ftp.cwd(ftp_folder)
                     file = open(fn, "rb")
-                    ftp.storbinary('STOR ' + "epg.xml", file)
+                    ftp.storbinary('STOR ' + file_name, file)
                     file.close()
                     ftp.quit()
                 except Exception as ex:
