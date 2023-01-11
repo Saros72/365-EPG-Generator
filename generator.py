@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-#v2.22.0
+#v2.23.0
 
 import logging
 logging.basicConfig(filename='log.log', filemode='w', format='%(name)s - %(levelname)s - %(message)s')
@@ -91,6 +91,14 @@ def get_stvsk_programmes(stv_ids, d, d_b):
                     icon = None
                 if icon != None:
                     programm['icon'] = [{"src": icon}]
+                try:
+                    genres = []
+                    for g in x["genres"]:
+                        genres.append((g["name"], u''))
+                except:
+                    genres = []
+                if genres != []:
+                    programm['category'] = genres
                 if programm not in programmes:
                     programmes.append(programm)
         sys.stdout.write('\x1b[1A')
@@ -133,6 +141,14 @@ def get_stv_programmes(stv_ids, d, d_b):
                     icon = None
                 if icon != None:
                     programm['icon'] = [{"src": icon}]
+                try:
+                    genres = []
+                    for g in x["genres"]:
+                        genres.append((g["name"], u''))
+                except:
+                    genres = []
+                if genres != []:
+                    programm['category'] = genres
                 if programm not in programmes:
                     programmes.append(programm)
         sys.stdout.write('\x1b[1A')
@@ -351,8 +367,47 @@ def get_tm_programmes(tm_ids, d, d_b, lng):
                 epi = y["program"]["programValue"]["episodeId"]
                 if epi != None:
                     title = title + " (" + epi + ")"
+                year = y["program"]["programValue"]["creationYear"]
+                try:
+                    subgenre = y["program"]["programCategory"]["subCategories"][0]["desc"]
+                except:
+                    subgenre = ''
+                try:
+                    genre = [(y["program"]["programCategory"]["desc"], u''), (subgenre, u'')]
+                except:
+                    genre = None
+                try:
+                    icon = y["program"]["images"][0]
+                except:
+                    icon = None
+                try:
+                    directors = []
+                    for dr in y["program"]["programRole"]["directors"]:
+                        directors.append(dr["fullName"])
+                except:
+                    directors = []
+                try:
+                    actors = []
+                    for ac in y["program"]["programRole"]["actors"]:
+                        actors.append(ac["fullName"])
+                except:
+                    actors = []
                 try:
                     programm = {'channel': tvch[channel], 'start': start_time + TS, 'stop': stop_time + TS, 'title': [(title, u'')], 'desc': [(desc, u'')]}
+                    if year != None:
+                        programm['date'] = year
+                    if genre != None:
+                        programm['category'] = genre
+                    if icon != None:
+                        programm['icon'] = [{"src": icon}]
+                    if directors != []:
+                        programm['credits'] = {"director": directors}
+                        if actors != []:
+                            programm['credits'] = {"director": directors, "actor": actors}
+                    if actors != []:
+                        programm['credits'] = {"actor": actors}
+                        if directors != []:
+                            programm['credits'] = {"actor": actors, "director": directors}
                     if programm not in programmes2:
                         programmes2.append(programm)
                 except:
