@@ -1,140 +1,146 @@
-Jednotka HD: 4099
-Dvojka HD: 4146
-:24 HD: 4516
-Markíza HD: 4044
-JOJ HD: 4070
-Plus HD: 4222
-DAJTO HD: 4111
-Doma HD: 4221
-Wau HD: 4223
-Folklorika TV HD: 4332
-TA3: 5
-ČT1 HD: 4240
-ČT2 HD: 4239
-ČT24 HD: 4074
-ČT3 HD: 4522
-Prima Plus: 4334
-Nova Intl.: 4530
-Comedy House HD: 4514
-Barrandov TV HD: 4456
-Barrandov Krimi: 4281
-Prima Krimi: 4338
-Televize Seznam HD: 4458
-Prima Max HD: 4278
+Jednotka: 4099
+Dvojka: 4146
+Markíza: 4044
+JOJ: 4070
+Plus: 4222
+DAJTO: 4111
+Doma: 4221
+Wau: 4223
+Folklorika TV: 4332
+TA3: 4075
+ČT1: 4240
+ČT2: 4239
+ČT24: 4074
+Prima Plus: 4305
+Nova Intl.: 4309
+:24: 4516
+Barrandov TV: 4456
+Barrandov Krimi: 4569
+Prima Krimi: 4331
+Televize Seznam: 4458
+Prima Max: 4278
 Senzi: 4165
-Prima Zoom HD: 4470
-Lux TV: 4333
+Prima Zoom: 4470
+Lux TV: 4008
 NOE: 4329
 Relax: 4459
-Markíza KRIMI HD: 4557
-Prima LOVE HD: 4101
-Prima Cool HD: 4102
-Ťuki TV HD: 4234
-LaLa TV HD: 4507
+Markíza KRIMI: 4557
+Prima LOVE: 4101
+Prima Cool: 4102
+Ťuki TV: 4234
+LaLa TV: 4507
 Jim Jam: 4014
 Nickelodeon: 4052
 Minimax: 38
 Disney Channel: 15
 Nick Toons: 4513
-ČT :D - ČT Art HD: 4467
+ČT :D - ČT Art: 4467
 Nick Jr.: 4092
-Cartoon Network: 6079
+Cartoon Network: 4313
 Duck TV: 4100
 Nickelodeon Ukraine: 4552
-TV RiK: 4553
-PREMIER SPORT 1 HD: 4162
-PREMIER SPORT 2 HD: 4533
-Nova Sport 3 HD: 4535
-Nova Sport 4 HD: 4537
-Arena Sport 1 HD: 4517
-Eurosport 1 HD: 4011
-Eurosport 2 HD: 4142
-Sport1 HD: 4230
-Sport2 HD: 4143
-Nova Sport 1 HD: 4144
-Nova Sport 2 HD: 4298
-Golf Channel HD: 4106
-Auto Motor Sport HD: 4504
-Fightbox: 4529
+TV RiK: 4554
+JOJ 24: 4566
+STRIKE TV: 4514
+CANAL+ Sport: 4559
+CANAL+ Sport 2: 4560
+PREMIER SPORT 1: 4162
+PREMIER SPORT 2: 4533
+Nova Sport 3: 4535
+Nova Sport 4: 4537
+Arena Sport 1: 4517
+Eurosport 1: 4011
+Eurosport 2: 4142
+Sport1: 4230
+Sport2: 4143
+Nova Sport 1: 4144
+Nova Sport 2: 4298
+Golf Channel: 4106
+Auto Motor Sport: 4504
+Fightbox: 4122
 Extreme sports: 4465
 Sport 5: 4466
-Ginx eSports TV: 4125
-ČT Sport HD: 4464
-RTVS SPORT HD: 4532
-CHUCK TV HD: 4531
-JOJ Sport: 4555
-BBC Earth HD: 4495
-Viasat History HD: 4502
-Viasat Explore HD: 4501
-Viasat Nature HD: 4503
-Discovery Channel HD: 4327
-ID: 4135
-Animal Planet HD: 4138
-Spektrum HD: 35
+Ginx eSports TV: 4567
+ČT Sport: 4464
+RTVS SPORT: 4532
+JOJ Sport: 4556
+CANAL+ Sport 3: 4561
+CANAL+ Sport 4: 4562
+CANAL+ Sport 5: 4563
+CANAL+ Sport 6: 4564
+CANAL+ Sport 7: 4565
+BBC Earth: 4495
+Viasat History: 4502
+Viasat Explore: 4501
+Viasat Nature: 4503
+Discovery Channel: 4327
+ID: 4226
+Animal Planet: 4138
+Spektrum: 35
 Spektrum Home: 4026
-NGC HD: 4004
-NGC Wild HD: 4264
-Disc. Turbo Xtra: 4243
-Discovery Science: 4015
-History HD: 4003
+NGC: 4004
+NGC Wild: 4264
+Disc. Turbo Xtra: 4571
+Discovery Science: 4152
+History: 4003
 Fishing and Hunting: 4042
 UP Network: 4310
 Crime and Inv.: 4178
 CS History: 4321
-Travel Channel HD: 118
-Travel XP HD: 4316
+Travel Channel: 118
+Travel XP: 4316
 Food Network: 4272
-TLC: 4134
+TLC: 4572
 Fashion TV: 45
-JOJ Cinema HD: 4237
-Epic Drama HD: 4326
-Filmbox: 20
-Filmbox Stars: 4098
+JOJ Cinema: 4237
+Epic Drama: 4326
+Filmbox: 4512
+Filmbox Stars: 4568
 AXN: 44
 AXN Black: 120
 AXN White: 121
 CS Film-CS Horror: 29
-Film Europe HD: 4140
-AMC HD: 4324
-FILM+ HD: 4325
-HBO HD: 3603
-HBO2 HD: 4296
-HBO3 HD: 4297
-Cinemax HD: 4339
-Cinemax 2 HD: 4340
+Film Europe: 4140
+AMC: 4324
+FILM+: 4325
+HBO: 3603
+HBO2: 4296
+HBO3: 4297
+Cinemax: 4339
+Cinemax 2: 4340
 Filmbox Family: 4096
-Filmbox Extra HD: 4027
-Filmbox Premium HD: 4270
-Kino Barrandov: 4280
+Filmbox Extra: 4027
+Filmbox Premium: 4270
+Kino Barrandov: 4570
 Film Europe +: 4024
 CS Mystery: 4224
 MTV 80s: 4308
-Óčko HD: 4499
-Óčko Star HD: 4500
-Óčko Expres HD: 4505
-Óčko Black HD: 4506
+Óčko: 4499
+Óčko Star: 4500
+Óčko Expres: 4505
+Óčko Black: 4506
 MTV: 22
 MTV Hits: 4261
 Club MTV: 4262
 MTV 90s: 4263
 MTV 00s: 23
-Stingray Classica HD: 4510
-Stingray Djazz HD: 4312
+Stingray Classica: 4510
+Stingray Djazz: 4312
 RETRO Music TV: 4328
 TV REBEL: 4330
-Šlágr Originál: 4147
+Šláger Originál: 4574
 Arte: 4474
-Šláger Originál HD: 4528
-Šláger Premium HD: 4515
-Erox HD: 4491
-Eroxxx HD: 4268
-Dorcel TV HD: 6021
+Šláger Muzika: 4528
+Šláger Premium: 4515
+Erox: 4491
+Eroxxx: 4268
+Dorcel TV: 6021
 LEO TV: 4259
 Dusk TV: 4218
-Leo TV Gold HD: 4322
-Dorcel XXX HD: 4511
+Leo TV Gold: 4322
+Dorcel XXX: 4511
 XMO: 4232
-CNN Prima News HD: 4523
+CNN Prima News: 4523
 RTL: 11
 PRO7: 10
 CNN Intl. Europe: 4292
@@ -150,26 +156,25 @@ ZDF: 4479
 Rai 1: 4480
 Canal 24 Horas: 4291
 TVP Polonia: 4481
-Ukraina TV: 4323
-TV8: 4035
-M1 HD: 4544
-M2 HD: 4545
-M4 sport HD: 4306
-M5 HD: 4540
+FREEDOM: 4323
+M1: 4544
+M2: 4545
+M4 sport: 4306
+M5: 4540
 RTL Gold: 4497
-RTL Klub HD: 4548
+RTL HU: 4548
 TV2: 4007
-RTL 2  HD: 4543
-RTL +: 4185
-Duna HD: 4542
+RTL KETTŐ : 4543
+RTL HÁROM: 4185
+Duna: 4542
 Cool TV: 4012
-FILM+ HU HD: 4546
+FILM+ HU: 4546
 Film 4: 4541
 Galaxy 4: 4498
 Super TV2: 4251
 FEM3: 4245
 Mozi+: 4249
-Duna World HD: 4547
+Duna World: 4547
 MTV HU: 4246
 Sláger TV HU: 4229
 Muzsika TV: 4247
@@ -182,7 +187,7 @@ Viasat 3: 4177
 Viasat 6: 4193
 TV4: 4010
 STORY 4: 4176
-Magyar ATV HD: 4539
+Magyar ATV: 4539
 TV2 Séf: 4519
 Prime: 4496
 Life TV: 4053

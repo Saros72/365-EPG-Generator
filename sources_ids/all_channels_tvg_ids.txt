@@ -897,314 +897,324 @@ TV.SMS.cz kanály:
 
 T-Mobile TV Go kanály:
 
-	ČT1: tm-6054-ct1
-	ČT2: tm-6053-ct2
-	Nova: tm-4451-nova
-	Prima: tm-4452-prima
-	Prima LOVE: tm-6031-prima-love
-	Prima Cool: tm-6032-prima-cool
-	Nova FUN: tm-4453-nova-fun
-	Nova Gold: tm-4454-nova-gold
-	Nova Action: tm-4455-nova-action
-	Barrandov TV: tm-4456-barrandov-tv
-	Barrandov Krimi: tm-6066-barrandov-krimi
-	Prima Krimi: tm-4338-prima-krimi
-	ČT3: tm-6116-ct3
-	ČT24: tm-6024-ct24
-	CNN Prima News: tm-6115-cnn-prima-news
-	TA3: tm-5-ta3
-	Prima Star: tm-6119-prima-star
-	Televize Seznam: tm-6092-televize-seznam
-	Relax: tm-4459-relax
-	NOE: tm-6087-noe
-	Jednotka: tm-4099-jednotka
-	Dvojka: tm-4146-dvojka
-	Markíza Int.: tm-4460-markiza-int.
-	JOJ Family: tm-4461-joj-family
-	:24: tm-4516-:24
-	JOJ Cinema: tm-4236-joj-cinema
-	Nova Cinema: tm-4462-nova-cinema
-	Prima Max: tm-6064-prima-max
-	Paramount Network: tm-4463-paramount-network
-	AMC: tm-6083-amc
-	FILM+: tm-6084-film+
-	HBO: tm-6012-hbo
-	HBO2: tm-6071-hbo2
-	HBO3: tm-6072-hbo3
-	Cinemax: tm-6090-cinemax
-	Cinemax 2: tm-6091-cinemax-2
-	Film Europe: tm-6039-film-europe
-	AXN: tm-44-axn
-	AXN White: tm-6010-axn-white
-	AXN Black: tm-6009-axn-black
-	Filmbox: tm-20-filmbox
-	Filmbox Stars: tm-6029-filmbox-stars
-	Filmbox Family: tm-6028-filmbox-family
-	Filmbox Extra: tm-6020-filmbox-extra
-	Filmbox Premium: tm-6062-filmbox-premium
-	Kino Barrandov: tm-6065-kino-barrandov
-	CS Film-CS Horror: tm-29-cs-film-cs-horror
-	Film Europe +: tm-6018-film-europe-+
-	CS Mystery: tm-6048-cs-mystery
-	Epic Drama: tm-4326-epic-drama
-	Comedy House: tm-6100-comedy-house
-	ČT Sport: tm-6105-ct-sport
-	PREMIER SPORT 1: tm-6096-premier-sport-1
-	PREMIER SPORT 2: tm-6121-premier-sport-2
-	Eurosport 1: tm-6016-eurosport-1
-	Eurosport 2: tm-6040-eurosport-2
-	Sport1: tm-6050-sport1
-	Sport2: tm-6041-sport2
-	Nova Sport 1: tm-6042-nova-sport-1
-	Nova Sport 2: tm-6073-nova-sport-2
-	Nova Sport 3: tm-6122-nova-sport-3
-	Nova Sport 4: tm-6123-nova-sport-4
-	Auto Motor Sport: tm-4504-auto-motor-sport
-	Sport 5: tm-4466-sport-5
-	Arena Sport 1: tm-6102-arena-sport-1
-	CHUCK TV: tm-6120-chuck-tv
-	Digi Sport 6: tm-4446-digi-sport-6
-	Golf Channel: tm-6033-golf-channel
-	Extreme sports: tm-4465-extreme-sports
-	Ginx eSports TV: tm-6034-ginx-esports-tv
-	ČT :D - ČT Art: tm-6108-ct-:d---ct-art
-	Disney Channel: tm-15-disney-channel
-	Minimax: tm-38-minimax
-	Nick Toons: tm-6099-nick-toons
-	Jim Jam: tm-6017-jim-jam
-	Nickelodeon: tm-4052-nickelodeon
-	Nick Jr.: tm-6027-nick-jr.
-	Baby TV: tm-4468-baby-tv
-	Cartoon Network: tm-6079-cartoon-network
-	Duck TV: tm-6030-duck-tv
-	Boomerang: tm-4469-boomerang
-	LaLa TV: tm-4507-lala-tv
-	BBC Earth: tm-4495-bbc-earth
-	Prima Zoom: tm-4470-prima-zoom
-	NGC: tm-6015-ngc
-	NGC Wild: tm-6060-ngc-wild
-	Spektrum: tm-35-spektrum
-	Spektrum Home: tm-6019-spektrum-home
-	Discovery Channel: tm-6085-discovery-channel
-	ID: tm-4135-id
-	Disc. Turbo Xtra: tm-6055-disc.-turbo-xtra
-	Discovery Science: tm-4015-discovery-science
-	Animal Planet: tm-6038-animal-planet
-	Travel Channel: tm-6008-travel-channel
-	Viasat Explore: tm-4501-viasat-explore
-	Viasat Nature: tm-4503-viasat-nature
-	Viasat History: tm-4502-viasat-history
-	History: tm-6014-history
-	Fishing and Hunting: tm-6022-fishing-and-hunting
-	UP Network: tm-6076-up-network
-	Crime and Inv.: tm-6046-crime-and-inv.
-	CS History: tm-6082-cs-history
-	Travel XP: tm-6080-travel-xp
-	Óčko: tm-4499-ocko
-	Óčko Star: tm-4500-ocko-star
-	Óčko Expres: tm-4505-ocko-expres
-	Óčko Black: tm-4506-ocko-black
-	MTV: tm-6003-mtv
-	MTV Hits: tm-6057-mtv-hits
-	Club MTV: tm-6058-club-mtv
-	MTV 90s: tm-6059-mtv-90s
-	MTV 00s: tm-6004-mtv-00s
-	Stingray Classica: tm-6093-stingray-classica
-	Stingray Djazz: tm-6078-stingray-djazz
-	RETRO Music TV: tm-6086-retro-music-tv
-	TV REBEL: tm-6088-tv-rebel
-	Šlágr Premium: tm-6118-slagr-premium
-	Šlágr Muzika: tm-6043-slagr-muzika
-	Šlágr 2: tm-4528-slagr-2
-	TLC: tm-6037-tlc
-	Fashion TV: tm-6007-fashion-tv
-	TV Paprika: tm-6013-tv-paprika
-	Food Network: tm-6063-food-network
-	CBS Reality: tm-6001-cbs-reality
-	Arte: tm-4474-arte
-	CNN Intl. Europe: tm-6070-cnn-intl.-europe
-	BBC World News: tm-6067-bbc-world-news
-	Euronews: tm-6081-euronews
-	CNBC: tm-4475-cnbc
-	Bloomberg Eu: tm-6068-bloomberg-eu
-	France 24: tm-6026-france-24
-	ORF1: tm-6011-orf1
-	ORF 2: tm-4508-orf-2
-	TV5 Monde: tm-4477-tv5-monde
-	Deutsche Welle: tm-4130-deutsche-welle
-	ARD: tm-4478-ard
-	ZDF: tm-4479-zdf
-	Rai 1: tm-4480-rai-1
-	Canal 24 Horas: tm-6069-canal-24-horas
-	TVP Polonia: tm-4481-tvp-polonia
-	Pervij kanal: tm-4482-pervij-kanal
-	Russia Today: tm-4285-russia-today
-	Russia Today Doc: tm-4527-russia-today-doc
-	TV 1000 Russkoe Kino: tm-4320-tv-1000-russkoe-kino
-	Karusel: tm-4486-karusel
-	PLAYBOY TV: tm-4487-playboy-tv
-	Erox: tm-4491-erox
-	Eroxxx: tm-6061-eroxxx
-	Brazzers TV Europe: tm-4492-brazzers-tv-europe
-	Dorcel TV: tm-6021-dorcel-tv
-	LEO TV: tm-6056-leo-tv
-	Dusk TV: tm-6047-dusk-tv
-	Leo TV Gold: tm-6098-leo-tv-gold
-	Dorcel XXX: tm-6097-dorcel-xxx
-	XMO: tm-6051-xmo
-	ČT JM: tm-6104-ct-jm
-	ČT SM: tm-6103-ct-sm
-	Praha TV: tm-6113-praha-tv
-	RegionálníTV.cz: tm-6106-regionalnitv.cz
-	Jihočeská TV: tm-6107-jihoceska-tv
-	Info TV Brno: tm-6110-info-tv-brno
-	Regionální TV TVS: tm-6114-regionalni-tv-tvs
-	Polar: tm-6109-polar
-	TV Brno 1: tm-6111-tv-brno-1
-	Senát: tm-4525-senat
-	Poslanecká Sněmovna: tm-4524-poslanecka-snemovna
-	Posl.Sněmovna pult: tm-4526-posl.snemovna-pult
-	Magenta TV: tm-4494-magenta-tv
-	ČT1 Optik: tm-4076-ct1-optik
-	360Tune box: tm-4303-360tune-box
-	Slovensko: tm-96-slovensko
+  ČT1: tm-6054-ct1
+  ČT2: tm-6053-ct2
+  Nova: tm-4451-nova
+  Prima: tm-4452-prima
+  Prima LOVE: tm-6031-prima-love
+  Prima Cool: tm-6032-prima-cool
+  Nova FUN: tm-4453-nova-fun
+  Nova Gold: tm-4454-nova-gold
+  Nova Action: tm-4455-nova-action
+  Barrandov TV: tm-4456-barrandov-tv
+  Barrandov Krimi: tm-4569-barrandov-krimi
+  Prima Krimi: tm-4331-prima-krimi
+  ČT24: tm-6024-ct24
+  CNN Prima News: tm-6115-cnn-prima-news
+  TA3: tm-4075-ta3
+  Prima Show: tm-6124-prima-show
+  Televize Seznam: tm-6092-televize-seznam
+  Relax: tm-4459-relax
+  NOE: tm-6087-noe
+  Jednotka: tm-4099-jednotka
+  Dvojka: tm-4146-dvojka
+  Markíza Int.: tm-4460-markiza-int.
+  JOJ Family: tm-4461-joj-family
+  :24: tm-4516-:24
+  Prima Star: tm-6119-prima-star
+  Nova Lady: tm-6125-nova-lady
+  JOJ Cinema: tm-6052-joj-cinema
+  Nova Cinema: tm-4462-nova-cinema
+  Prima Max: tm-6064-prima-max
+  Paramount Network: tm-4463-paramount-network
+  AMC: tm-6083-amc
+  FILM+: tm-6084-film+
+  HBO: tm-6012-hbo
+  HBO2: tm-6071-hbo2
+  HBO3: tm-6072-hbo3
+  Cinemax: tm-6090-cinemax
+  Cinemax 2: tm-6091-cinemax-2
+  Film Europe: tm-6039-film-europe
+  AXN: tm-44-axn
+  AXN White: tm-6010-axn-white
+  AXN Black: tm-6009-axn-black
+  Filmbox: tm-4512-filmbox
+  Filmbox Stars: tm-4568-filmbox-stars
+  Filmbox Family: tm-6028-filmbox-family
+  Filmbox Extra: tm-6020-filmbox-extra
+  Filmbox Premium: tm-6062-filmbox-premium
+  Kino Barrandov: tm-4570-kino-barrandov
+  CS Film-CS Horror: tm-29-cs-film-cs-horror
+  Film Europe +: tm-6018-film-europe-+
+  CS Mystery: tm-6048-cs-mystery
+  Epic Drama: tm-4326-epic-drama
+  STRIKE TV: tm-6100-strike-tv
+  CANAL+ Sport: tm-4559-canal+-sport
+  CANAL+ Sport 2: tm-4560-canal+-sport-2
+  CANAL+ Sport 3: tm-4561-canal+-sport-3
+  CANAL+ Sport 4: tm-4562-canal+-sport-4
+  CANAL+ Sport 5: tm-4563-canal+-sport-5
+  CANAL+ Sport 6: tm-4564-canal+-sport-6
+  CANAL+ Sport 7: tm-4565-canal+-sport-7
+  ČT Sport: tm-6105-ct-sport
+  PREMIER SPORT 1: tm-6096-premier-sport-1
+  PREMIER SPORT 2: tm-6121-premier-sport-2
+  Eurosport 1: tm-6016-eurosport-1
+  Eurosport 2: tm-6040-eurosport-2
+  Sport1: tm-6050-sport1
+  Sport2: tm-6041-sport2
+  Nova Sport 1: tm-6042-nova-sport-1
+  Nova Sport 2: tm-6073-nova-sport-2
+  Nova Sport 3: tm-6122-nova-sport-3
+  Nova Sport 4: tm-6123-nova-sport-4
+  Auto Motor Sport: tm-4504-auto-motor-sport
+  Sport 5: tm-4466-sport-5
+  Arena Sport 1: tm-6102-arena-sport-1
+  Golf Channel: tm-6033-golf-channel
+  Extreme sports: tm-4465-extreme-sports
+  Ginx eSports TV: tm-4567-ginx-esports-tv
+  Fightbox: tm-4122-fightbox
+  ČT :D - ČT Art: tm-6108-ct-:d---ct-art
+  Disney Channel: tm-15-disney-channel
+  Minimax: tm-38-minimax
+  Nick Toons: tm-6099-nick-toons
+  Jim Jam: tm-6017-jim-jam
+  Nickelodeon: tm-4052-nickelodeon
+  Nick Jr.: tm-6027-nick-jr.
+  Baby TV: tm-4468-baby-tv
+  Cartoon Network: tm-4313-cartoon-network
+  Duck TV: tm-6030-duck-tv
+  Boomerang: tm-4469-boomerang
+  LaLa TV: tm-4507-lala-tv
+  TV RiK: tm-4554-tv-rik
+  Nickelodeon Ukraine: tm-4552-nickelodeon-ukraine
+  BBC Earth: tm-4495-bbc-earth
+  Prima Zoom: tm-4470-prima-zoom
+  NGC: tm-6015-ngc
+  NGC Wild: tm-6060-ngc-wild
+  Spektrum: tm-35-spektrum
+  Spektrum Home: tm-6019-spektrum-home
+  Discovery Channel: tm-6085-discovery-channel
+  ID: tm-4226-id
+  Disc. Turbo Xtra: tm-4571-disc.-turbo-xtra
+  Discovery Science: tm-4152-discovery-science
+  Animal Planet: tm-6038-animal-planet
+  Travel Channel: tm-6008-travel-channel
+  Viasat Explore: tm-4501-viasat-explore
+  Viasat Nature: tm-4503-viasat-nature
+  Viasat History: tm-4502-viasat-history
+  History: tm-6014-history
+  Fishing and Hunting: tm-6022-fishing-and-hunting
+  UP Network: tm-6076-up-network
+  Crime and Inv.: tm-6046-crime-and-inv.
+  CS History: tm-6082-cs-history
+  Travel XP: tm-6080-travel-xp
+  Óčko: tm-4499-ocko
+  Óčko Star: tm-4500-ocko-star
+  Óčko Expres: tm-4505-ocko-expres
+  Óčko Black: tm-4506-ocko-black
+  MTV: tm-6003-mtv
+  MTV Hits: tm-6057-mtv-hits
+  Club MTV: tm-6058-club-mtv
+  MTV 90s: tm-6059-mtv-90s
+  MTV 00s: tm-6004-mtv-00s
+  Stingray Classica: tm-6093-stingray-classica
+  Stingray Djazz: tm-6078-stingray-djazz
+  RETRO Music TV: tm-6086-retro-music-tv
+  TV REBEL: tm-6088-tv-rebel
+  Šlágr Premium: tm-6118-slagr-premium
+  Šláger Originál: tm-4574-slager-original
+  Šláger Muzika: tm-4528-slager-muzika
+  TLC: tm-4572-tlc
+  MTV 80s: tm-4308-mtv-80s
+  Fashion TV: tm-6007-fashion-tv
+  Food Network: tm-6063-food-network
+  Arte: tm-4474-arte
+  CNN Intl. Europe: tm-6070-cnn-intl.-europe
+  BBC World News: tm-6067-bbc-world-news
+  Euronews: tm-6081-euronews
+  CNBC: tm-4475-cnbc
+  Bloomberg Eu: tm-6068-bloomberg-eu
+  France 24: tm-6026-france-24
+  ORF1: tm-6011-orf1
+  ORF 2: tm-4508-orf-2
+  TV5 Monde: tm-4477-tv5-monde
+  Deutsche Welle: tm-4130-deutsche-welle
+  ARD: tm-4478-ard
+  ZDF: tm-4479-zdf
+  Rai 1: tm-4480-rai-1
+  Canal 24 Horas: tm-6069-canal-24-horas
+  TVP Polonia: tm-4481-tvp-polonia
+  FREEDOM: tm-4323-freedom
+  TV 1000 Russkoe Kino: tm-4320-tv-1000-russkoe-kino
+  Karusel: tm-4486-karusel
+  PLAYBOY TV: tm-4487-playboy-tv
+  Erox: tm-4491-erox
+  Eroxxx: tm-6061-eroxxx
+  Brazzers TV Europe: tm-4492-brazzers-tv-europe
+  Dorcel TV: tm-6021-dorcel-tv
+  LEO TV: tm-6056-leo-tv
+  Dusk TV: tm-6047-dusk-tv
+  Leo TV Gold: tm-6098-leo-tv-gold
+  Dorcel XXX: tm-6097-dorcel-xxx
+  XMO: tm-6051-xmo
+  ČT JM: tm-6104-ct-jm
+  ČT SM: tm-6103-ct-sm
+  Praha TV: tm-6113-praha-tv
+  Náš Region TV: tm-6106-nas-region-tv
+  Jihočeská TV: tm-6107-jihoceska-tv
+  Info TV Brno: tm-6110-info-tv-brno
+  Regionální TV TVS: tm-6114-regionalni-tv-tvs
+  Polar: tm-6109-polar
+  TV Brno 1: tm-6111-tv-brno-1
+  Magenta TV: tm-4494-magenta-tv
 
 
 Magio Go kanály:
 
-  Jednotka HD: mag-4099-jednotka
-  Dvojka HD: mag-4146-dvojka
-  :24 HD: mag-4516-:24
-  Markíza HD: mag-4044-markiza
-  JOJ HD: mag-4070-joj
-  Plus HD: mag-4222-plus
-  DAJTO HD: mag-4111-dajto
-  Doma HD: mag-4221-doma
-  Wau HD: mag-4223-wau
-  Folklorika TV HD: mag-4332-folklorika-tv
-  TA3: mag-5-ta3
-  ČT1 HD: mag-4240-ct1
-  ČT2 HD: mag-4239-ct2
-  ČT24 HD: mag-4074-ct24
-  ČT3 HD: mag-4522-ct3
-  Prima Plus: mag-4334-prima-plus
-  Nova Intl.: mag-4530-nova-intl.
-  Comedy House HD: mag-4514-comedy-house
-  Barrandov TV HD: mag-4456-barrandov-tv
-  Barrandov Krimi: mag-4281-barrandov-krimi
-  Prima Krimi: mag-4338-prima-krimi
-  Televize Seznam HD: mag-4458-televize-seznam  Prima Max HD: mag-4278-prima-max
+  Jednotka: mag-4099-jednotka
+  Dvojka: mag-4146-dvojka
+  Markíza: mag-4044-markiza
+  JOJ: mag-4070-joj
+  Plus: mag-4222-plus
+  DAJTO: mag-4111-dajto
+  Doma: mag-4221-doma
+  Wau: mag-4223-wau
+  Folklorika TV: mag-4332-folklorika-tv
+  TA3: mag-4075-ta3
+  ČT1: mag-4240-ct1
+  ČT2: mag-4239-ct2
+  ČT24: mag-4074-ct24
+  Prima Plus: mag-4305-prima-plus
+  Nova Intl.: mag-4309-nova-intl.
+  :24: mag-4516-:24
+  Barrandov TV: mag-4456-barrandov-tv
+  Barrandov Krimi: mag-4569-barrandov-krimi
+  Prima Krimi: mag-4331-prima-krimi
+  Televize Seznam: mag-4458-televize-seznam
+  Prima Max: mag-4278-prima-max
   Senzi: mag-4165-senzi
-  Prima Zoom HD: mag-4470-prima-zoom
-  Lux TV: mag-4333-lux-tv
+  Prima Zoom: mag-4470-prima-zoom
+  Lux TV: mag-4008-lux-tv
   NOE: mag-4329-noe
   Relax: mag-4459-relax
-  Markíza KRIMI HD: mag-4557-markiza-krimi
-  Prima LOVE HD: mag-4101-prima-love
-  Prima Cool HD: mag-4102-prima-cool
-  Ťuki TV HD: mag-4234-tuki-tv
-  LaLa TV HD: mag-4507-lala-tv
+  Markíza KRIMI: mag-4557-markiza-krimi
+  Prima LOVE: mag-4101-prima-love
+  Prima Cool: mag-4102-prima-cool
+  Ťuki TV: mag-4234-tuki-tv
+  LaLa TV: mag-4507-lala-tv
   Jim Jam: mag-4014-jim-jam
   Nickelodeon: mag-4052-nickelodeon
   Minimax: mag-38-minimax
   Disney Channel: mag-15-disney-channel
   Nick Toons: mag-4513-nick-toons
-  ČT :D - ČT Art HD: mag-4467-ct-:d---ct-art
+  ČT :D - ČT Art: mag-4467-ct-:d---ct-art
   Nick Jr.: mag-4092-nick-jr.
-  Cartoon Network: mag-6079-cartoon-network
+  Cartoon Network: mag-4313-cartoon-network
   Duck TV: mag-4100-duck-tv
   Nickelodeon Ukraine: mag-4552-nickelodeon-ukraine
-  TV RiK: mag-4553-tv-rik
-  PREMIER SPORT 1 HD: mag-4162-premier-sport-1  PREMIER SPORT 2 HD: mag-4533-premier-sport-2  Nova Sport 3 HD: mag-4535-nova-sport-3
-  Nova Sport 4 HD: mag-4537-nova-sport-4
-  Arena Sport 1 HD: mag-4517-arena-sport-1
-  Eurosport 1 HD: mag-4011-eurosport-1
-  Eurosport 2 HD: mag-4142-eurosport-2
-  Sport1 HD: mag-4230-sport1
-  Sport2 HD: mag-4143-sport2
-  Nova Sport 1 HD: mag-4144-nova-sport-1
-  Nova Sport 2 HD: mag-4298-nova-sport-2
-  Golf Channel HD: mag-4106-golf-channel
-  Auto Motor Sport HD: mag-4504-auto-motor-sport
-  Fightbox: mag-4529-fightbox
+  TV RiK: mag-4554-tv-rik
+  JOJ 24: mag-4566-joj-24
+  STRIKE TV: mag-4514-strike-tv
+  CANAL+ Sport: mag-4559-canal+-sport
+  CANAL+ Sport 2: mag-4560-canal+-sport-2
+  PREMIER SPORT 1: mag-4162-premier-sport-1
+  PREMIER SPORT 2: mag-4533-premier-sport-2
+  Nova Sport 3: mag-4535-nova-sport-3
+  Nova Sport 4: mag-4537-nova-sport-4
+  Arena Sport 1: mag-4517-arena-sport-1
+  Eurosport 1: mag-4011-eurosport-1
+  Eurosport 2: mag-4142-eurosport-2
+  Sport1: mag-4230-sport1
+  Sport2: mag-4143-sport2
+  Nova Sport 1: mag-4144-nova-sport-1
+  Nova Sport 2: mag-4298-nova-sport-2
+  Golf Channel: mag-4106-golf-channel
+  Auto Motor Sport: mag-4504-auto-motor-sport
+  Fightbox: mag-4122-fightbox
   Extreme sports: mag-4465-extreme-sports
   Sport 5: mag-4466-sport-5
-  Ginx eSports TV: mag-4125-ginx-esports-tv
-  ČT Sport HD: mag-4464-ct-sport
-  RTVS SPORT HD: mag-4532-rtvs-sport
-  CHUCK TV HD: mag-4531-chuck-tv
-  JOJ Sport: mag-4555-joj-sport
-  BBC Earth HD: mag-4495-bbc-earth
-  Viasat History HD: mag-4502-viasat-history
-  Viasat Explore HD: mag-4501-viasat-explore
-  Viasat Nature HD: mag-4503-viasat-nature
-  Discovery Channel HD: mag-4327-discovery-channel
-  ID: mag-4135-id
-  Animal Planet HD: mag-4138-animal-planet
-  Spektrum HD: mag-35-spektrum
+  Ginx eSports TV: mag-4567-ginx-esports-tv
+  ČT Sport: mag-4464-ct-sport
+  RTVS SPORT: mag-4532-rtvs-sport
+  JOJ Sport: mag-4556-joj-sport
+  CANAL+ Sport 3: mag-4561-canal+-sport-3
+  CANAL+ Sport 4: mag-4562-canal+-sport-4
+  CANAL+ Sport 5: mag-4563-canal+-sport-5
+  CANAL+ Sport 6: mag-4564-canal+-sport-6
+  CANAL+ Sport 7: mag-4565-canal+-sport-7
+  BBC Earth: mag-4495-bbc-earth
+  Viasat History: mag-4502-viasat-history
+  Viasat Explore: mag-4501-viasat-explore
+  Viasat Nature: mag-4503-viasat-nature
+  Discovery Channel: mag-4327-discovery-channel
+  ID: mag-4226-id
+  Animal Planet: mag-4138-animal-planet
+  Spektrum: mag-35-spektrum
   Spektrum Home: mag-4026-spektrum-home
-  NGC HD: mag-4004-ngc
-  NGC Wild HD: mag-4264-ngc-wild
-  Disc. Turbo Xtra: mag-4243-disc.-turbo-xtra
-  Discovery Science: mag-4015-discovery-science
-  History HD: mag-4003-history
+  NGC: mag-4004-ngc
+  NGC Wild: mag-4264-ngc-wild
+  Disc. Turbo Xtra: mag-4571-disc.-turbo-xtra
+  Discovery Science: mag-4152-discovery-science
+  History: mag-4003-history
   Fishing and Hunting: mag-4042-fishing-and-hunting
   UP Network: mag-4310-up-network
   Crime and Inv.: mag-4178-crime-and-inv.
   CS History: mag-4321-cs-history
-  Travel Channel HD: mag-118-travel-channel
-  Travel XP HD: mag-4316-travel-xp
+  Travel Channel: mag-118-travel-channel
+  Travel XP: mag-4316-travel-xp
   Food Network: mag-4272-food-network
-  TLC: mag-4134-tlc
+  TLC: mag-4572-tlc
   Fashion TV: mag-45-fashion-tv
-  JOJ Cinema HD: mag-4237-joj-cinema
-  Epic Drama HD: mag-4326-epic-drama
-  Filmbox: mag-20-filmbox
-  Filmbox Stars: mag-4098-filmbox-stars
+  JOJ Cinema: mag-4237-joj-cinema
+  Epic Drama: mag-4326-epic-drama
+  Filmbox: mag-4512-filmbox
+  Filmbox Stars: mag-4568-filmbox-stars
   AXN: mag-44-axn
   AXN Black: mag-120-axn-black
   AXN White: mag-121-axn-white
   CS Film-CS Horror: mag-29-cs-film-cs-horror
-  Film Europe HD: mag-4140-film-europe
-  AMC HD: mag-4324-amc
-  FILM+ HD: mag-4325-film+
-  HBO HD: mag-3603-hbo
-  HBO2 HD: mag-4296-hbo2
-  HBO3 HD: mag-4297-hbo3
-  Cinemax HD: mag-4339-cinemax
-  Cinemax 2 HD: mag-4340-cinemax-2
+  Film Europe: mag-4140-film-europe
+  AMC: mag-4324-amc
+  FILM+: mag-4325-film+
+  HBO: mag-3603-hbo
+  HBO2: mag-4296-hbo2
+  HBO3: mag-4297-hbo3
+  Cinemax: mag-4339-cinemax
+  Cinemax 2: mag-4340-cinemax-2
   Filmbox Family: mag-4096-filmbox-family
-  Filmbox Extra HD: mag-4027-filmbox-extra
-  Filmbox Premium HD: mag-4270-filmbox-premium  Kino Barrandov: mag-4280-kino-barrandov
+  Filmbox Extra: mag-4027-filmbox-extra
+  Filmbox Premium: mag-4270-filmbox-premium
+  Kino Barrandov: mag-4570-kino-barrandov
   Film Europe +: mag-4024-film-europe-+
   CS Mystery: mag-4224-cs-mystery
   MTV 80s: mag-4308-mtv-80s
-  Óčko HD: mag-4499-ocko
-  Óčko Star HD: mag-4500-ocko-star
-  Óčko Expres HD: mag-4505-ocko-expres
-  Óčko Black HD: mag-4506-ocko-black
+  Óčko: mag-4499-ocko
+  Óčko Star: mag-4500-ocko-star
+  Óčko Expres: mag-4505-ocko-expres
+  Óčko Black: mag-4506-ocko-black
   MTV: mag-22-mtv
   MTV Hits: mag-4261-mtv-hits
   Club MTV: mag-4262-club-mtv
   MTV 90s: mag-4263-mtv-90s
   MTV 00s: mag-23-mtv-00s
-  Stingray Classica HD: mag-4510-stingray-classica
-  Stingray Djazz HD: mag-4312-stingray-djazz
+  Stingray Classica: mag-4510-stingray-classica
+  Stingray Djazz: mag-4312-stingray-djazz
   RETRO Music TV: mag-4328-retro-music-tv
   TV REBEL: mag-4330-tv-rebel
-  Šlágr Originál: mag-4147-slagr-original
+  Šláger Originál: mag-4574-slager-original
   Arte: mag-4474-arte
-  Šlágr Muzika HD: mag-4528-slagr-muzika
-  Šlágr Premium HD: mag-4515-slagr-premium
-  Erox HD: mag-4491-erox
-  Eroxxx HD: mag-4268-eroxxx
-  Dorcel TV HD: mag-6021-dorcel-tv
+  Šláger Muzika: mag-4528-slager-muzika
+  Šláger Premium: mag-4515-slager-premium
+  Erox: mag-4491-erox
+  Eroxxx: mag-4268-eroxxx
+  Dorcel TV: mag-6021-dorcel-tv
   LEO TV: mag-4259-leo-tv
   Dusk TV: mag-4218-dusk-tv
-  Leo TV Gold HD: mag-4322-leo-tv-gold
-  Dorcel XXX HD: mag-4511-dorcel-xxx
+  Leo TV Gold: mag-4322-leo-tv-gold
+  Dorcel XXX: mag-4511-dorcel-xxx
   XMO: mag-4232-xmo
-  CNN Prima News HD: mag-4523-cnn-prima-news
+  CNN Prima News: mag-4523-cnn-prima-news
   RTL: mag-11-rtl
   PRO7: mag-10-pro7
   CNN Intl. Europe: mag-4292-cnn-intl.-europe
@@ -1220,26 +1230,25 @@ Magio Go kanály:
   Rai 1: mag-4480-rai-1
   Canal 24 Horas: mag-4291-canal-24-horas
   TVP Polonia: mag-4481-tvp-polonia
-  Ukraina TV: mag-4323-ukraina-tv
-  TV8: mag-4035-tv8
-  M1 HD: mag-4544-m1
-  M2 HD: mag-4545-m2
-  M4 sport HD: mag-4306-m4-sport
-  M5 HD: mag-4540-m5
+  FREEDOM: mag-4323-freedom
+  M1: mag-4544-m1
+  M2: mag-4545-m2
+  M4 sport: mag-4306-m4-sport
+  M5: mag-4540-m5
   RTL Gold: mag-4497-rtl-gold
-  RTL Klub HD: mag-4548-rtl-klub
+  RTL HU: mag-4548-rtl-hu
   TV2: mag-4007-tv2
-  RTL 2  HD: mag-4543-rtl-2-
-  RTL +: mag-4185-rtl-+
-  Duna HD: mag-4542-duna
+  RTL KETTŐ : mag-4543-rtl-ketto-
+  RTL HÁROM: mag-4185-rtl-harom
+  Duna: mag-4542-duna
   Cool TV: mag-4012-cool-tv
-  FILM+ HU HD: mag-4546-film+-hu
+  FILM+ HU: mag-4546-film+-hu
   Film 4: mag-4541-film-4
   Galaxy 4: mag-4498-galaxy-4
   Super TV2: mag-4251-super-tv2
   FEM3: mag-4245-fem3
   Mozi+: mag-4249-mozi+
-  Duna World HD: mag-4547-duna-world
+  Duna World: mag-4547-duna-world
   MTV HU: mag-4246-mtv-hu
   Sláger TV HU: mag-4229-slager-tv-hu
   Muzsika TV: mag-4247-muzsika-tv
@@ -1252,7 +1261,7 @@ Magio Go kanály:
   Viasat 6: mag-4193-viasat-6
   TV4: mag-4010-tv4
   STORY 4: mag-4176-story-4
-  Magyar ATV HD: mag-4539-magyar-atv
+  Magyar ATV: mag-4539-magyar-atv
   TV2 Séf: mag-4519-tv2-sef
   Prime: mag-4496-prime
   Life TV: mag-4053-life-tv
